@@ -13,6 +13,16 @@ $custom-colors: (
 );
  */
 
+:root {
+  --ikonercta: #5099F4;
+  --white-color: #ffffff;
+  --text-color: #1a1a1a;
+}
+:root{
+  --overskrift-font: 'Red Hat Display',serif;
+  --tekst-font: 'Poppins',serif;
+}
+
 $custom-colors: (
         "primary": #007bff
 );
