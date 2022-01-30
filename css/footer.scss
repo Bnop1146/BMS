@@ -101,6 +101,9 @@ a:focus{
   .footer .container{
     text-align: left;
 }
+  .footersvg{
+    width: 190px;
+  }
 }
 @media screen and (min-width: 1024px){
   .footer-widget{
@@ -123,5 +126,8 @@ a:focus{
   }
   .social{
     font-size: 17px;
+  }
+  .footersvg{
+    width: 210px;
   }
 }
