@@ -1,0 +1,82 @@
+.navbar-expand-lg .navbar-nav .nav-link{
+  padding-right: 1rem;
+}
+
+.navbar-dark .navbar-toggler-icon{
+  background-image:url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%285,0,0%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e")
+}
+.navbar-toggler{
+  border: 0!important;
+  color: transparent!important;
+}
+
+.navbar-expand-lg{
+  background-color: white!important;
+}
+.navbar-collapse{
+  justify-content: flex-end!important;
+}
+.navbar-brand{
+  color: black!important;
+  font-size: 26px;
+  margin-left: 5px;
+  font-weight: bold;
+
+}
+.nav-link{
+  color: black!important;
+  font-size: 14px;
+  font-weight: bold;
+  margin-left: 15px;
+  text-align: center;
+  margin-top: 10px;
+  font-family: var(--overskrift-font);
+}
+
+.navcon{
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+
+
+
+@media screen and (min-width: 768px){
+  .logosvg{
+    width: 190px;
+  }
+  .nav-link{
+    font-size: 14px;
+    margin-top: 15px;
+  }
+  .navbar-brand{
+    margin-left: 20px;
+  }
+}
+
+@media screen and (min-width: 969px){
+  .navbar-brand{
+    margin:  0 0 0 80px;
+  }
+
+  .navbar-collapse{
+    margin-right: 40px;
+  }
+
+}
+
+@media screen and (min-width: 1024px){
+  .navbar-brand{
+    margin-left: 80px;
+  }
+  .nav-link{
+    font-size: 15px;
+    margin-top: 0;
+  }
+  .navbar-collapse{
+    margin-right: 40px;
+  }
+  .logosvg{
+    width: 210px;
+  }
+}
