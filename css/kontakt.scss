@@ -1,0 +1,181 @@
+
+.kontaktsektion{
+  background: url(../image/background-desktop-venstre.png);
+}
+
+.herobillede {
+  width:100%;
+  height: 35vh;
+  background:url(../image/kontakt-placeholder.png);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.imgover{
+  color:white;
+  font-family: var(--overskrift-font);
+}
+
+.contact-form{
+  max-width: 600px;
+  padding: 0 10px;
+  overflow: hidden;
+  margin-bottom: 80px;
+  text-align: center;
+}
+
+.contact-form-text{
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 16px 0;
+  padding: 20px 20px;
+  outline: none;
+  color: var(--text-color);
+  transition: 0.5s;
+  font-size: 14px;
+}
+
+textarea.contact-form-text{
+  resize: none;
+  height: 120px;
+}
+.contact-form-btn{
+  border: 0;
+  background: var(--ikonercta);
+  color:white;
+  padding: 12px 50px;
+  border-radius: 100px;
+  cursor: pointer;
+  transition: 0.5s;
+  margin-top: 5px;
+  font-family: var(--tekst-font);
+}
+
+.infotekst2{
+  line-height: 2;
+  color: var(--tekstfarve);
+  font-size: 14px;
+  font-family: var(--tekst-font);
+
+}
+
+.infoover{
+  font-size: 21px;
+  text-align: center;
+  color: var(--tekstfarve);
+  font-family: var(--overskrift-font);
+  font-weight: bold;
+}
+
+.line{
+  margin: auto;
+  background-color: var(--tekstfarve);
+  height: 1px;
+  width: 10%;
+  text-align: center;
+}
+
+.kontaktline{
+  margin: auto;
+  background-color: var(--tekstfarve);
+  height: 1px;
+  width: 10%;
+}
+
+.map{
+  margin-bottom: 40px;
+}
+
+.omkontakt{
+  background: var(--first-color);
+  padding: 10px;
+}
+.kontaktover{
+  font-size: 21px;
+  color: var(--tekstfarve);
+  font-family: var(--overskrift-font);
+  font-weight: bold;
+}
+.kontakttekst{
+  line-height: 2.5;
+  font-size: 14px;
+  color: var(--tekstfarve);
+  font-family: var(--tekst-font);
+}
+
+
+
+@media screen and (min-width: 768px){
+  .kontaktcon{
+    max-width: 520px!important;
+  }
+  .herobillede{
+    height: 40vh;
+  }
+  .contact-form{
+    padding: 0 60px;
+    max-width: 700px;
+  }
+
+  .line1{
+    margin: auto;
+    width: 20%;
+  }
+
+  .contact-form{
+    text-align: left;
+  }
+  .line{
+    width: 5%;
+  }
+  .infoover{
+    font-size: 23px;
+  }
+  .kontaktover{
+    font-size: 23px;
+  }
+
+
+}
+
+@media screen and (min-width: 1024px){
+  .herobillede{
+    height: 50vh;
+  }
+  .contact-form{
+    padding: 0 60px;
+    max-width: 800px;
+  }
+
+  .line1{
+    margin: auto;
+    width: 15%;
+  }
+  .kontaktover{
+    font-size: 25px;
+  }
+  .kontaktline{
+    width: 8%;
+  }
+  .infotekst2{
+    font-size: 15px;
+  }
+  .kontaktcon{
+    max-width: 1150px!important;
+  }
+  .kontakttekst{
+    font-size: 15px;
+    width: 60%;
+    margin: auto;
+  }
+  .infoover{
+    font-size: 25px;
+  }
+
+}
