@@ -103,6 +103,62 @@
 <?php include 'footer.php';?>
 
 
+<section class="testim" id="testim">
+    <div class="wrap">
+
+        <span id="right-arrow" class="arrow right fa fa-chevron-right"></span>
+        <span id="left-arrow" class="arrow left fa fa-chevron-left"></span>
+
+        <ul class="dots" id="testim-dots">
+            <li class="dot active"></li>
+            <li class="dot"></li>
+            <li class="dot"></li>
+            <li class="dot"></li>
+            <li class="dot"></li>
+        </ul>
+
+        <div class="cont" id="testim-content">
+
+            <div class="active">
+                <div class="img"><img src="p1.jpg"></div>
+                <h2>Lorem N. Ipsum</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates quasi aliquid vel voluptatum
+                    deleniti! Corrupti velit, porro facere facilis laboriosam accusantium, eos beatae maiores.</p>
+            </div>
+
+            <div>
+                <div class="img"><img src="p2.jpg"></div>
+                <h2>Lorem L. Ipsum</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates quasi aliquid vel voluptatum
+                    deleniti! Corrupti velit, porro facere facilis laboriosam accusantium, eos beatae maiores.</p>
+            </div>
+
+            <div>
+                <div class="img"><img src="p3.jpg"></div>
+                <h2>Lorem R. Ipsum</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates quasi aliquid vel voluptatum
+                    deleniti! Corrupti velit, porro facere facilis laboriosam accusantium, eos beatae maiores.</p>
+            </div>
+
+            <div>
+                <div class="img"><img src="p4.jpg"></div>
+                <h2>Lorem P. Ipsum</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates quasi aliquid vel voluptatum
+                    deleniti! Corrupti velit, porro facere facilis laboriosam accusantium, eos beatae maiores.</p>
+            </div>
+
+            <div>
+                <div class="img"><img src="p5.jpg"></div>
+                <h2>Lorem Q. Ipsum</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates quasi aliquid vel voluptatum
+                    deleniti! Corrupti velit, porro facere facilis laboriosam accusantium, eos beatae maiores.</p>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+
 <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 
 </body>
