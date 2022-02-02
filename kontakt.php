@@ -80,7 +80,7 @@ if (isset($_POST['email']) && $_POST['email'] !='') {
 
 <div class="kontaktsektion container-fluid p-3" data-aos="fade-up" id="kontaktformular">
     <div class="row">
-        <div class="sektion2 col-sm-12 col-md-12 col-lg-5 mt-5 text-center">
+        <div class="sektion2 col-sm-12 col-md-12 col-lg-5 mt-5">
 
 
             <div class="kontaktinfo">
@@ -104,7 +104,7 @@ if (isset($_POST['email']) && $_POST['email'] !='') {
 
         </div>
 
-        <div class="sektion1 col-sm-12 col-md-12 col-lg-7 mt-5 p-3 text-center">
+        <div class="sektion1 col-sm-12 col-md-12 col-lg-7 mt-5 p-3">
             <div class="contact-section">
 
 

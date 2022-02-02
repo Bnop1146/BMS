@@ -1,0 +1,158 @@
+.heroimage {
+  width:100%;
+  height: 40vh;
+  background:url(../image/kontakt-placeholder.png);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.omcon{
+  background: url(../image/background-desktop-venstre.png);
+}
+
+.omcon2{
+  background: url(../image/background-desktop-højre.png);
+}
+.heroover{
+  color:white;
+  font-family: var(--overskrift-font);
+  font-size: 32px;
+
+}
+
+.om1over{
+  font-size: 22px;
+  color: var(--tekstfarve);
+  font-weight: bold;
+  font-family: var(--overskrift-font);
+}
+
+.om1tekst{
+  color: var(--tekstfarve);
+  font-size: 13px;
+  line-height: 2.5;
+  font-family: var(--tekst-font);
+}
+
+@media screen and (min-width: 768px){
+  .omcon{
+    margin-bottom: 60px;
+  }
+  .om1sek{
+    padding: 15px;
+  }
+  .om2sek{
+    padding: 0;
+  }
+  .om2billede{
+    margin-top: 50px;
+  }
+  .heroimage{
+    height: 35vh;
+  }
+  .heroover{
+    font-size: 36px;
+  }
+}
+
+@media screen and (min-width: 1024px){
+  .heroover{
+    font-size: 40px;
+  }
+
+  .om1sek{
+    padding: 50px;
+  }
+
+  .om1over{
+    font-size: 24px;
+  }
+  .om1tekst{
+    font-size: 14px;
+  }
+  .om1line{
+    width: 15%;
+  }
+  .om1knap{
+    font-size: 15px;
+  }
+  .om2billede{
+    margin-top: 30px;
+
+  }
+  .heroimage{
+    height: 50vh;
+  }
+
+}
+
+.booksektion {
+  width:100%;
+  height: 55vh;
+  background: #707070;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  margin-bottom: 60px;
+}
+
+.bookosek{
+  text-align: center;
+}
+.bookknap{
+  border: 0!important;
+  background: var(--ikonercta) !important;
+  color:white!important;
+  padding: 12px 50px!important;
+  border-radius: 100px!important;
+  cursor: pointer!important;
+  transition: 0.5s!important;
+  margin-top: 5px!important;
+  font-family: var(--tekst-font) !important;
+}
+
+.bookover{
+  font-weight: bold;
+  font-family: var(--overskrift-font);
+  font-size: 22px;
+}
+.booktekst{
+  line-height: 2.5;
+  font-size: 13px;
+  font-family: var(--tekst-font);
+}
+
+@media screen and (min-width: 768px){
+  .bookknap{
+    margin-top: 10px;
+  }
+  .booksektion{
+    height: 35vh;
+  }
+  .booktekst{
+    width: 350px;
+  }
+}
+
+
+@media screen and (min-width: 1024px){
+  .booksektion{
+    height: 55vh;
+  }
+  .heroimage{
+    height: 50vh;
+  }
+  .booktekst{
+    font-size: 14px;
+    width: 380px;
+  }
+  .bookover{
+    font-size: 24px;
+  }
+
+}
