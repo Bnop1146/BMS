@@ -40,6 +40,8 @@
 </div>
 
 
+<div class="BMS">
+
 <div class="omcon container p-4 mb-3">
     <div class="row">
         <div class="om1sek col-sm-12 col-md-6 col-lg-6">
@@ -82,6 +84,7 @@
     </div>
 </div>
 
+</div>
 
 <div class="booksektion px-5 py-5 text-left ">
     <div class="bookosek">
@@ -98,7 +101,6 @@
 
 
 <?php include 'footer.php';?>
-
 
 <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 
