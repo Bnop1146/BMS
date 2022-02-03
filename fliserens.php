@@ -10,7 +10,7 @@
     <meta charset="utf-8">
 
     <!-- Titel som ses oppe i browserens tab mv. -->
-    <title>Fliserens</title>
+    <title>BMS - Fliserens</title>
     <link rel="shortcut icon" type="image/x-icon" href="image/favicon.ico" />
 
     <!-- Metatags der fortæller at søgemaskiner er velkomne, hvem der udgiver siden og copyright information -->
@@ -29,63 +29,75 @@
 </head>
 
 <!-- i <body> har man alt indhold på siden som brugeren kan se -->
-<body class="body">
+<body>
+
+<header>
+
+    <h1 class="heroTekstTjenester"></h1>
+
+</header>
+
+<?php include 'navbar.php';?>
 
 
-<div class="row">
-    <div class="column">
-        <h1>Overskrift</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit. Maecenas id erat accumsan
-            blandit tortor quis, convallis mauris.
-            Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit. Maecenas id erat accumsan
-            blandit tortor quis, convallis mauris.
-            Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit. Maecenas id erat accumsan
-            blandit tortor quis, convallis mauris.
-        </p>
-    </div>
-    <div class="column">
-        <img src="image/tjenester-placeholder.png" alt="Forest" style="width:100%">
+<div class="omcon container p-4 mb-3 mb-lg-5">
+    <div class="row">
+        <div class="om1sek col-sm-12 col-md-6 col-lg-6">
+            <p class="om1over">Overskrift</p>
+            <div class="om1line"></div>
+            <p class="om1tekst mb-4">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Ut enim ad minim veniam, quis nostrud
+                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            </p>
+
+        </div>
+
+        <div class="om2sek col-sm-12 col-md-6 col-lg-6">
+            <img src="image/before-after-placeholder.png" class="om2billede img-fluid" alt="">
+        </div>
     </div>
 </div>
 
-<div class="row">
-    <div class="column">
-        <img src="image/tjenester-placeholder.png" alt="Forest" style="width:100%">
-    </div>
-    <div class="column">
-        <h1>Overskrift</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit. Maecenas id erat accumsan
-            blandit tortor quis, convallis mauris.
-            Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit. Maecenas id erat accumsan
-            blandit tortor quis, convallis mauris.
-            Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit. Maecenas id erat accumsan
-            blandit tortor quis, convallis mauris.
-        </p>
+<div class="prisTjenester container p-5 mt-5 mb-5 ">
+    <div class="row col-md-6 offset-md-3">
+        <div class="">
+            <h2>Overskrift</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur
+                adipiscing elit. Maecenas id erat accumsan
+                blandit tortor quis, convallis mauris.</p>
+            <br>
+
+
+            <button class="btn-tjenester ">
+                <span class="spinner-grow spinner-grow-sm"></span>
+                Læs mere
+            </button>
+        </div>
     </div>
 </div>
 
-<div class="row">
-    <div class="column">
-        <h1>Overskrift</h1>
-        <p style="text-align: center">Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit. Maecenas id erat accumsan
-            blandit tortor quis, convallis mauris.
-            Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit. Maecenas id erat accumsan
-            blandit tortor quis, convallis mauris.
-            Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit. Maecenas id erat accumsan
-            blandit tortor quis, convallis mauris.
-        </p>
-    </div>
-    <div class="column">
-        <img src="image/tjenester-placeholder.png" alt="Forest" style="width:100%">
+
+<div class="omcon2 container p-4 mb-3 mb-lg-5">
+    <div class="row">
+
+        <div class="om2sek col-sm-12 col-md-6 col-lg-6">
+            <img src="image/video-placeholder.png" class="om2billede img-fluid" alt="">
+        </div>
+
+        <div class="om1sek col-sm-12 col-md-6 col-lg-6">
+            <p class="om1over mt-4">Overskrift</p>
+            <div class="om1line"></div>
+            <p class="om1tekst">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Ut enim ad minim veniam, quis nostrud
+                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            </p>
+
+        </div>
+
     </div>
 </div>
 

@@ -1,36 +1,134 @@
-.body{
-  background-image: url("image/Design til baggrund - Desktop og Tablet.svg");
+
+
+header {
+  height: 500px;
+  background-position: center;
+  background-size: cover;
+  background-image:url("../image/tjenester-placeholder.png");
+
+}
+
+.heroTekstTjenester{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 
-.column {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  width: 50%;
-  padding: 3rem;
+.hidden-spacer {
+  height: 56px
+}
+
+.prisTjenester{
   text-align: center;
-
-}
-
-/* Clear floats after image containers */
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
 }
 
 
+.btn-tjenester{
+  background-color: #78C1FF;
+  color: white;
+  width: 175px;
+  height: 50px;
+  border-radius: 25px;
+  border: none;
+}
+
+.omcon{
+  text-align: center;
+}
+
+.omcon2{
+  text-align: center;
+}
 
 
 
+.om1over{
+  font-size: 22px;
+  color: var(--tekstfarve);
+  font-weight: bold;
+  font-family: var(--overskrift-font);
+}
+
+.om1tekst{
+  color: var(--tekstfarve);
+  font-size: 13px;
+  line-height: 2.5;
+  font-family: var(--tekst-font);
+}
+
+@media screen and (min-width: 768px){
+  .omcon{
+    margin-bottom: 60px;
+    text-align: left;
+  }
+
+  .omcon2{
+    text-align: left;
+  }
 
 
-
-
-
-@media screen and (max-width: 500px) {
-  .column {
-    width: 100%;
+  .om1sek{
+    padding: 15px;
+  }
+  .om2sek{
+    padding: 0;
+  }
+  .om2billede{
+    margin-top: 50px;
+  }
+  .heroimage{
+    height: 35vh;
+  }
+  .heroover{
+    font-size: 36px;
   }
 }
+
+@media screen and (min-width: 1024px){
+  .omcon{
+    text-align: left;
+  }
+
+  .omcon2{
+    text-align: left;
+  }
+
+  .heroover{
+    font-size: 40px;
+  }
+
+  .om1sek{
+    padding: 50px;
+  }
+
+  .om1over{
+    font-size: 24px;
+  }
+  .om1tekst{
+    font-size: 14px;
+  }
+  .om1line{
+    width: 15%;
+  }
+
+  .om2billede{
+    margin-top: 30px;
+
+  }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
