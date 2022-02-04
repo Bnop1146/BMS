@@ -64,9 +64,8 @@ if (isset($_POST['email']) && $_POST['email'] !='') {
     $message = $_POST['message'];
 
     $to = "tekbas425@gmail.com";
-    $body = "";
 
-    $body .= "Fra: " .$userName. "\r\n";
+    $body = "Fra: " . $userName . "\r\n";
     $body .= "Email: " .$userEmail. "\r\n";
     $body .= "Besked: " .$message. "\r\n";
 

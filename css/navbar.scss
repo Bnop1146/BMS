@@ -10,6 +10,9 @@
   color: transparent!important;
 }
 
+.dropdown-menu{
+  width: 40%;
+}
 
 
 .navbar-collapse{
@@ -61,6 +64,11 @@
   .navbar-collapse{
     margin-right: 40px;
   }
+
+  .dropdown-menu{
+    text-align: left;
+  }
+
 
 }
 

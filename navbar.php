@@ -65,7 +65,7 @@
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         Tjenester
                     </a>
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <ul class="dropdown-menu m-auto text-center" aria-labelledby="navbarDropdownMenuLink">
                         <li><a class="dropdown-item" href="#">Fliserens</a></li>
                         <li><a class="dropdown-item" href="#">Algebehandling</a></li>
                         <li><a class="dropdown-item" href="#">Facaderens</a></li>
