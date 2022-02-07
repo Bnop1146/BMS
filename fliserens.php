@@ -33,7 +33,7 @@
 
 <header>
 
-    <h1 class="heroTekstTjenester"></h1>
+    <h1 class="heroTekstTjenester">Fliserens</h1>
 
 </header>
 
@@ -41,7 +41,7 @@
 
 
 <div class="omcon container p-4 mb-3 mb-lg-5">
-    <div class="row">
+    <div class="row mt-5">
         <div class="om1sek col-sm-12 col-md-6 col-lg-6">
             <p class="om1over">Overskrift</p>
             <div class="om1line"></div>
@@ -87,7 +87,7 @@
         </div>
 
         <div class="om1sek col-sm-12 col-md-6 col-lg-6">
-            <p class="om1over mt-4">Overskrift</p>
+            <p class="om1over">Overskrift</p>
             <div class="om1line"></div>
             <p class="om1tekst">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit,

@@ -10,9 +10,11 @@
   color: transparent!important;
 }
 
-.navbar-expand-lg{
-  background-color: white!important;
+.dropdown-menu{
+  width: 40%;
 }
+
+
 .navbar-collapse{
   justify-content: flex-end!important;
 }
@@ -41,7 +43,7 @@
 
 
 
-@media screen and (min-width: 767px){
+@media screen and (min-width: 768px){
   .logosvg{
     width: 190px;
   }
@@ -62,6 +64,11 @@
   .navbar-collapse{
     margin-right: 40px;
   }
+
+  .dropdown-menu{
+    text-align: left;
+  }
+
 
 }
 

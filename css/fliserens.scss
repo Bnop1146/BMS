@@ -9,8 +9,9 @@ header {
 }
 
 .heroTekstTjenester{
+  color: white;
   position: absolute;
-  top: 50%;
+  top: 30%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -45,6 +46,7 @@ header {
 
 
 .om1over{
+  margin-top: 3rem;
   font-size: 22px;
   color: var(--tekstfarve);
   font-weight: bold;
@@ -59,6 +61,14 @@ header {
 }
 
 @media screen and (min-width: 768px){
+  .om1over{
+    margin-top: 0;
+  }
+
+  .om2billede{
+    height: 230;
+  }
+
   .omcon{
     margin-bottom: 60px;
     text-align: left;
@@ -69,15 +79,10 @@ header {
   }
 
 
-  .om1sek{
-    padding: 15px;
-  }
   .om2sek{
     padding: 0;
   }
-  .om2billede{
-    margin-top: 50px;
-  }
+
   .heroimage{
     height: 35vh;
   }
@@ -100,7 +105,7 @@ header {
   }
 
   .om1sek{
-    padding: 50px;
+
   }
 
   .om1over{
@@ -114,7 +119,7 @@ header {
   }
 
   .om2billede{
-    margin-top: 30px;
+
 
   }
 

@@ -34,7 +34,7 @@
 
 
 
-<nav class="navbar fixed-top navbar-expand-md navbar-dark bg-faded">
+<nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-faded">
     <div class="navcon container-fluid">
         <a class="navbar-brand" href="#">
             <svg xmlns="http://www.w3.org/2000/svg" width="180" height="110" class="logosvg" viewBox="0 0 431.889 156.592">
@@ -65,7 +65,7 @@
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         Tjenester
                     </a>
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <ul class="dropdown-menu m-auto text-center" aria-labelledby="navbarDropdownMenuLink">
                         <li><a class="dropdown-item" href="#">Fliserens</a></li>
                         <li><a class="dropdown-item" href="#">Algebehandling</a></li>
                         <li><a class="dropdown-item" href="#">Facaderens</a></li>
