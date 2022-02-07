@@ -30,14 +30,19 @@
 
 <!-- i <body> har man alt indhold på siden som brugeren kan se -->
 <body>
+
+
+
 <?php include 'navbar.php';?>
-
-
 <div class="px-5 py-5 text-left herobillede">
     <div class="herosek">
         <h1 class="imgover">Kontakt</h1>
     </div>
 </div>
+
+
+
+
 
 
 <div class="omkontakt mt-4 p-3 text-center" id="omkontakt">
@@ -104,7 +109,7 @@ if (isset($_POST['email']) && $_POST['email'] !='') {
 
         </div>
 
-        <div class="sektion1 col-sm-12 col-md-12 col-lg-7 mt-5 p-3">
+        <div class="sektion1 col-sm-12 col-md-12 col-lg-7 mt-5 p-3  ">
             <div class="contact-section">
 
 

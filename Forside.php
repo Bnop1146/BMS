@@ -31,10 +31,92 @@
 <!-- i <body> har man alt indhold på siden som brugeren kan se -->
 <body>
 
-<?php include 'navbar.php';?>
+
+
+<div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <svg class="bd-placeholder-img" width="100vw" height="80vh" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
+
+            <div class="container">
+                <div class="carousel-caption text-sm-center">
+                    <h1>Algebehandling</h1>
+                    <p>Beskyt dine fliser, facader og tage med en
+                        algebehandling fra os. </p>
+                    <a class="cta btn" href="#" role="button">Læs mere</a>
+                </div>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <svg class="bd-placeholder-img" width="100vw" height="80vh"xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
+
+            <div class="container">
+                <div class="carousel-caption text-sm-center">
+                    <h1>Algebehandling</h1>
+                    <p>Beskyt dine fliser, facader og tage med en
+                        algebehandling fra os. </p>
+                    <a class="cta btn" href="#" role="button">Læs mere</a>
+                </div>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <svg class="bd-placeholder-img" width="100vw" height="80vh" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
+
+            <div class="container">
+                <div class="carousel-caption text-sm-center">
+                    <h1>Algebehandling</h1>
+                    <p>Beskyt dine fliser, facader og tage med en
+                        algebehandling fra os. </p>
+                    <a class="cta btn" href="#" role="button">Læs mere</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+</div>
+
+
+<br>
+<br>
+
+
+<div class="container my-5">
+    <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg">
+
+        <div class="col-sm-12 col-md-6 col-lg-5 offset-lg-1 p-3 p-lg-5 pt-lg-3 mt-md-3 mb-md-3 mt-lg-4 mb-lg-4">
+            <h1 class="vidstover display-4 fw-bold lh-1">Vidste du at?</h1>
+            <p class="vidsttekst">At alger og mos kan virke som svampe, der gør det muligt for fugt at trænge ned i tagkonstruktionen og derved kan forsage alvorlige skader?</p>
+            <div class="d-grid gap-2 d-md-flex justify-content-md-start mb-4 mb-lg-3">
+                <a class="vidstknap btn" href="#" role="button">læs mere</a>
+            </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-4  mb-4 overflow-hidden">
+            <div class="ratio ratio-16x9">
+                <iframe src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0" title="YouTube video" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<br>
+<br>
+<br>
 
 <div class="flipcon container">
-    <div class="row">
+    <div class="fliprow row">
 
         <div class="col-sm-12 col-md-6 col-lg-6 mb-4">
             <div class="flip-box">
