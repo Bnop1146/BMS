@@ -1,19 +1,102 @@
-.carousel-caption{
-  top: 30%;
+.section-padding{
+  padding: 100px 0;
 }
-.carousel-caption p{
-  line-height: 2.5!important;
-  font-size: 13px!important;
-  color: white!important;
-  font-family: var(--tekst-font)!important;
+.single-service{
+  padding: 20px;
+  transition: all 0.5s ease 0s;
+  border: 2px #fff;
+  height: 300px;
+  margin: 20px 0;
 }
-.carousel-caption h1{
-  font-size: 22px!important;
-  color: white!important;
-  font-family: var(--overskrift-font)!important;
-  font-weight: bold!important;
+.symbol{
+  position: relative;
+  text-align: center;
+  top: 50px;
+  transition: all 0.4s ease 0s;
+  display: inline-block;
+  font-size: 24px;
+  height: 60px;
+  line-height: 60px;
+  margin-bottom: 0;
 }
-.cta{
+.single-service h3{
+  font-family: var(--overskrift-font);
+  color: #fff;
+  margin: 0;
+  position: relative;
+  text-transform: uppercase;
+  top: 90px;
+  transition: all 700ms cubic-bezier(0.65, -0.50, 0.255.1.50) 0s;
+}
+.single-service:hover{
+  background: #20639b;
+  border: 2px #20639b;
+}
+.single-service:hover.symbol{
+  top: -10px;
+  color: #000;
+}
+.single-service:hover h3{
+  color: #fff;
+  top: 0;
+  margin-bottom: 15px;
+}
+.single-service p{
+  opacity: 0;
+  transition: all 700ms cubic-bezier(0.65, -0.50, 0.255.1.50) 0s;
+  font-family: var(--tekst-font);
+}
+.single-service:hover p{
+  color: #fff;
+  opacity: 1;
+  transform: scale(1);
+}
+
+
+.banner{
+  width: 100%;
+  height: 86vh;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--tekstfarve);
+}
+.banner video{
+  position: absolute;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  opacity: 40%;
+}
+
+a{
+  text-decoration: none;
+}
+.bannerdel{
+  text-align: center;
+  width: 80%;
+}
+
+.over2{
+  font-size: 30px;
+  text-align: center;
+  color: white;
+  font-family: var(--overskrift-font);
+  font-weight: bold;
+}
+.over3{
+  line-height: 2;
+  color: white;
+  font-size: 13px;
+  font-family: var(--tekst-font);
+  text-align: center;
+
+}
+.bannercta{
   border: 0!important;
   background: var(--ikonercta) !important;
   color:white!important;
@@ -25,14 +108,7 @@
   font-family: var(--tekst-font) !important;
   font-size: 13px!important;
 }
-.carousel-control-prev-icon{
-  width: 100vw!important;
-  height: 20px!important;
-}
-.carousel-control-next-icon{
-  width: 100vw!important;
-  height: 20px!important;
-}
+
 
 .vidstover{
   font-size: 22px!important;
@@ -223,6 +299,21 @@
 
 
 @media screen and (min-width: 768px){
+  .banner{
+    height: 90vh!important;
+  }
+  .bannerdel{
+    width: 60%;
+  }
+  .over2{
+    font-size: 34px;
+  }
+  .over3{
+    font-size: 14px;
+  }
+  .bannercta{
+    font-size: 14px!important;
+  }
   .andtekst{
     width: 50%;
   }
@@ -241,6 +332,22 @@
 }
 
 @media screen and (min-width: 1024px){
+  .banner{
+    height: 88vh!important;
+  }
+  .bannerdel{
+    width: 40%;
+  }
+  .over2{
+    font-size: 40px;
+  }
+  .over3{
+    font-size: 16px;
+  }
+  .bannercta{
+    font-size: 15px!important;
+  }
+
   .review p{
     font-size: 14px;
     width: 40%;

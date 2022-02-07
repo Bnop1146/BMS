@@ -32,64 +32,99 @@
 <body>
 
 
-
-<div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
-    <div class="carousel-indicators">
-        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
-        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+<div class="banner" id="bannersek">
+    <div class="bannerdel">
+        <p class="over2">Overskrift</p>
+        <p class="over3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium ea explicabo nisi quia blanditiis assumenda quos veritatis sit deleniti porro nulla temporibus deserunt, iure in labore incidunt quis eos.</p>
+        <a href="#"><button type="button" class="bannercta btn">Læs mere</button></a>
     </div>
-    <div class="carousel-inner">
-        <div class="carousel-item active">
-            <svg class="bd-placeholder-img" width="100vw" height="80vh" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
+    <video autoplay muted loop>
+        <source src="image/ømer.mp4" type="video/mp4">
+    </video>
 
-            <div class="container">
-                <div class="carousel-caption text-sm-center">
-                    <h1>Algebehandling</h1>
-                    <p>Beskyt dine fliser, facader og tage med en
-                        algebehandling fra os. </p>
-                    <a class="cta btn" href="#" role="button">Læs mere</a>
-                </div>
-            </div>
-        </div>
-        <div class="carousel-item">
-            <svg class="bd-placeholder-img" width="100vw" height="80vh"xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
 
-            <div class="container">
-                <div class="carousel-caption text-sm-center">
-                    <h1>Algebehandling</h1>
-                    <p>Beskyt dine fliser, facader og tage med en
-                        algebehandling fra os. </p>
-                    <a class="cta btn" href="#" role="button">Læs mere</a>
-                </div>
-            </div>
-        </div>
-        <div class="carousel-item">
-            <svg class="bd-placeholder-img" width="100vw" height="80vh" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
 
-            <div class="container">
-                <div class="carousel-caption text-sm-center">
-                    <h1>Algebehandling</h1>
-                    <p>Beskyt dine fliser, facader og tage med en
-                        algebehandling fra os. </p>
-                    <a class="cta btn" href="#" role="button">Læs mere</a>
-                </div>
-            </div>
-        </div>
-    </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-    </button>
 </div>
 
 
 <br>
 <br>
+<br>
+<br>
+
+<div class="service-area section-padding" style="background: #0c4128">
+    <div class="container">
+        <div class="row text-center">
+
+            <div class="col-sm-12 col-md-3">
+                <div class="single-service">
+                    <div class="symbol">
+                        <i class="fab fa-apple"></i>
+                    </div>
+                    <h3>Overskrift</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium
+                        ea explicabo nisi quia blanditiis assumenda quos veritatis
+                        sit deleniti porro nulla temporibus deserunt.
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-sm-12 col-md-3">
+                <div class="single-service">
+                    <div class="symbol">
+                        <i class="fab fa-apple"></i>
+                    </div>
+                    <h3>Overskrift</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium
+                        ea explicabo nisi quia blanditiis assumenda quos veritatis
+                        sit deleniti porro nulla temporibus deserunt.
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-sm-12 col-md-3">
+                <div class="single-service">
+                    <div class="symbol">
+                        <i class="fab fa-apple"></i>
+                    </div>
+                    <h3>Overskrift</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium
+                        ea explicabo nisi quia blanditiis assumenda quos veritatis
+                        sit deleniti porro nulla temporibus deserunt.
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-sm-12 col-md-3">
+                <div class="single-service">
+                    <div class="symbol">
+                        <i class="fab fa-apple"></i>
+                    </div>
+                    <h3>Overskrift</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium
+                        ea explicabo nisi quia blanditiis assumenda quos veritatis
+                        sit deleniti porro nulla temporibus deserunt.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+
 
 
 <div class="container my-5">
