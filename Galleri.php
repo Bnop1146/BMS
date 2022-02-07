@@ -24,6 +24,7 @@
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="css/Galleri.css" rel="stylesheet" type="text/css">
 
+
     <!-- Sikrer den vises korrekt på mobil, tablet mv. ved at tage ift. skærmstørrelse - bliver brugt til responsive websider -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
@@ -40,49 +41,94 @@
 <?php include 'navbar.php';?>
 
 
-
-<div class="row m-5">
-    <div class="column">
-        <img src="image/video-placeholder.png" style="width:100%" alt="">
-        <img src="image/tjenester-placeholder.png" style="width:100%" alt="">
-        <img src="image/kontakt-placeholder.png" style="width:100%" alt="">
-        <img src="image/before-after-placeholder.png" style="width:100%" alt="">
-        <img src="image/forside-placeholder.png" style="width:100%" alt="">
-        <img src="image/video-placeholder.png" style="width:100%" alt="">
-        <img src="image/kontakt-placeholder.png" style="width:100%" alt="">
+<div class="gallery p-5" id="gallery">
+    <div class="gallery-item">
+        <div class="content"><img src="https://source.unsplash.com/random/?tech,care" alt=""></div>
     </div>
-    <div class="column">
-        <img src="image/tjenester-placeholder.png" style="width:100%" alt="">
-        <img src="image/kontakt-placeholder.png" style="width:100%" alt="">
-        <img src="image/before-after-placeholder.png" style="width:100%" alt="">
-        <img src="image/forside-placeholder.png" style="width:100%" alt="">
-        <img src="image/video-placeholder.png" style="width:100%" alt="">
-        <img src="image/kontakt-placeholder.png" style="width:100%" alt="">
+    <div class="gallery-item">
+        <div class="content"><img src="https://source.unsplash.com/random/?tech,studied" alt=""></div>
     </div>
-    <div class="column">
-        <img src="image/video-placeholder.png" style="width:100%" alt="">
-        <img src="image/tjenester-placeholder.png" style="width:100%" alt="">
-        <img src="image/kontakt-placeholder.png" style="width:100%" alt="">
-        <img src="image/before-after-placeholder.png" style="width:100%" alt="">
-        <img src="image/forside-placeholder.png" style="width:100%" alt="">
-        <img src="image/video-placeholder.png" style="width:100%" alt="">
-        <img src="image/kontakt-placeholder.png" style="width:100%" alt="">
+    <div class="gallery-item">
+        <div class="content"><img src="https://source.unsplash.com/random/?tech,substance" alt=""></div>
     </div>
-    <div class="column">
-        <img src="image/tjenester-placeholder.png" style="width:100%" alt="">
-        <img src="image/kontakt-placeholder.png" style="width:100%" alt="">
-        <img src="image/before-after-placeholder.png" style="width:100%" alt="">
-        <img src="image/forside-placeholder.png" style="width:100%" alt="">
-        <img src="image/video-placeholder.png" style="width:100%" alt="">
-        <img src="image/kontakt-placeholder.png" style="width:100%" alt="">
+    <div class="gallery-item">
+        <div class="content"><img src="https://source.unsplash.com/random/?tech,choose" alt=""></div>
+    </div>
+    <div class="gallery-item">
+        <div class="content"><img src="https://source.unsplash.com/random/?tech,past" alt=""></div>
+    </div>
+    <div class="gallery-item">
+        <div class="content"><img src="https://source.unsplash.com/random/?tech,lamp" alt=""></div>
+    </div>
+    <div class="gallery-item">
+        <div class="content"><img src="https://source.unsplash.com/random/?tech,yet" alt=""></div>
+    </div>
+    <div class="gallery-item">
+        <div class="content"><img src="https://source.unsplash.com/random/?tech,eight" alt=""></div>
+    </div>
+    <div class="gallery-item">
+        <div class="content"><img src="https://source.unsplash.com/random/?tech,crew" alt=""></div>
+    </div>
+    <div class="gallery-item">
+        <div class="content"><img src="https://source.unsplash.com/random/?tech,event" alt=""></div>
+    </div>
+    <div class="gallery-item">
+        <div class="content"><img src="https://source.unsplash.com/random/?tech,instrument" alt=""></div>
+    </div>
+    <div class="gallery-item">
+        <div class="content"><img src="https://source.unsplash.com/random/?tech,practical" alt=""></div>
+    </div>
+    <div class="gallery-item">
+        <div class="content"><img src="https://source.unsplash.com/random/?tech,pass" alt=""></div>
+    </div>
+    <div class="gallery-item">
+        <div class="content"><img src="https://source.unsplash.com/random/?tech,bigger" alt=""></div>
+    </div>
+    <div class="gallery-item">
+        <div class="content"><img src="https://source.unsplash.com/random/?tech,number" alt=""></div>
+    </div>
+    <div class="gallery-item">
+        <div class="content"><img src="https://source.unsplash.com/random/?tech,feature" alt=""></div>
+    </div>
+    <div class="gallery-item">
+        <div class="content"><img src="https://source.unsplash.com/random/?tech,line" alt=""></div>
+    </div>
+    <div class="gallery-item">
+        <div class="content"><img src="https://source.unsplash.com/random/?tech,railroad" alt=""></div>
+    </div>
+    <div class="gallery-item">
+        <div class="content"><img src="https://source.unsplash.com/random/?tech,pride" alt=""></div>
+    </div>
+    <div class="gallery-item">
+        <div class="content"><img src="https://source.unsplash.com/random/?tech,too" alt=""></div>
+    </div>
+    <div class="gallery-item">
+        <div class="content"><img src="https://source.unsplash.com/random/?tech,bottle" alt=""></div>
+    </div>
+    <div class="gallery-item">
+        <div class="content"><img src="https://source.unsplash.com/random/?tech,base" alt=""></div>
+    </div>
+    <div class="gallery-item">
+        <div class="content"><img src="https://source.unsplash.com/random/?tech,cell" alt=""></div>
+    </div>
+    <div class="gallery-item">
+        <div class="content"><img src="https://source.unsplash.com/random/?tech,bag" alt=""></div>
+    </div>
+    <div class="gallery-item">
+        <div class="content"><img src="https://source.unsplash.com/random/?tech,card" alt=""></div>
     </div>
 </div>
 
 
-
 <?php include 'footer.php';?>
+
+
+<script src="./js/Galleri_Test2.js"></script>
+
 
 <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 
+
 </body>
 </html>
+
