@@ -52,7 +52,7 @@
 <br>
 <br>
 
-<div class="service-area section-padding" style="background: #0c4128">
+<div class="service-area section-padding">
     <div class="container">
         <div class="row text-center">
 
@@ -421,6 +421,6 @@
 
 
 <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-<script src="Js/js.js"></script>
+<script src="./js/js.js"></script>
 </body>
 </html>

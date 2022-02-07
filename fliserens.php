@@ -32,12 +32,12 @@
 <body>
 
 <header>
-
+    <?php include 'navbar.php';?>
     <h1 class="heroTekstTjenester">Fliserens</h1>
 
 </header>
 
-<?php include 'navbar.php';?>
+
 
 
 <div class="omcon container p-4 mb-3 mb-lg-5">
