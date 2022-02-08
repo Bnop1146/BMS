@@ -31,6 +31,7 @@
 <!-- i <body> har man alt indhold på siden som brugeren kan se -->
 <body>
 
+<?php include 'Nav_test.php';?>
 
 
 <div class="banner" id="bannersek">
@@ -430,6 +431,6 @@
 
 
 <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-<script src="./js/js.js"></script>
+<script src=""></script>
 </body>
 </html>
