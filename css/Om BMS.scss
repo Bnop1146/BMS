@@ -1,28 +1,8 @@
-.heroimage {
-  width:100%;
-  height: 40vh;
-  background:url(../image/kontakt-placeholder.png);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-
-}
-.BMS{
-  background: url(../image/background-desktop-venstre.png);
-}
 
 .omcon2{
   background: url(../image/background-desktop-højre.png);
 }
-.heroover{
-  color:white;
-  font-family: var(--overskrift-font);
-  font-size: 32px;
 
-}
 
 .om1over{
   font-size: 22px;
@@ -51,18 +31,12 @@
   .om2billede{
     margin-top: 50px;
   }
-  .heroimage{
-    height: 35vh;
-  }
-  .heroover{
-    font-size: 36px;
-  }
+
+
 }
 
 @media screen and (min-width: 1024px){
-  .heroover{
-    font-size: 40px;
-  }
+
 
   .om1sek{
     padding: 50px;
@@ -84,9 +58,7 @@
     margin-top: 30px;
 
   }
-  .heroimage{
-    height: 50vh;
-  }
+
 
 }
 
@@ -143,9 +115,6 @@
 @media screen and (min-width: 1024px){
   .booksektion{
     height: 45vh;
-  }
-  .heroimage{
-    height: 50vh;
   }
   .booktekst{
     font-size: 14px;
