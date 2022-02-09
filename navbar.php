@@ -33,7 +33,7 @@
 <nav class="navbar fixed-top navbar-expand-lg navbar-dark p-md-3">
     <div class="container">
         <a class="navbar-brand" href="#">
-            <svg xmlns="http://www.w3.org/2000/svg" width="180" height="110" viewBox="0 0 431.889 156.592" class="logosvg">
+            <svg xmlns="http://www.w3.org/2000/svg" width="180" height="110" viewBox="0 0 431.889 156.592" class="logosvg" id="logo">
                 <g id="Group_34" data-name="Group 34" transform="translate(-78.179 -36.395)">
                     <g id="Group_23" data-name="Group 23" transform="translate(78.179 36.395)">
                         <path id="Path_12" data-name="Path 12" d="M68.03-387.132a46.191,46.191,0,0,0-6.32,3.2c-2.528,1.475-7.711,4.466-11.545,6.657s-8.005,4.593-9.269,5.351C34.7-368.3,21.682-360.756,17.932-358.65c-12.3,6.994-13.525,7.795-15.084,10.028L1.5-346.641v75l1.348,1.98c1.6,2.275,2.444,2.823,19.087,12.345,13.146,7.584,29.536,16.98,39.143,22.542,4.677,2.7,6.531,3.539,8.09,3.708,4.045.379,2.36,1.264,34.3-17.317,2.781-1.643,6.952-4.045,9.27-5.351s5.435-3.118,6.952-4,4.635-2.654,6.952-4c10.786-6.109,11.713-6.91,12.64-11.123.59-2.612.632-7.416.548-37.542-.169-37.331-.084-36.446-2.444-39.143-1.433-1.643-2.992-2.57-24.438-14.915-3.834-2.191-8.005-4.593-9.269-5.351-1.264-.716-4.129-2.4-6.32-3.666-12.851-7.458-21.446-12.388-22.795-13.062A8.7,8.7,0,0,0,68.03-387.132ZM52.482-345.588c1.18.211,4.087.674,6.531,1.053s5.393.885,6.531,1.053c3.2.59,4.677.8,9.059,1.517,2.191.337,4.972.8,6.109,1.011,1.18.211,3.16.506,4.424.674,2.191.253,2.528.463,5.857,3.708,12.43,11.966,20.688,20.267,20.688,20.688a3.29,3.29,0,0,1-1.011,1.433c-.969.927-1.1.927-3.034.337-1.138-.337-2.4-.758-2.781-.927-.716-.295-.758.758-.843,17.106l-.126,17.444-1.685.463c-.927.253-2.065.59-2.528.758-1.011.379-1.1.421-9.9,3.2-3.834,1.222-7.331,2.36-7.795,2.528a51.874,51.874,0,0,1-8.89,2.528c-.885,0-6.194-1.685-10.281-3.244-2.486-.969-8.89-3.2-10.112-3.539a31.655,31.655,0,0,1-4.213-1.559c-.59-.253-2.57-.927-4.424-1.559-1.854-.59-3.666-1.264-4-1.433a9.542,9.542,0,0,0-2.107-.674,13.213,13.213,0,0,1-3.792-1.475,3.771,3.771,0,0,0-1.475-.421c-.548,0-.632-1.812-.632-14.284v-14.283l-2.107-.548c-2.065-.548-2.107-.59-2.107-2.149,0-1.348.927-3.034,6.152-11,3.371-5.14,7.584-11.587,9.4-14.326l3.2-4.972,1.9.253C49.533-346.051,51.345-345.8,52.482-345.588Z" transform="translate(-1.5 387.52)" fill="#fff"/>
@@ -61,13 +61,13 @@
             <div class="mx-auto"></div>
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link text-white" href="#">Forside</a>
+                    <a class="nav-link " href="#">Forside</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-white" href="#">Om Bengtsons Multiservice</a>
+                    <a class="nav-link nav-link1 " href="#">Om Bengtsons Multiservice</a>
                 </li>
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <a class="nav-link nav-link2 dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         Tjenester
                     </a>
                     <ul class="dropdown-menu dropdown-menu-macos mx-0 shadow" style="width: 220px;">
@@ -81,10 +81,10 @@
                     </ul>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-white" href="#">Galleri</a>
+                    <a class="nav-link nav-link3 " href="#">Galleri</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-white" href="#">Kontakt</a>
+                    <a class="nav-link4 nav-link " href="#">Kontakt</a>
                 </li>
             </ul>
         </div>
@@ -92,13 +92,32 @@
 </nav>
 
 <script type="text/javascript">
-    var nav = document.querySelector('.navbar');
+    const logo = document.getElementById("logo").innerHTML;
+    const nav = document.querySelector('.navbar');
+    const navLink = document.querySelector('.nav-link');
+    const navLink1 = document.querySelector('.nav-link1');
+    const navLink2 = document.querySelector('.nav-link2');
+    const navLink3 = document.querySelector('.nav-link3');
+    const navLink4 = document.querySelector('.nav-link4');
 
     window.addEventListener('scroll', function () {
-        if (window.pageYOffset > 100) {
-            nav.classList.add('bg-dark', 'shadow');
+        if (window.pageYOffset > 600) {
+            logo.
+            nav.classList.add('bg-light', 'shadow');
+            navLink.classList.add('text-black');
+            navLink1.classList.add('text-black');
+            navLink2.classList.add('text-black');
+            navLink3.classList.add('text-black');
+            navLink4.classList.add('text-black');
+
         } else {
-            nav.classList.remove('bg-dark', 'shadow');
+            nav.classList.remove('bg-light', 'shadow');
+            navLink.classList.remove('text-black');
+            navLink1.classList.remove('text-black');
+            navLink2.classList.remove('text-black');
+            navLink3.classList.remove('text-black');
+            navLink4.classList.remove('text-black');
+
         }
     });
 </script>
