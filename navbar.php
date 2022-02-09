@@ -102,7 +102,6 @@
 
     window.addEventListener('scroll', function () {
         if (window.pageYOffset > 600) {
-            logo.
             nav.classList.add('bg-light', 'shadow');
             navLink.classList.add('text-black');
             navLink1.classList.add('text-black');
