@@ -1,3 +1,4 @@
+
 .navbar-expand-lg .navbar-nav .nav-link{
   padding-right: 1rem;
 }
@@ -40,32 +41,10 @@
   margin-bottom: 15px;
 }
 
-.scrolling-active{
-  background-color: #fff;
-  box-shadow: 0 3px 1rem rgba(0,0,0,.1);
+.navbar-fixed-top.scrolled {
+  background-color: #fff !important;
+  transition: background-color 200ms linear;
 }
-
-.scrolling-active .nav{
-  height: 6.6rem;
-}
-
-.scrolling-active .nav a{
-  color: #313131;
-}
-
-.scrolling-active #nav-cta{
-  background-color: #313131;
-  color: #fff;
-}
-
-.scrolling-active #nav-cta:hover{
-  background-color: #151515;
-}
-
-.scrolling-active .nav-link::after{
-  background-color: #313131;
-}
-
 
 @media screen and (min-width: 768px){
   .logosvg{

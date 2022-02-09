@@ -33,12 +33,25 @@
 
 <?php include 'navbar.php';?>
 
-<div class="px-5 py-5 text-left heroimage text-center">
-    <div class="herosek">
-        <h1 class="heroover">Om Bengtson Multiservice </h1>
+<div class="hero-full-screen">
+
+    <div class="top-content-section"></div>
+
+    <div class="middle-content-section">
+        <h1>Fliserens Placeholder</h1>
     </div>
+
+    <div class="bottom-content-section" data-magellan data-threshold="0">
+        <a href="#main-content-section">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                <path d="M24 12c0-6.627-5.373-12-12-12s-12 5.373-12 12 5.373 12 12 12 12-5.373 12-12zm-18.005-1.568l1.415-1.414 4.59 4.574 4.579-4.574 1.416 1.414-5.995 5.988-6.005-5.988z"/>
+            </svg>
+        </a>
+    </div>
+
 </div>
 
+<div id="main-content-section" data-magellan-target="main-content-section">
 
 <div class="BMS">
 
@@ -91,12 +104,12 @@
         <h2 class="bookover">Overskrift</h2>
         <p class="booktekst">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
             sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-        <a class="bookknap btn" href="#" role="button">Klik</a>
+            <a class="bookknap btn" href="#" role="button">Klik</a>
 
     </div>
 </div>
 
-
+</div>
 
 
 
