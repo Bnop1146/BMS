@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<!-- Created By CodingNepal - www.codingnepalweb.com -->
+
 <html lang="en">
 <!-- Instruktion til webbrowser om at vi kører HTML5 -->
 <!DOCTYPE html>
@@ -34,7 +34,7 @@
 
 
 
-<nav class="navbar">
+<nav class="navbar navbar-fixed-top">
     <div class="content">
         <div class="logo"><a href="#">
                 <svg xmlns="http://www.w3.org/2000/svg" width="180" height="100" class="logosvg" viewBox="0 0 431.889 156.592">

@@ -31,11 +31,9 @@
 <!-- i <body> har man alt indhold på siden som brugeren kan se -->
 <body>
 
-<header>
-    <?php include 'navbar.php';?>
-    <h1 class="heroTekstTjenester">Fliserens</h1>
+<?php include 'Nav_test.php';?>
 
-</header>
+
 
 
 
