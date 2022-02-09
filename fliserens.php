@@ -31,12 +31,29 @@
 <!-- i <body> har man alt indhold på siden som brugeren kan se -->
 <body>
 
-<?php include 'Nav_test.php';?>
+<?php include 'navbar.php';?>
+
+<div class="hero-full-screen">
+
+    <div class="top-content-section"></div>
+
+    <div class="middle-content-section">
+        <h1>Fliserens Placeholder</h1>
+    </div>
+
+    <div class="bottom-content-section" data-magellan data-threshold="0">
+        <a href="#main-content-section">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                <path d="M24 12c0-6.627-5.373-12-12-12s-12 5.373-12 12 5.373 12 12 12 12-5.373 12-12zm-18.005-1.568l1.415-1.414 4.59 4.574 4.579-4.574 1.416 1.414-5.995 5.988-6.005-5.988z"/>
+            </svg>
+        </a>
+    </div>
+
+</div>
 
 
 
-
-
+<div id="main-content-section" data-magellan-target="main-content-section">
 
 <div class="omcon container p-4 mb-3 mb-lg-5">
     <div class="row mt-5">
@@ -97,6 +114,8 @@
         </div>
 
     </div>
+</div>
+
 </div>
 
 <?php include 'footer.php';?>
