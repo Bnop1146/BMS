@@ -23,7 +23,8 @@ $custom-colors: (
 }
 
 $custom-colors: (
-        "primary": #007bff
+        "primary": #007bff,
+        "bg-dark": #707070
 );
 $theme-colors: map-merge($theme-colors, $custom-colors);
 

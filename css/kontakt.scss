@@ -1,26 +1,71 @@
+.hero-full-screen {
+  height: 100vh;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  background: url("https://images.pexels.com/photos/378273/pexels-photo-378273.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb") center center no-repeat;
+  background-size: cover;
+}
+
+.hero-full-screen .middle-content-section {
+  text-align: center;
+  color: #fefefe;
+}
+
+.hero-full-screen .top-content-section {
+  width: 100%;
+}
+
+.hero-full-screen .bottom-content-section {
+  padding: 1rem;
+}
+
+.hero-full-screen .bottom-content-section svg {
+  height: 3.75rem;
+  width: 3.75rem;
+  fill: #fefefe;
+}
+
+.hero-full-screen .top-bar {
+  background: transparent;
+}
+
+.hero-full-screen .top-bar .menu {
+  background: transparent;
+}
+
+.hero-full-screen .top-bar .menu-text {
+  color: #fefefe;
+}
+
+.hero-full-screen .top-bar .menu li {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.hero-full-screen .top-bar .menu a {
+  color: #fefefe;
+  font-weight: bold;
+}
 
 .kontaktsektion{
   background: url(../image/background-desktop-venstre.png);
 }
 
-.herobillede {
-  width:100%;
-  height: 40vh;
-  background:url(../image/kontakt-placeholder.png);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
 
-}
-
-.imgover{
-  color:white;
-  font-family: var(--overskrift-font);
-  font-size: 32px;
-}
 
 .contact-form{
   max-width: 600px;
@@ -116,9 +161,7 @@ textarea.contact-form-text{
   .kontaktcon{
     max-width: 520px!important;
   }
-  .herobillede{
-    height: 35vh;
-  }
+
   .contact-form{
     padding: 0 60px;
     max-width: 700px;
@@ -141,16 +184,12 @@ textarea.contact-form-text{
   .kontaktover{
     font-size: 22px;
   }
-.imgover{
-  font-size: 36px;
-}
+
 
 }
 
 @media screen and (min-width: 1024px){
-  .herobillede{
-    height: 50vh;
-  }
+
   .contact-form{
     padding: 0 60px;
     max-width: 800px;
@@ -179,9 +218,6 @@ textarea.contact-form-text{
   }
   .infoover{
     font-size: 24px;
-  }
-  .imgover{
-    font-size: 40px;
   }
 
 }

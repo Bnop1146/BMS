@@ -61,19 +61,30 @@
             <div class="mx-auto"></div>
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link text-white" href="#">Home</a>
+                    <a class="nav-link text-white" href="#">Forside</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-white" href="#">About</a>
+                    <a class="nav-link text-white" href="#">Om Bengtsons Multiservice</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Tjenester
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-macos mx-0 shadow" style="width: 220px;">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#">Separated link</a></li>
+                    </ul>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-white" href="#">Blog</a>
+                    <a class="nav-link text-white" href="#">Galleri</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-white" href="#">Pricing</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-white" href="#">Contact</a>
+                    <a class="nav-link text-white" href="#">Kontakt</a>
                 </li>
             </ul>
         </div>
