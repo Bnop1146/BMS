@@ -31,7 +31,7 @@
 <!-- i <body> har man alt indhold på siden som brugeren kan se -->
 <body>
 
-
+<?php include 'navbar.php';?>
 
 <div class="banner" id="bannersek">
 
