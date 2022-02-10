@@ -20,12 +20,15 @@ $custom-colors: (
 :root{
   --overskrift-font: 'Red Hat Display',serif;
   --tekst-font: 'Poppins',serif;
+
 }
 
 $custom-colors: (
-        "primary": #007bff,
-        "bg-dark": #707070
+        "primary": #78C1FF,
+        "bg-dark": #707070,
+        "bg-sjov": pink
 );
 $theme-colors: map-merge($theme-colors, $custom-colors);
 
 @import "../node_modules/bootstrap/scss/bootstrap";
+
