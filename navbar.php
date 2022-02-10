@@ -127,6 +127,7 @@
 
         } else  {
             logo.setAttribute("fill", "white");
+            burger.setAttribute("fill", "white" )
             nav.classList.remove('bg-light', 'shadow');
             navLink.classList.remove('text-black');
             navLink1.classList.remove('text-black');
