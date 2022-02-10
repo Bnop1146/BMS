@@ -72,26 +72,6 @@
 </div>
 
 
-<?php
-$message_sent = false;
-if (isset($_POST['email']) && $_POST['email'] !='') {
-
-    $userName = $_POST['name'];
-    $userEmail = $_POST['email'];
-    $messageSubject = $_POST['subject'];
-    $message = $_POST['message'];
-
-    $to = "tekbas425@gmail.com";
-
-    $body = "Fra: " . $userName . "\r\n";
-    $body .= "Email: " .$userEmail. "\r\n";
-    $body .= "Besked: " .$message. "\r\n";
-
-    mail($to,$messageSubject,$body);
-
-    $message_sent = true;
-}
-?>
 
 
 
@@ -120,6 +100,29 @@ if (isset($_POST['email']) && $_POST['email'] !='') {
             </div>
 
         </div>
+        <?php
+        $message_sent = false;
+        if (isset($_POST['email']) && $_POST['email'] !='') {
+
+            $userName = $_POST['name'];
+            $userEmail = $_POST['email'];
+            $userPhone = $_POST['phone'];
+            $userAdresse = $_POST['adresse'];
+            $message = $_POST['message'];
+
+            $to = "tekbas425@gmail.com";
+
+            $body = "Fra: " . $userName . "\r\n";
+            $body .= "Email: " .$userEmail. "\r\n";
+            $body .= "Phone: " .$userPhone. "\r\n";
+            $body .= "Adresse: " .$userAdresse. "\r\n";
+            $body .= "Besked: " .$message. "\r\n";
+
+            mail($to,$message,$body);
+
+            $message_sent = true;
+        }
+        ?>
 
         <div class="sektion1 col-sm-12 col-md-12 col-lg-7 mt-5 p-3  ">
             <div class="contact-section">
@@ -135,11 +138,11 @@ if (isset($_POST['email']) && $_POST['email'] !='') {
                     </span>
 
                     <span>* Telefon nr
-                    <input type="text" class="contact-form-text mb-4"  aria-label="" name="">
+                    <input type="text" class="contact-form-text mb-4"  aria-label="" name="phone">
                     </span>
 
                     <span class="mb-3">* Adresse
-                    <input type="text" class="contact-form-text mb-4"  aria-label="" name="">
+                    <input type="text" class="contact-form-text mb-4"  aria-label="" name="adresse">
                     </span>
 
 
