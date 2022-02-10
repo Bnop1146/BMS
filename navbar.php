@@ -115,7 +115,7 @@
     const navLink4 = document.querySelector('.nav-link4');
 
     window.addEventListener('scroll', function () {
-        if (window.pageYOffset > 600) {
+        if (window.pageYOffset > 400) {
             logo.setAttribute("fill", "#78C1FF");
             burger.setAttribute("fill", "black" )
             nav.classList.add('bg-light', 'shadow');
