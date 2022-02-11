@@ -19,6 +19,7 @@
     <meta name="copyright" content="Information om copyright">
 
     <!-- Sikrer man kan benytte CSS ved at tilkoble en CSS fil -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css">
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
@@ -57,7 +58,7 @@
 
 <div class="omcon container p-4 mb-3">
     <div class="row">
-        <div class="om1sek col-sm-12 col-md-6 col-lg-6">
+        <div class="om1sek col-sm-12 col-md-6 col-lg-6" data-aos="fade-down">
             <p class="om1over">Overskrift</p>
             <div class="om1line"></div>
             <p class="om1tekst mb-4">
@@ -69,7 +70,7 @@
 
         </div>
 
-        <div class="om2sek col-sm-12 col-md-6 col-lg-6">
+        <div class="om2sek col-sm-12 col-md-6 col-lg-6" data-aos="fade-down">
             <img src="image/before-after-placeholder.png" class="om2billede img-fluid" alt="">
         </div>
     </div>
@@ -78,11 +79,11 @@
 <div class="omcon2 container p-4 mb-3 mb-lg-5">
     <div class="row">
 
-        <div class="om2sek col-sm-12 col-md-6 col-lg-6">
+        <div class="om2sek col-sm-12 col-md-6 col-lg-6" data-aos="fade-down">
             <img src="image/before-after-placeholder.png" class="om2billede img-fluid" alt="">
         </div>
 
-        <div class="om1sek col-sm-12 col-md-6 col-lg-6">
+        <div class="om1sek col-sm-12 col-md-6 col-lg-6" data-aos="fade-down">
             <p class="om1over mt-4">Overskrift</p>
             <div class="om1line"></div>
             <p class="om1tekst">
@@ -100,7 +101,7 @@
 </div>
 
 <div class="booksektion px-5 py-5 text-left ">
-    <div class="bookosek">
+    <div class="bookosek" data-aos="fade-down">
         <h2 class="bookover">Overskrift</h2>
         <p class="booktekst">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
             sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
@@ -116,6 +117,13 @@
 <?php include 'footer.php';?>
 
 <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+    AOS.init({
+        duration: 3000,
+        once: true,
+    });
+</script>
 
 </body>
 </html>

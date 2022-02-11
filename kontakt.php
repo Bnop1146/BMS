@@ -19,6 +19,7 @@
     <meta name="copyright" content="Information om copyright">
 
     <!-- Sikrer man kan benytte CSS ved at tilkoble en CSS fil -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css">
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
@@ -59,9 +60,9 @@
 
 <div class="omkontakt mt-4 p-3 text-center" id="omkontakt">
     <div class="kontaktcon container" >
-        <p class="kontaktover">Kontakt os</p>
-        <div class="kontaktline"></div>
-        <p class="kontakttekst mt-3">
+        <p class="kontaktover" data-aos="fade-down">Kontakt os</p>
+        <div class="kontaktline" data-aos="fade-down"></div>
+        <p class="kontakttekst mt-3" data-aos="fade-down">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit,
             sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
             Ut enim ad minim veniam, quis nostrud
@@ -75,7 +76,7 @@
 
 
 
-<div class="kontaktsektion container-fluid p-3" data-aos="fade-up" id="kontaktformular">
+<div class="kontaktsektion container-fluid p-3" data-aos="fade-down" id="kontaktformular">
     <div class="row">
         <div class="sektion2 col-sm-12 col-md-12 col-lg-5 mt-5">
 
@@ -173,6 +174,12 @@
 
 
 <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+    AOS.init({
+        duration: 3000,
+        once: true,
+    });
+</script>
 </body>
 </html>
