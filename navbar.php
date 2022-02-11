@@ -81,15 +81,15 @@
                         <li>
                             <hr class="dropdown-divider">
                         </li>
-                        <li><a class="dropdown-item" href="#">Algebehandling</a></li>
+                        <li><a class="dropdown-item" href="algebehandling.php">Algebehandling</a></li>
                         <li>
                             <hr class="dropdown-divider">
                         </li>
-                        <li><a class="dropdown-item" href="#">Facaderens</a></li>
+                        <li><a class="dropdown-item" href="facaderens.php">Facaderens</a></li>
                         <li>
                             <hr class="dropdown-divider">
                         </li>
-                        <li><a class="dropdown-item" href="">Tagrens og Maling</a></li>
+                        <li><a class="dropdown-item" href="tagogmaling.php">Tagrens og Maling</a></li>
                     </ul>
                 </li>
                 <li class="nav-item">
