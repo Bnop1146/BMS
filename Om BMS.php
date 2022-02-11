@@ -105,7 +105,10 @@
         <h2 class="bookover">Overskrift</h2>
         <p class="booktekst">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
             sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-            <a class="bookknap btn" href="#" role="button">Klik</a>
+            <a class="vidstknap btn" href="#" role="button">
+                <span class="spinner-grow spinner-grow-sm me-2"></span>
+                læs mere
+            </a>
 
     </div>
 </div>

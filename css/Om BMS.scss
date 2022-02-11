@@ -1,3 +1,8 @@
+.BMS{
+  background: url(../image/background-desktop-venstre.png);
+  background-size: cover;
+}
+
 .hero-full-screen {
   height: 100vh;
   display: -webkit-flex;
@@ -139,7 +144,7 @@
 .bookosek{
   text-align: center;
 }
-.bookknap{
+.vidstknap{
   border: 0!important;
   background: var(--ikonercta) !important;
   color:white!important;
@@ -149,6 +154,7 @@
   transition: 0.5s!important;
   margin-top: 5px!important;
   font-family: var(--tekst-font) !important;
+  font-size: 13px!important;
 }
 
 .bookover{
@@ -165,6 +171,8 @@
 @media screen and (min-width: 768px){
   .bookknap{
     margin-top: 10px;
+    font-size: 14px !important;
+
   }
   .booksektion{
     height: 35vh;

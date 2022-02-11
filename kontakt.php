@@ -151,7 +151,7 @@
                     <textarea name="message" class="contact-form-text mb-4"  aria-label=""></textarea>
                     </span>
 
-                    <input type="submit" class="contact-form-btn" value="Send">
+                       <input type="submit" class="vidstknap contact-form-btn" value="Send">
 
                 </form>
             </div>

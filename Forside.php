@@ -158,7 +158,10 @@
             <h1 class="vidstover display-4 fw-bold lh-1">Vidste du at?</h1>
             <p class="vidsttekst">At alger og mos kan virke som svampe, der gør det muligt for fugt at trænge ned i tagkonstruktionen og derved kan forsage alvorlige skader?</p>
             <div class="d-grid gap-2 d-md-flex justify-content-md-start mb-4 mb-lg-3">
-                <a class="vidstknap btn" href="#" role="button">læs mere</a>
+                <a class="vidstknap btn" href="#" role="button">
+                    <span class="spinner-grow spinner-grow-sm me-2"></span>
+                    læs mere
+                </a>
             </div>
         </div>
         <div class="col-sm-12 col-md-6 col-lg-4  mb-4 overflow-hidden">
@@ -331,6 +334,8 @@
     </div>
 </div>
 
+<div class="baggrundb">
+
 <section id="testimonials" class="kundeand text-center">
     <div class="container">
         <div class="row">
@@ -413,16 +418,23 @@
 
 
 
+
 <div class="booksektion px-5 py-5 text-left">
     <div class="bookosek" data-aos="fade-down">
         <h2 class="bookover">Overskrift</h2>
         <p class="booktekst">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
             sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-        <a class="bookknap btn" href="#" role="button">Klik</a>
+        <a class="vidstknap btn" href="#" role="button">
+            <span class="spinner-grow spinner-grow-sm me-2"></span>
+            læs mere
+
+        </a>
 
     </div>
 </div>
 
+
+</div>
 
 
 <?php include 'footer.php';?>

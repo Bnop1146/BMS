@@ -66,18 +66,18 @@
             <div class="mx-auto"></div>
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link " href="#">Forside</a>
+                    <a class="nav-link " href="Forside.php">Forside</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link nav-link1 " href="#">Om Bengtsons Multiservice</a>
+                    <a class="nav-link nav-link1 " href="Om BMS.php">Om Bengtsons Multiservice</a>
                 </li>
                 <li class="nav-item dropdown">
-                    <a class="nav-link nav-link2 dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                    <a class="nav-link nav-link2 dropdown-toggle" href="fliserens.php" id="navbarDropdown" role="button"
                        data-bs-toggle="dropdown" aria-expanded="false">
                         Tjenester
                     </a>
                     <ul class="dropdown-menu dropdown-menu-macos mx-0 shadow">
-                        <li><a class="dropdown-item" href="#">Fliserens</a></li>
+                        <li><a class="dropdown-item" href="fliserens.php">Fliserens</a></li>
                         <li>
                             <hr class="dropdown-divider">
                         </li>
@@ -89,14 +89,14 @@
                         <li>
                             <hr class="dropdown-divider">
                         </li>
-                        <li><a class="dropdown-item" href="#">Tagrens og Maling</a></li>
+                        <li><a class="dropdown-item" href="">Tagrens og Maling</a></li>
                     </ul>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link nav-link3 " href="#">Galleri</a>
+                    <a class="nav-link nav-link3 " href="Galleri.php">Galleri</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link4 nav-link " href="#">Kontakt</a>
+                    <a class="nav-link4 nav-link " href="kontakt.php">Kontakt</a>
                 </li>
             </ul>
         </div>
