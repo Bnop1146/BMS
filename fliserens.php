@@ -99,6 +99,7 @@
 
                     </a>
                 </button>
+
             </div>
         </div>
     </div>
@@ -138,7 +139,7 @@
 <script>
     AOS.init({
         duration: 3000,
-        reset: false,
+        once: true,
     });
 </script>
 

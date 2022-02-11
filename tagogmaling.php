@@ -11,7 +11,7 @@
 
     <!-- Titel som ses oppe i browserens tab mv. -->
     <title>BMS - Tagrens og Maling</title>
-    <link rel="shortcut icon" type="image/x-icon" href="image/favicon.ico" />
+    <link rel="shortcut icon" type="image/x-icon" href="image/favicon.ico"/>
 
     <!-- Metatags der fortæller at søgemaskiner er velkomne, hvem der udgiver siden og copyright information -->
     <meta name="robots" content="All">
@@ -26,7 +26,6 @@
     <link href="css/tagogmaling.css" rel="stylesheet" type="text/css">
 
 
-
     <!-- Sikrer den vises korrekt på mobil, tablet mv. ved at tage ift. skærmstørrelse - bliver brugt til responsive websider -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -35,7 +34,7 @@
 <!-- i <body> har man alt indhold på siden som brugeren kan se -->
 <body>
 
-<?php include 'navbar.php';?>
+<?php include 'navbar.php'; ?>
 
 <div class="hero-full-screen">
 
@@ -56,12 +55,65 @@
 </div>
 
 
-
 <div id="main-content-section" data-magellan-target="main-content-section"></div>
 
-    <br><br><br>
+<br><br>
 
-    <div class="omcon container p-4 mb-3 mb-lg-5">
+<div class="background pb-2">
+
+    <div class="omcon2 container p-4 mb-3 mb-lg-5">
+        <div class="row">
+
+            <div class="om2sek col-sm-12 col-md-6 col-lg-6" data-aos="fade-down">
+                <img src="image/video-placeholder.png" class="om2billede img-fluid" alt="">
+            </div>
+
+            <div class="om1sek col-sm-12 col-md-6 col-lg-6 " data-aos="fade-down">
+                <p class="om1over">Overskrift</p>
+                <div class="om1line"></div>
+                <p class="om1tekst">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    Ut enim ad minim veniam, quis nostrud
+                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                </p>
+
+            </div>
+
+        </div>
+    </div>
+
+    <br>
+
+    <div class=" p-2">
+        <div class="prisTjenester container p-5 mt-5 mb-5">
+            <div class="row col-md-6 offset-md-3" data-aos="fade-down">
+                <div class="">
+                    <h2>Overskrift</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur
+                        adipiscing elit. Maecenas id erat accumsan
+                        blandit tortor quis, convallis mauris.</p>
+                    <br>
+
+
+                    <button class="btn-tjenester" data-aos="fade-down">
+                        <a class="btn text-white" href="kontakt.php" role="button">
+
+                            <span class="spinner-grow spinner-grow-sm text-white"></span>
+                            Klik her
+
+                        </a>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+<br>
+
+<div class="omcon container p-4 mb-3 mb-lg-5">
     <div class="row mt-5 ">
         <div class="om1sek  col-sm-12 col-md-6 col-lg-6" data-aos="fade-down">
             <p class="om1over ">Overskrift</p>
@@ -81,55 +133,10 @@
     </div>
 </div>
 
-    <br>
-
-<div class="bg-light p-2">
-    <div class="prisTjenester container p-5 mt-5 mb-5 bg-light" >
-        <div class="row col-md-6 offset-md-3" data-aos="fade-down" >
-            <div class="">
-                <h2>Overskrift</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur
-                    adipiscing elit. Maecenas id erat accumsan
-                    blandit tortor quis, convallis mauris.</p>
-                <br>
-
-
-                <button class="btn-tjenester " data-aos="fade-down">
-                    <span class="spinner-grow spinner-grow-sm"></span>
-                    Læs mere
-                </button>
-            </div>
-        </div>
-    </div>
-</div>
-
-    <br><br>
-
-<div class="omcon2 container p-4 mb-3 mb-lg-5">
-    <div class="row">
-
-        <div class="om2sek col-sm-12 col-md-6 col-lg-6" data-aos="fade-down">
-            <img src="image/video-placeholder.png" class="om2billede img-fluid" alt="">
-        </div>
-
-        <div class="om1sek col-sm-12 col-md-6 col-lg-6 " data-aos="fade-down">
-            <p class="om1over">Overskrift</p>
-            <div class="om1line"></div>
-            <p class="om1tekst">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                Ut enim ad minim veniam, quis nostrud
-                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-            </p>
-
-        </div>
-
-    </div>
 </div>
 
 
-
-<?php include 'footer.php';?>
+<?php include 'footer.php'; ?>
 
 
 <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
@@ -138,7 +145,7 @@
 <script>
     AOS.init({
         duration: 3000,
-        reset: false,
+        once: true,
     });
 </script>
 

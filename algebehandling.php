@@ -94,9 +94,13 @@
                 <br>
 
 
-                <button class="btn-tjenester " data-aos="fade-down">
-                    <span class="spinner-grow spinner-grow-sm"></span>
-                    Læs mere
+                <button class="btn-tjenester" data-aos="fade-down">
+                    <a class="btn text-white" href="kontakt.php" role="button" >
+
+                        <span class="spinner-grow spinner-grow-sm text-white"></span>
+                        Klik her
+
+                    </a>
                 </button>
             </div>
         </div>
@@ -138,7 +142,7 @@
 <script>
     AOS.init({
         duration: 3000,
-        reset: false,
+        once: true,
     });
 </script>
 

@@ -16,6 +16,21 @@
   background-size: cover;
 }
 
+.background{
+  background: url("../image/background-desktop-venstre.png");
+  background-size: cover;
+}
+
+span > i {
+  color: white;
+}
+span > input {
+  background: none;
+  color: white;
+  border: 0;
+  padding: 0;
+}
+
 .hero-full-screen .middle-content-section {
   text-align: center;
   color: #fefefe;
