@@ -19,13 +19,17 @@
     <meta name="copyright" content="Information om copyright">
 
     <!-- Sikrer man kan benytte CSS ved at tilkoble en CSS fil -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css">
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="css/fliserens.css" rel="stylesheet" type="text/css">
 
+
+
     <!-- Sikrer den vises korrekt på mobil, tablet mv. ved at tage ift. skærmstørrelse - bliver brugt til responsive websider -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
 </head>
 
 <!-- i <body> har man alt indhold på siden som brugeren kan se -->
@@ -53,14 +57,16 @@
 
 
 
-<div id="main-content-section" data-magellan-target="main-content-section">
+<div id="main-content-section" data-magellan-target="main-content-section"></div>
 
-<div class="omcon container p-4 mb-3 mb-lg-5">
-    <div class="row mt-5">
-        <div class="om1sek col-sm-12 col-md-6 col-lg-6">
-            <p class="om1over">Overskrift</p>
+    <br><br><br>
+
+    <div class="omcon container p-4 mb-3 mb-lg-5">
+    <div class="row mt-5 ">
+        <div class="om1sek  col-sm-12 col-md-6 col-lg-6" data-aos="fade-down">
+            <p class="om1over ">Overskrift</p>
             <div class="om1line"></div>
-            <p class="om1tekst mb-4">
+            <p class="om1tekst mb-4 ">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                 sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 Ut enim ad minim veniam, quis nostrud
@@ -69,39 +75,44 @@
 
         </div>
 
-        <div class="om2sek col-sm-12 col-md-6 col-lg-6">
+        <div class="om2sek col-sm-12 col-md-6 col-lg-6" data-aos="fade-down">
             <img src="image/before-after-placeholder.png" class="om2billede img-fluid" alt="">
         </div>
     </div>
 </div>
 
-<div class="prisTjenester container p-5 mt-5 mb-5 ">
-    <div class="row col-md-6 offset-md-3">
-        <div class="">
-            <h2>Overskrift</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur
-                adipiscing elit. Maecenas id erat accumsan
-                blandit tortor quis, convallis mauris.</p>
-            <br>
+    <br>
+
+<div class="bg-light p-2">
+    <div class="prisTjenester container p-5 mt-5 mb-5 bg-light" >
+        <div class="row col-md-6 offset-md-3" data-aos="fade-down" >
+            <div class="">
+                <h2>Overskrift</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur
+                    adipiscing elit. Maecenas id erat accumsan
+                    blandit tortor quis, convallis mauris.</p>
+                <br>
 
 
-            <button class="btn-tjenester ">
-                <span class="spinner-grow spinner-grow-sm"></span>
-                Læs mere
-            </button>
+                <button class="btn-tjenester " data-aos="fade-down">
+                    <span class="spinner-grow spinner-grow-sm"></span>
+                    Læs mere
+                </button>
+            </div>
         </div>
     </div>
 </div>
 
+    <br><br>
 
 <div class="omcon2 container p-4 mb-3 mb-lg-5">
     <div class="row">
 
-        <div class="om2sek col-sm-12 col-md-6 col-lg-6">
+        <div class="om2sek col-sm-12 col-md-6 col-lg-6" data-aos="fade-down">
             <img src="image/video-placeholder.png" class="om2billede img-fluid" alt="">
         </div>
 
-        <div class="om1sek col-sm-12 col-md-6 col-lg-6">
+        <div class="om1sek col-sm-12 col-md-6 col-lg-6 " data-aos="fade-down">
             <p class="om1over">Overskrift</p>
             <div class="om1line"></div>
             <p class="om1tekst">
@@ -116,11 +127,20 @@
     </div>
 </div>
 
-</div>
+
 
 <?php include 'footer.php';?>
 
+
 <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+    AOS.init({
+        duration: 3000,
+        reset: false,
+    });
+</script>
 
 </body>
 </html>

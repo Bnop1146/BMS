@@ -19,6 +19,7 @@
     <meta name="copyright" content="Information om copyright">
 
     <!-- Sikrer man kan benytte CSS ved at tilkoble en CSS fil -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css">
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
@@ -47,15 +48,14 @@
     <div class="bottom-content-section" data-magellan data-threshold="0">
         <a href="#main-content-section">
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-                <path d="M24 12c0-6.627-5.373-12-12-12s-12 5.373-12 12 5.373 12 12 12 12-5.373 12-12zm-18.005-1.568l1.415-1.414 4.59 4.574 4.579-4.574 1.416 1.414-5.995 5.988-6.005-5.988z"
-                fill="black"/>
+                <path d="M24 12c0-6.627-5.373-12-12-12s-12 5.373-12 12 5.373 12 12 12 12-5.373 12-12zm-18.005-1.568l1.415-1.414 4.59 4.574 4.579-4.574 1.416 1.414-5.995 5.988-6.005-5.988z"/>
             </svg>
         </a>
     </div>
 
 </div>
 
-<div id="main-content-section" data-magellan-target="main-content-section">
+<div id="main-content-section" data-magellan-target="main-content-section"></div>
 
 
 
@@ -136,7 +136,7 @@
             <div class="content"><img src="https://source.unsplash.com/random/?tech,card" alt=""></div>
         </div>
     </div>
-</div>
+
 
 <?php include 'footer.php'; ?>
 
@@ -145,7 +145,13 @@
 
 
 <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+    AOS.init({
+        duration: 3000,
+        reset: false,
+    });
+</script>
 
 </body>
 </html>

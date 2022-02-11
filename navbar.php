@@ -30,7 +30,7 @@
 <!-- i <body> har man alt indhold på siden som brugeren kan se -->
 <body>
 
-<nav class="navbar fixed-top navbar-expand-lg navbar-dark p-md-3">
+<nav class="navbar fixed-top navbar-expand-lg navbar-dark ">
     <div class="container">
 
         <a class="navbar-brand" href="#">

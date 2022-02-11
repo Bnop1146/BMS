@@ -1,3 +1,6 @@
+
+
+
 (function scrollReveal() {
     const revealChildren = sr.reveal('.card-title, .card-text', {
         duration   : 500,
