@@ -19,6 +19,7 @@
     <meta name="copyright" content="Information om copyright">
 
     <!-- Sikrer man kan benytte CSS ved at tilkoble en CSS fil -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css">
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
@@ -46,13 +47,13 @@
 
 </div>
 
-<section class="servicesek">
+<div class="servicesek">
     <div class="servicerow row">
     </div>
     <div class="row">
         <div class="column">
             <div class="card">
-                <div class="icon-wrapper">
+                <div class="icon-wrapper" data-aos="fade-down" data-aos-duration="2000">
                     <svg xmlns="http://www.w3.org/2000/svg" width="50" height="75" viewBox="0 0 161.049 153.009">
                         <g id="Sikker_betaling_ikon" data-name="Sikker betaling ikon" transform="translate(-61.327 -57.743)">
                             <g id="Group_1" data-name="Group 1" transform="translate(61.327 57.743)">
@@ -70,8 +71,8 @@
                     </svg>
 
                 </div>
-                <h3 class="mt-2">Sikker Betaling</h3>
-                <p>
+                <h3 class="mt-2" data-aos="fade-down">Sikker Betaling</h3>
+                <p data-aos="fade-down">
                     Efter afslutning af arbejdet
                     får du en faktura
                 </p>
@@ -79,7 +80,7 @@
         </div>
         <div class="column">
             <div class="card">
-                <div class="icon-wrapper">
+                <div class="icon-wrapper" data-aos="fade-down" data-aos-duration="2000">
                     <svg xmlns="http://www.w3.org/2000/svg" width="50" height="75" viewBox="0 0 150 153.009">
                         <g id="Gratis_opmåling_Ikon" data-name="Gratis opmåling Ikon" transform="translate(-61.106 -56.524)">
                             <path id="home-solid" d="M72.927,62.282l-47.964,39.5v42.636a4.162,4.162,0,0,0,4.162,4.162l29.152-.075a4.162,4.162,0,0,0,4.142-4.162v-24.9a4.162,4.162,0,0,1,4.162-4.162h16.65a4.162,4.162,0,0,1,4.162,4.162v24.881a4.162,4.162,0,0,0,4.162,4.175l29.142.081a4.162,4.162,0,0,0,4.162-4.162V101.757L76.907,62.282a3.171,3.171,0,0,0-3.98,0Zm75.764,26.85L126.942,71.205V35.172a3.122,3.122,0,0,0-3.122-3.122H109.252a3.122,3.122,0,0,0-3.122,3.122v18.89L82.839,34.9a12.487,12.487,0,0,0-15.869,0L1.118,89.132a3.122,3.122,0,0,0-.416,4.4l6.634,8.065a3.122,3.122,0,0,0,4.4.424l61.193-50.4a3.171,3.171,0,0,1,3.98,0l61.2,50.4a3.122,3.122,0,0,0,4.4-.416l6.634-8.065a3.122,3.122,0,0,0-.442-4.4Z" transform="translate(61.263 24.474)"/>
@@ -89,8 +90,8 @@
 
 
                 </div>
-                <h3 class="mt-2">Gratis Opmåling</h3>
-                <p>
+                <h3 class="mt-2" data-aos="fade-down">Gratis Opmåling</h3>
+                <p data-aos="fade-down">
                     Første samtale og
                     opmåling er altid gratis
 
@@ -99,7 +100,7 @@
         </div>
         <div class="column">
             <div class="card">
-                <div class="icon-wrapper">
+                <div class="icon-wrapper" data-aos="fade-down" data-aos-duration="2000">
                     <svg xmlns="http://www.w3.org/2000/svg" width="50" height="75" viewBox="0 0 186.202 149.522">
                         <g id="Group_25" data-name="Group 25" transform="translate(-1055.701 -840.473)">
                             <path id="tag-solid" d="M0,57.843V11.013A11.013,11.013,0,0,1,11.013,0H57.843A11.013,11.013,0,0,1,65.63,3.226l48.612,48.612a11.013,11.013,0,0,1,0,15.574L67.412,114.243a11.013,11.013,0,0,1-15.574,0L3.226,65.63A11.013,11.013,0,0,1,0,57.843Zm25.7-43.16A11.013,11.013,0,1,0,36.709,25.7,11.013,11.013,0,0,0,25.7,14.684Z" transform="translate(1236.903 867.527) rotate(90)" fill="#fff" stroke="#000" stroke-width="10"/>
@@ -114,8 +115,8 @@
                     </svg>
 
                 </div>
-                <h3 class="mt-2">Prismatch</h3>
-                <p>
+                <h3 class="mt-2" data-aos="fade-down">Prismatch</h3>
+                <p data-aos="fade-down">
                     Har du fået et bedre
                     tilbud, så forsøger
                     vi at matche det
@@ -125,7 +126,7 @@
 
         <div class="column">
             <div class="card">
-                <div class="icon-wrapper">
+                <div class="icon-wrapper" data-aos="fade-down" data-aos-duration="2000">
                     <svg xmlns="http://www.w3.org/2000/svg" width="50" height="75" viewBox="0 0 136.445 146.265">
                         <g id="Garanti_ikon" data-name="Garanti ikon" transform="translate(-1234.327 -414.148)">
                             <g id="Group_3" data-name="Group 3" transform="translate(1234.327 414.148)">
@@ -138,8 +139,8 @@
                     </svg>
 
                 </div>
-                <h3 class="mt-2">Garanti</h3>
-                <p>
+                <h3 class="mt-2" data-aos="fade-down">Garanti</h3>
+                <p data-aos="fade-down">
                     Mulighed for garanti
                     på holdbarheden, ved
                     årlig vedligeholdelse.
@@ -147,10 +148,10 @@
             </div>
         </div>
     </div>
-</section>
+</div>
 
 
-<div class="container my-5">
+<div class="container my-5" data-aos="fade-down">
     <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg">
 
         <div class="col-sm-12 col-md-6 col-lg-5 offset-lg-1 p-3 p-lg-5 pt-lg-3 mt-md-3 mb-md-3 mt-lg-4 mb-lg-4">
@@ -168,7 +169,7 @@
     </div>
 </div>
 
-<div class="flipcon container">
+<div class="flipcon container" >
     <div class="fliprow row">
 
         <div class="col-sm-12 col-md-6 col-lg-6 mb-4">
@@ -176,7 +177,7 @@
                 <div class="flip-box-inner">
                     <div class="flip-box-front">
                         <div class="frontinner mt-4"></div>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="60" height="122" viewBox="0 0 117.239 122">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="60" height="122" viewBox="0 0 117.239 122" data-aos="fade-down">
                             <g id="Group_24" data-name="Group 24" transform="translate(-511 -639)">
                                 <path id="Path_703" data-name="Path 703" d="M0,0H26.185V47.015H0Z" transform="translate(511 662.21)" fill="#d9eeff"/>
                                 <path id="Path_698" data-name="Path 698" d="M0,0H26.185V47.015H0Z" transform="translate(541.351 639)" fill="#d9eeff"/>
@@ -192,7 +193,7 @@
                                 <path id="Path_699" data-name="Path 699" d="M0,0H26.185V47.015H0Z" transform="translate(602.054 639)" fill="#d9eeff"/>
                             </g>
                         </svg>
-                        <h2>Fliserens</h2>
+                        <h2 data-aos="fade-down">Fliserens</h2>
                     </div>
                     <div class="flip-box-back">
                         <div class="backinner mt-4">
@@ -209,7 +210,7 @@
                 <div class="flip-box-inner">
                     <div class="flip-box-front">
                         <div class="frontinner mt-4">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="60" height="122" viewBox="0 0 120.264 122">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="60" height="122" viewBox="0 0 120.264 122" data-aos="fade-down">
                                 <g id="Algae_ikon" data-name="Algae ikon" transform="translate(-62.636 517.097)">
                                     <path id="Path_3" data-name="Path 3" d="M236.771-460.345c-1.411.689-3.379,3.248-4.33,5.642-.623,1.476-.754,2.427-.722,5.413a34.968,34.968,0,0,0,.459,5.806c.426,2,.394,2.3-.164,3.543-.623,1.411-2.493,2.952-3.51,2.952-.525,0-.59-.426-.59-4.592,0-5.216-.394-7.512-1.476-8.791-.689-.787-.984-.886-2.854-.886-2.591,0-4.068.689-6.364,3.018-2.2,2.231-3.084,4.068-3.084,6.3,0,2.067.394,2.69,3.477,5.773,4.33,4.33,5.183,8.266,3.543,16.6a15.748,15.748,0,0,1-.754,2.985c-.459.525-2.362-1.115-3.215-2.723-1.968-3.707-5.15-6.265-7.774-6.265a6.082,6.082,0,0,0-5.937,4.756,6.8,6.8,0,0,0,3.411,6.922,19.968,19.968,0,0,0,6.692,2.493,8.16,8.16,0,0,1,2.526.689c2.821,1.279,4.3,3.215,6.134,7.971,1.542,4,1.64,4.56.787,5.412-1.378,1.378-2.919.82-6.429-2.263-4.33-3.838-7.151-5.577-9.087-5.577-2.985,0-5.478,3.411-5.511,7.512,0,2.493.689,3.838,2.526,4.855,1.9,1.05,3.018,1.181,10.1,1.214,6.331.033,6.626.066,8.365.886a9.566,9.566,0,0,1,4.953,5.052c1.214,2.493,1.247,4.166.131,5.249a2.528,2.528,0,0,1-1.181.82,29.809,29.809,0,0,1-3.838-2.165c-6.626-4.166-9.218-4.888-12.4-3.444-2.723,1.247-5.347,4.4-5.38,6.429a7.263,7.263,0,0,0,2.034,4.592c2.263,2.591,4.264,2.985,8.824,1.837,6.233-1.607,10.1-1.673,13.252-.23a15.954,15.954,0,0,1,6.134,6.036c.623,1.378.623,1.443.033,2.624a4.764,4.764,0,0,1-1.476,1.706c-1.247.689-3.018.131-7.086-2.132-3.608-2.034-5.708-2.493-8.168-1.837-1.87.492-4.428,2.624-5.9,4.822a6.243,6.243,0,0,0-1.345,3.871,4.185,4.185,0,0,0,.886,3.477,7.094,7.094,0,0,0,7.61,3.28,25.7,25.7,0,0,0,5.183-2.2c5.642-2.985,6.331-3.313,8.168-3.641,4.363-.787,7.217.919,11.055,6.692,2.624,3.936,7.709,9.611,9.414,10.5a4.422,4.422,0,0,0,4.494-.328l1.05-.787-2.263-1.935c-1.247-1.05-3.247-2.723-4.461-3.707a18.144,18.144,0,0,1-5.741-7.348c-.262-.689-.2-.886.492-1.345a1.483,1.483,0,0,1,1.771-.164,9.544,9.544,0,0,0,2.952.394c3.313,0,5.183-1.673,7.085-6.3,1.05-2.591,1.214-6.134.361-7.741a5.906,5.906,0,0,0-6.561-3.084c-1.673.492-3.74,2.624-5.117,5.281-1.312,2.526-2.231,3.575-3.051,3.575-.886,0-3.772-2.821-4.888-4.756-1.771-3.084-1.05-5.839,2.132-8a43.69,43.69,0,0,1,4.822-2.592c5.347-2.493,7.348-5.249,7.348-9.906-.033-4.166-3.641-7.25-7.315-6.266a8.658,8.658,0,0,0-3.28,2.395c-2.723,2.821-3.215,3.477-4.658,6.462-1.87,3.805-3.707,4.855-5.675,3.313-.984-.787-1.378-1.9-1.9-5.249a18.346,18.346,0,0,0-1.115-4.133c-1.017-2.263-1.279-3.576-.853-4.363.591-1.05,1.476-1.082,4.133-.2a15.477,15.477,0,0,0,3.543.82c2.3,0,4.1-1.968,4.822-5.281.525-2.395-.164-4.855-2.165-7.84-2.395-3.543-2.493-3.674-4.133-3.838-2.559-.3-3.969.722-7.348,5.347l-.722.951-.984-.951c-1.607-1.509-1.771-2.3-1.64-7.479.131-5.281.394-6.134,2.427-7.676,2.329-1.8,4.3-.951,6.2,2.591a42.013,42.013,0,0,0,2.591,4.035l1.64,2.362,2.067.164c2.854.23,4.232-.164,5.675-1.575,3.608-3.543,3.772-9.644.328-12.76-2.1-1.9-4.035-1.935-8.463-.164-3.969,1.575-5.413,1.148-6.3-1.837-.623-2.132.066-3.346,3.313-5.741,2.46-1.8,2.854-1.968,4.363-1.968a17.228,17.228,0,0,1,4.232.82c2.985.951,3.543.984,5.577.3a7.252,7.252,0,0,0,2.985-2.132c1.378-1.542,2.821-4.527,2.821-5.806a6.221,6.221,0,0,0-2.362-3.936c-2.067-1.279-6.1-.787-10.1,1.247a14.142,14.142,0,0,1-2.3.984c-.59,0-.066-2.132,1.575-6.561a25.967,25.967,0,0,0,1.542-5.314c0-1.41-.787-2.395-2.427-3.083A3.615,3.615,0,0,0,236.771-460.345Z" transform="translate(-111.308 -56.194)" fill="#78c1ff"/>
                                     <path id="Path_4" data-name="Path 4" d="M129.659-441.245a8.425,8.425,0,0,0-1.87,1.87,3.826,3.826,0,0,0-.656,3.051,5.407,5.407,0,0,0,.82,2.788A5.292,5.292,0,0,0,136.81-434a5.309,5.309,0,0,0-4.494-8A4.447,4.447,0,0,0,129.659-441.245Z" transform="translate(-59.148 -66.211)" fill="#fff"/>
@@ -223,7 +224,7 @@
                                 </g>
                             </svg>
 
-                            <h2>Algebehandling</h2>
+                            <h2 data-aos="fade-down">Algebehandling</h2>
                         </div>
                     </div>
                     <div class="flip-box-back">
@@ -241,7 +242,7 @@
                 <div class="flip-box-inner">
                     <div class="flip-box-front">
                         <div class="frontinner mt-4">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="60" height="122" viewBox="0 0 133.722 112">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="60" height="122" viewBox="0 0 133.722 112" data-aos="fade-down">
                                 <g id="Group_26" data-name="Group 26" transform="translate(7039.136 -5120)">
                                     <rect id="Rectangle_394" data-name="Rectangle 394" width="103.176" height="26.473" transform="translate(-7039.136 5120)" fill="#78c1ff"/>
                                     <rect id="Rectangle_395" data-name="Rectangle 395" width="103.176" height="26.473" transform="translate(-7008.59 5205.527)" fill="#78c1ff"/>
@@ -280,7 +281,7 @@
                                 </g>
                             </svg>
 
-                            <h2>Facaderens</h2>
+                            <h2 data-aos="fade-down">Facaderens</h2>
                     </div>
                     </div>
                     <div class="flip-box-back">
@@ -299,7 +300,7 @@
                 <div class="flip-box-inner">
                     <div class="flip-box-front">
                         <div class="frontinner mt-4">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="60" height="122" viewBox="0 0 185.285 112">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="60" height="122" viewBox="0 0 185.285 112" data-aos="fade-down">
                                 <g id="Group_33" data-name="Group 33" transform="translate(-1250.357 -2734)">
                                     <rect id="Rectangle_389" data-name="Rectangle 389" width="17.329" height="25.774" transform="translate(1276.485 2768.673)" fill="#d9eeff"/>
                                     <path id="Path_711" data-name="Path 711" d="M67.6.393l77.608-.33L101.332,107.948H12.281Z" transform="translate(1238.076 2733.938)" fill="#78c1ff"/>
@@ -311,7 +312,7 @@
                                 </g>
                             </svg>
 
-                            <h2>Tagrens og Maling</h2>
+                            <h2 data-aos="fade-down">Tagrens og Maling</h2>
                         </div>
 
                     </div>
@@ -335,15 +336,15 @@
         <div class="row">
             <div class="kundesek col-12">
                 <div>
-                    <h2 class="andover mb-3">Overskrift</h2>
-                    <p class="andtekst mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    <h2 class="andover mb-3" data-aos="fade-down">Overskrift</h2>
+                    <p class="andtekst mb-4" data-aos="fade-down">Lorem ipsum dolor sit amet consectetur adipisicing elit.
                         Praesentium ea explicabo nisi.
                     </p>
                 </div>
 
 
 
-                <ul class="nav nav-pills justify-content-center mb-3" id="pills-tab" role="tablist">
+                <ul class="nav nav-pills justify-content-center mb-3" id="pills-tab" role="tablist" data-aos="fade-down">
                     <li class="nav-item" role="presentation">
                         <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">
                             <img src="image/before-after-placeholder.png" alt="">
@@ -364,7 +365,7 @@
                 <div class="tab-content" id="pills-tabContent">
                     <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
 
-                        <div class="review">
+                        <div class="review" data-aos="fade-down">
                             <div class="stars">
                                 <i class="bx bxs-star"></i>
                                 <i class="bx bxs-star"></i>
@@ -412,8 +413,8 @@
 
 
 
-<div class="booksektion px-5 py-5 text-left ">
-    <div class="bookosek">
+<div class="booksektion px-5 py-5 text-left">
+    <div class="bookosek" data-aos="fade-down">
         <h2 class="bookover">Overskrift</h2>
         <p class="booktekst">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
             sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
@@ -430,5 +431,14 @@
 
 
 <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+    AOS.init({
+        duration: 3000,
+        once: true,
+    });
+</script>
+
 </body>
 </html>
