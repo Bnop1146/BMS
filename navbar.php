@@ -76,20 +76,20 @@
                        data-bs-toggle="dropdown" aria-expanded="false">
                         Tjenester
                     </a>
-                    <ul class="dropdown-menu dropdown-menu-macos mx-0 shadow" style="width: 220px;">
-                        <li><a class="dropdown-item" href="#">Action</a></li>
+                    <ul class="dropdown-menu dropdown-menu-macos mx-0 shadow">
+                        <li><a class="dropdown-item" href="#">Fliserens</a></li>
                         <li>
                             <hr class="dropdown-divider">
                         </li>
-                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><a class="dropdown-item" href="#">Algebehandling</a></li>
                         <li>
                             <hr class="dropdown-divider">
                         </li>
-                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        <li><a class="dropdown-item" href="#">Facaderens</a></li>
                         <li>
                             <hr class="dropdown-divider">
                         </li>
-                        <li><a class="dropdown-item" href="#">Separated link</a></li>
+                        <li><a class="dropdown-item" href="#">Tagrens og Maling</a></li>
                     </ul>
                 </li>
                 <li class="nav-item">
