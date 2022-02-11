@@ -10,8 +10,8 @@
     <meta charset="utf-8">
 
     <!-- Titel som ses oppe i browserens tab mv. -->
-    <title>BMS - Fliserens</title>
-    <link rel="shortcut icon" type="image/x-icon" href="image/favicon.ico"/>
+    <title>BMS - Facaderens</title>
+    <link rel="shortcut icon" type="image/x-icon" href="image/favicon.ico" />
 
     <!-- Metatags der fortæller at søgemaskiner er velkomne, hvem der udgiver siden og copyright information -->
     <meta name="robots" content="All">
@@ -23,7 +23,8 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css">
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
-    <link href="css/fliserens.css" rel="stylesheet" type="text/css">
+    <link href="css/facaderens.css" rel="stylesheet" type="text/css">
+
 
 
     <!-- Sikrer den vises korrekt på mobil, tablet mv. ved at tage ift. skærmstørrelse - bliver brugt til responsive websider -->
@@ -34,14 +35,14 @@
 <!-- i <body> har man alt indhold på siden som brugeren kan se -->
 <body>
 
-<?php include 'navbar.php'; ?>
+<?php include 'navbar.php';?>
 
 <div class="hero-full-screen">
 
     <div class="top-content-section"></div>
 
     <div class="middle-content-section">
-        <h1>Fliserens Placeholder</h1>
+        <h1>Facaderens Placeholder</h1>
     </div>
 
     <div class="bottom-content-section" data-magellan data-threshold="0">
@@ -55,11 +56,12 @@
 </div>
 
 
+
 <div id="main-content-section" data-magellan-target="main-content-section"></div>
 
-<br><br><br>
+    <br><br><br>
 
-<div class="omcon container p-4 mb-3 mb-lg-5">
+    <div class="omcon container p-4 mb-3 mb-lg-5">
     <div class="row mt-5 ">
         <div class="om1sek  col-sm-12 col-md-6 col-lg-6" data-aos="fade-down">
             <p class="om1over ">Overskrift</p>
@@ -79,11 +81,11 @@
     </div>
 </div>
 
-<br>
+    <br>
 
 <div class="bg-light p-2">
-    <div class="prisTjenester container p-5 mt-5 mb-5 bg-light">
-        <div class="row col-md-6 offset-md-3" data-aos="fade-down">
+    <div class="prisTjenester container p-5 mt-5 mb-5 bg-light" >
+        <div class="row col-md-6 offset-md-3" data-aos="fade-down" >
             <div class="">
                 <h2>Overskrift</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur
@@ -91,20 +93,17 @@
                     blandit tortor quis, convallis mauris.</p>
                 <br>
 
-                <button class="btn-tjenester" data-aos="fade-down">
-                    <a class="btn text-white" href="kontakt.php" role="button" >
 
-                        <span class="spinner-grow spinner-grow-sm text-white"></span>
-                        Klik her
-
-                    </a>
+                <button class="btn-tjenester " data-aos="fade-down">
+                    <span class="spinner-grow spinner-grow-sm"></span>
+                    Læs mere
                 </button>
             </div>
         </div>
     </div>
 </div>
 
-<br><br>
+    <br><br>
 
 <div class="omcon2 container p-4 mb-3 mb-lg-5">
     <div class="row">
@@ -129,7 +128,8 @@
 </div>
 
 
-<?php include 'footer.php'; ?>
+
+<?php include 'footer.php';?>
 
 
 <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>

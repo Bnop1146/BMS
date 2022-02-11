@@ -1,0 +1,186 @@
+.hero-full-screen {
+  height: 100vh;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  background: url("https://images.pexels.com/photos/378273/pexels-photo-378273.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb") center center no-repeat;
+  background-size: cover;
+}
+
+.hero-full-screen .middle-content-section {
+  text-align: center;
+  color: #fefefe;
+}
+
+.hero-full-screen .top-content-section {
+  width: 100%;
+}
+
+.hero-full-screen .bottom-content-section {
+  padding: 1rem;
+}
+
+.hero-full-screen .bottom-content-section svg {
+  height: 3.75rem;
+  width: 3.75rem;
+  fill: #fefefe;
+}
+
+.hero-full-screen .top-bar {
+  background: transparent;
+}
+
+.hero-full-screen .top-bar .menu {
+  background: transparent;
+}
+
+.hero-full-screen .top-bar .menu-text {
+  color: #fefefe;
+}
+
+.hero-full-screen .top-bar .menu li {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.hero-full-screen .top-bar .menu a {
+  color: #fefefe;
+  font-weight: bold;
+}
+
+
+
+
+.hidden-spacer {
+  height: 56px
+}
+
+.prisTjenester{
+  text-align: center;
+}
+
+
+.btn-tjenester{
+  background-color: #78C1FF;
+  color: white;
+  width: 175px;
+  height: 50px;
+  border-radius: 25px;
+  border: none;
+}
+
+.omcon{
+  text-align: center;
+}
+
+.omcon2{
+  text-align: center;
+}
+
+
+
+.om1over{
+  margin-top: 3rem;
+  font-size: 22px;
+  color: var(--tekstfarve);
+  font-weight: bold;
+  font-family: var(--overskrift-font);
+}
+
+.om1tekst{
+  color: var(--tekstfarve);
+  font-size: 13px;
+  line-height: 2.5;
+  font-family: var(--tekst-font);
+}
+
+@media screen and (min-width: 768px){
+  .om1over{
+    margin-top: 0;
+  }
+
+  .om2billede{
+    height: 230px;
+  }
+
+  .omcon{
+    margin-bottom: 60px;
+    text-align: left;
+  }
+
+  .omcon2{
+    text-align: left;
+  }
+
+
+  .om2sek{
+    padding: 0;
+  }
+
+  .heroimage{
+    height: 35vh;
+  }
+  .heroover{
+    font-size: 36px;
+  }
+}
+
+@media screen and (min-width: 1024px){
+  .omcon{
+    text-align: left;
+  }
+
+  .omcon2{
+    text-align: left;
+  }
+
+  .heroover{
+    font-size: 40px;
+  }
+
+  .om1sek{
+
+  }
+
+  .om1over{
+    font-size: 24px;
+  }
+  .om1tekst{
+    font-size: 14px;
+  }
+  .om1line{
+    width: 15%;
+  }
+
+  .om2billede{
+
+
+  }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
