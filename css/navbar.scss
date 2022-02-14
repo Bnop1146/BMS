@@ -57,6 +57,10 @@
   transition: background-color 200ms linear;
 }
 
+.dropdown-item.active, .dropdown-item:active{
+  background-color: transparent!important;
+}
+
 @media screen and (min-width: 768px){
   .logosvg{
     width: 190px;
