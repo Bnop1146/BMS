@@ -5,11 +5,31 @@
   transform: translate(-50%, -50%);
 }
 
-
-
-.text-giant {
-  font-size: 40px;
+.prisinner{
+  padding: 40px;
 }
+
+.prisover{
+  font-family: var(--overskrift-font);
+  font-size: 22px;
+}
+
+.pristekst{
+  font-family: var(--tekst-font);
+  font-size: 13px;
+}
+.pristotal{
+  font-family: var(--tekst-font);
+  font-size: 30px;
+  color: var(--ikonercta);
+}
+ .prisberegner label{
+   font-family: var(--tekst-font);
+   font-size: 15px;
+   line-height: 2;
+
+ }
+
 
 .slidecontainer {
   width: 100%;
@@ -37,7 +57,7 @@
   width: 25px;
   height: 25px;
   border-radius: 50%;
-  background: #78C1FF;
+  background: var(--ikonercta);
   cursor: pointer;
 }
 
@@ -45,6 +65,32 @@
   width: 25px;
   height: 25px;
   border-radius: 50%;
-  background: #78C1FF;
+  background: var(--ikonercta);
   cursor: pointer;
+}
+
+@media screen and (min-width: 768px){
+  .priscon{
+    width: 90%;
+  }
+  .prisinner{
+    padding: 60px;
+  }
+
+}
+
+@media screen and (min-width: 1024px){
+  .priscon{
+    width: 60% !important;
+  }
+  .prisinner{
+    padding: 40px;
+  }
+  .prisover{
+    font-size: 24px;
+  }
+  .pristekst{
+    font-size: 14px;
+  }
+
 }

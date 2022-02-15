@@ -35,11 +35,16 @@
 
 
 
-<div class="container">
 
-    <h2 class="text-center">Udregn din cirka pris her</h2>
 
-    <form class="">
+<div class="priscon container shadow-lg">
+    <div class="prisinner">
+
+    <h2 class="prisover text-center">Udregn din pris her</h2>
+
+    <p class="pristekst text-center">Få en cirka pris her, for hvad det kan koste</p>
+
+    <form class="prisberegner">
         <div class="form-group">
             <label for="price">Price</label>
             <input type="text" name="price" value="53" class="form-control" readonly>
@@ -55,13 +60,15 @@
 
     </form>
 
-    <div class="text-center text-giant total">
+    <div class="pristotal text-end mt-5 text-giant total">
+    </div>
+
     </div>
 
 </div>
 
 
-<script src="js/udregner.js"></script>
+<script src="Js/udregner.js"></script>
 
 
 <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>

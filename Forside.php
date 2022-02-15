@@ -172,7 +172,7 @@
     </div>
 </div>
 
-<div class="flipcon container" >
+<div class="flipcon container">
     <div class="fliprow row">
 
         <div class="col-sm-12 col-md-6 col-lg-6 mb-4">
@@ -333,6 +333,10 @@
 
     </div>
 </div>
+
+
+<?php include 'udregner.php';?>
+
 
 <div class="baggrundb">
 
