@@ -57,85 +57,98 @@
 
 <div id="main-content-section" data-magellan-target="main-content-section"></div>
 
-
-
-    <div class="gallery p-5" id="gallery">
-        <div class="gallery-item">
-            <div class="content"><img src="https://source.unsplash.com/random/?tech,care" alt=""></div>
-        </div>
-        <div class="gallery-item">
-            <div class="content"><img src="https://source.unsplash.com/random/?tech,studied" alt=""></div>
-        </div>
-        <div class="gallery-item">
-            <div class="content"><img src="https://source.unsplash.com/random/?tech,substance" alt=""></div>
-        </div>
-        <div class="gallery-item">
-            <div class="content"><img src="https://source.unsplash.com/random/?tech,choose" alt=""></div>
-        </div>
-        <div class="gallery-item">
-            <div class="content"><img src="https://source.unsplash.com/random/?tech,past" alt=""></div>
-        </div>
-        <div class="gallery-item">
-            <div class="content"><img src="https://source.unsplash.com/random/?tech,lamp" alt=""></div>
-        </div>
-        <div class="gallery-item">
-            <div class="content"><img src="https://source.unsplash.com/random/?tech,yet" alt=""></div>
-        </div>
-        <div class="gallery-item">
-            <div class="content"><img src="https://source.unsplash.com/random/?tech,eight" alt=""></div>
-        </div>
-        <div class="gallery-item">
-            <div class="content"><img src="https://source.unsplash.com/random/?tech,crew" alt=""></div>
-        </div>
-        <div class="gallery-item">
-            <div class="content"><img src="https://source.unsplash.com/random/?tech,event" alt=""></div>
-        </div>
-        <div class="gallery-item">
-            <div class="content"><img src="https://source.unsplash.com/random/?tech,instrument" alt=""></div>
-        </div>
-        <div class="gallery-item">
-            <div class="content"><img src="https://source.unsplash.com/random/?tech,practical" alt=""></div>
-        </div>
-        <div class="gallery-item">
-            <div class="content"><img src="https://source.unsplash.com/random/?tech,pass" alt=""></div>
-        </div>
-        <div class="gallery-item">
-            <div class="content"><img src="https://source.unsplash.com/random/?tech,bigger" alt=""></div>
-        </div>
-        <div class="gallery-item">
-            <div class="content"><img src="https://source.unsplash.com/random/?tech,number" alt=""></div>
-        </div>
-        <div class="gallery-item">
-            <div class="content"><img src="https://source.unsplash.com/random/?tech,feature" alt=""></div>
-        </div>
-        <div class="gallery-item">
-            <div class="content"><img src="https://source.unsplash.com/random/?tech,line" alt=""></div>
-        </div>
-        <div class="gallery-item">
-            <div class="content"><img src="https://source.unsplash.com/random/?tech,railroad" alt=""></div>
-        </div>
-        <div class="gallery-item">
-            <div class="content"><img src="https://source.unsplash.com/random/?tech,pride" alt=""></div>
-        </div>
-        <div class="gallery-item">
-            <div class="content"><img src="https://source.unsplash.com/random/?tech,too" alt=""></div>
-        </div>
-        <div class="gallery-item">
-            <div class="content"><img src="https://source.unsplash.com/random/?tech,bottle" alt=""></div>
-        </div>
-        <div class="gallery-item">
-            <div class="content"><img src="https://source.unsplash.com/random/?tech,base" alt=""></div>
-        </div>
-        <div class="gallery-item">
-            <div class="content"><img src="https://source.unsplash.com/random/?tech,cell" alt=""></div>
-        </div>
-        <div class="gallery-item">
-            <div class="content"><img src="https://source.unsplash.com/random/?tech,bag" alt=""></div>
-        </div>
-        <div class="gallery-item">
-            <div class="content"><img src="https://source.unsplash.com/random/?tech,card" alt=""></div>
+<div class="container p-4">
+    <div class="omkontakt mt-4 p-5 text-center" id="omkontakt">
+        <div class="kontaktcon container">
+            <h2 class="kontaktover" data-aos="fade-down">Vores arbejde Taler for sig selv</h2>
+            <div class="kontaktline" data-aos="fade-down"></div>
+            <p class="kontakttekst mt-3" data-aos="fade-down">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Ut enim ad minim veniam, quis nostrud
+                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            </p>
         </div>
     </div>
+</div>
+
+<div class="gallery p-5" id="gallery">
+    <div class="gallery-item">
+        <div class="content"><img src="https://source.unsplash.com/random/?tech,care" alt=""></div>
+    </div>
+    <div class="gallery-item">
+        <div class="content"><img src="https://source.unsplash.com/random/?tech,studied" alt=""></div>
+    </div>
+    <div class="gallery-item">
+        <div class="content"><img src="https://source.unsplash.com/random/?tech,substance" alt=""></div>
+    </div>
+    <div class="gallery-item">
+        <div class="content"><img src="https://source.unsplash.com/random/?tech,choose" alt=""></div>
+    </div>
+    <div class="gallery-item">
+        <div class="content"><img src="https://source.unsplash.com/random/?tech,past" alt=""></div>
+    </div>
+    <div class="gallery-item">
+        <div class="content"><img src="https://source.unsplash.com/random/?tech,lamp" alt=""></div>
+    </div>
+    <div class="gallery-item">
+        <div class="content"><img src="https://source.unsplash.com/random/?tech,yet" alt=""></div>
+    </div>
+    <div class="gallery-item">
+        <div class="content"><img src="https://source.unsplash.com/random/?tech,eight" alt=""></div>
+    </div>
+    <div class="gallery-item">
+        <div class="content"><img src="https://source.unsplash.com/random/?tech,crew" alt=""></div>
+    </div>
+    <div class="gallery-item">
+        <div class="content"><img src="https://source.unsplash.com/random/?tech,event" alt=""></div>
+    </div>
+    <div class="gallery-item">
+        <div class="content"><img src="https://source.unsplash.com/random/?tech,instrument" alt=""></div>
+    </div>
+    <div class="gallery-item">
+        <div class="content"><img src="https://source.unsplash.com/random/?tech,practical" alt=""></div>
+    </div>
+    <div class="gallery-item">
+        <div class="content"><img src="https://source.unsplash.com/random/?tech,pass" alt=""></div>
+    </div>
+    <div class="gallery-item">
+        <div class="content"><img src="https://source.unsplash.com/random/?tech,bigger" alt=""></div>
+    </div>
+    <div class="gallery-item">
+        <div class="content"><img src="https://source.unsplash.com/random/?tech,number" alt=""></div>
+    </div>
+    <div class="gallery-item">
+        <div class="content"><img src="https://source.unsplash.com/random/?tech,feature" alt=""></div>
+    </div>
+    <div class="gallery-item">
+        <div class="content"><img src="https://source.unsplash.com/random/?tech,line" alt=""></div>
+    </div>
+    <div class="gallery-item">
+        <div class="content"><img src="https://source.unsplash.com/random/?tech,railroad" alt=""></div>
+    </div>
+    <div class="gallery-item">
+        <div class="content"><img src="https://source.unsplash.com/random/?tech,pride" alt=""></div>
+    </div>
+    <div class="gallery-item">
+        <div class="content"><img src="https://source.unsplash.com/random/?tech,too" alt=""></div>
+    </div>
+    <div class="gallery-item">
+        <div class="content"><img src="https://source.unsplash.com/random/?tech,bottle" alt=""></div>
+    </div>
+    <div class="gallery-item">
+        <div class="content"><img src="https://source.unsplash.com/random/?tech,base" alt=""></div>
+    </div>
+    <div class="gallery-item">
+        <div class="content"><img src="https://source.unsplash.com/random/?tech,cell" alt=""></div>
+    </div>
+    <div class="gallery-item">
+        <div class="content"><img src="https://source.unsplash.com/random/?tech,bag" alt=""></div>
+    </div>
+    <div class="gallery-item">
+        <div class="content"><img src="https://source.unsplash.com/random/?tech,card" alt=""></div>
+    </div>
+</div>
 
 
 <?php include 'footer.php'; ?>
