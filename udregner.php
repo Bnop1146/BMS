@@ -35,7 +35,7 @@
 
 
 
-<div class=" col-md-6 center ">
+<div class="container">
 
     <h2 class="text-center">Udregn din cirka pris her</h2>
 

@@ -60,9 +60,9 @@
 <div class="container p-4">
     <div class="omkontakt mt-4 p-5 text-center" id="omkontakt">
         <div class="kontaktcon container">
-            <h2 class="kontaktover" data-aos="fade-down">Vores arbejde Taler for sig selv</h2>
-            <div class="kontaktline" data-aos="fade-down"></div>
-            <p class="kontakttekst mt-3" data-aos="fade-down">
+            <h2 class="kontaktover" >Vores arbejde Taler for sig selv</h2>
+            <div class="kontaktline" ></div>
+            <p class="kontakttekst mt-3" >
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                 sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 Ut enim ad minim veniam, quis nostrud
@@ -71,6 +71,9 @@
         </div>
     </div>
 </div>
+
+
+<?php include 'udregner.php';?>
 
 <div class="gallery p-5" id="gallery">
     <div class="gallery-item">
