@@ -46,12 +46,12 @@
 
     <form class="prisberegner">
         <div class="form-group">
-            <label for="price">Price</label>
+            <label for="price">Pris pr. m²</label>
             <input type="text" name="price" value="53" class="form-control" readonly>
         </div>
 
         <div class="form-group mt-3">
-            <label for="quantity">Kvardrat meter
+            <label for="quantity">Antal m²
                 <span class="label label-primary quantity-label"></span>
 
             </label>
@@ -68,12 +68,13 @@
 </div>
 
 
-<script src="Js/udregner.js"></script>
+<script src="js/udregner.js"></script>
 
 
-<script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
 
 
 </body>
 </html>
+
 
