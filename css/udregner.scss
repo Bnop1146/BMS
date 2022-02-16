@@ -61,6 +61,19 @@
       box-shadow: none!important;
     }
 }
+
+.form-select{
+  color: var(--tekstfarve);
+  font-size: 15px;
+  font-family: var(--tekst-font);
+  background-color:#D9EEFF!important;
+  border: none!important;
+
+  &:focus{
+    box-shadow: none!important;
+  }
+}
+
 .slider:hover {
   opacity: 1;
 }
