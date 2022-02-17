@@ -73,7 +73,6 @@
 </div>
 
 
-<?php include 'udregner.php';?>
 
 <div class="gallery p-5" id="gallery">
     <div class="gallery-item">

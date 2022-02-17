@@ -59,76 +59,78 @@
 
 <br><br><br>
 
-<div class="omcon container p-4 mb-3 mb-lg-5">
-    <div class="row mt-5 ">
-        <div class="om1sek  col-sm-12 col-md-6 col-lg-6" data-aos="fade-down">
-            <p class="om1over ">Overskrift</p>
-            <div class="om1line"></div>
-            <p class="om1tekst mb-4 ">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                Ut enim ad minim veniam, quis nostrud
-                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-            </p>
+<div class="background pb-2">
 
-        </div>
+    <div class="omcon container p-4 mb-3 mb-lg-5">
+        <div class="row mt-5 ">
+            <div class="om1sek  col-sm-12 col-md-6 col-lg-6" data-aos="fade-down">
+                <p class="om1over ">Overskrift</p>
+                <div class="om1line"></div>
+                <p class="om1tekst mb-4 ">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    Ut enim ad minim veniam, quis nostrud
+                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                </p>
 
-        <div class="om2sek col-sm-12 col-md-6 col-lg-6" data-aos="fade-down">
-            <img src="image/before-after-placeholder.png" class="om2billede img-fluid" alt="">
-        </div>
-    </div>
-</div>
+            </div>
 
-<br>
-
-<div class="bg-light p-2">
-    <div class="prisTjenester container p-5 mt-5 mb-5 bg-light">
-        <div class="row col-md-6 offset-md-3" data-aos="fade-down">
-            <div class="">
-                <h2>Overskrift</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur
-                    adipiscing elit. Maecenas id erat accumsan
-                    blandit tortor quis, convallis mauris.</p>
-                <br>
-
-                <button class="btn-tjenester" data-aos="fade-down">
-                    <a class="btn text-white" href="kontakt.php" role="button" >
-
-                        <span class="spinner-grow spinner-grow-sm text-white"></span>
-                        Klik her
-
-                    </a>
-                </button>
-
+            <div class="om2sek col-sm-12 col-md-6 col-lg-6" data-aos="fade-down">
+                <img src="image/before-after-placeholder.png" class="om2billede img-fluid" alt="">
             </div>
         </div>
     </div>
-</div>
 
-<br><br>
+    <br>
 
-<div class="omcon2 container p-4 mb-3 mb-lg-5">
-    <div class="row">
+    <div class="bg-light p-2">
+        <div class="prisTjenester container p-5 mt-5 mb-5 bg-light">
+            <div class="row col-md-6 offset-md-3" data-aos="fade-down">
+                <div class="">
+                    <h2>Overskrift</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur
+                        adipiscing elit. Maecenas id erat accumsan
+                        blandit tortor quis, convallis mauris.</p>
+                    <br>
 
-        <div class="om2sek col-sm-12 col-md-6 col-lg-6" data-aos="fade-down">
-            <img src="image/video-placeholder.png" class="om2billede img-fluid" alt="">
+                    <button class="btn-tjenester" data-aos="fade-down">
+                        <a class="btn text-white" href="kontakt.php" role="button">
+
+                            <span class="spinner-grow spinner-grow-sm text-white"></span>
+                            Klik her
+
+                        </a>
+                    </button>
+
+                </div>
+            </div>
         </div>
+    </div>
 
-        <div class="om1sek col-sm-12 col-md-6 col-lg-6 " data-aos="fade-down">
-            <p class="om1over">Overskrift</p>
-            <div class="om1line"></div>
-            <p class="om1tekst">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                Ut enim ad minim veniam, quis nostrud
-                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-            </p>
+    <br><br>
+
+    <div class="omcon2 container p-4 mb-3 mb-lg-5">
+        <div class="row">
+
+            <div class="om2sek col-sm-12 col-md-6 col-lg-6" data-aos="fade-down">
+                <img src="image/video-placeholder.png" class="om2billede img-fluid" alt="">
+            </div>
+
+            <div class="om1sek col-sm-12 col-md-6 col-lg-6 " data-aos="fade-down">
+                <p class="om1over">Overskrift</p>
+                <div class="om1line"></div>
+                <p class="om1tekst">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    Ut enim ad minim veniam, quis nostrud
+                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                </p>
+
+            </div>
 
         </div>
-
     </div>
 </div>
-
 
 <?php include 'footer.php'; ?>
 
