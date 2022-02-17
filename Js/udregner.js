@@ -1,6 +1,6 @@
 // Grab the things I need in the DOM
 
-const priceInput = document.querySelector("[name=price]");
+const priceInput = document.getElementById('price')
 const quantityInput = document.querySelector("[name=quantity]");
 const total = document.querySelector(".total");
 const quantityLabel = document.querySelector(".quantity-label");
@@ -10,13 +10,11 @@ function calculatePieCost() {
     const price = priceInput.value;
     const quantity = quantityInput.value;
     const cost = price * quantity;
-    console.log(cost);
     total.innerText = "kr." + cost.toFixed(2);
 }
 
 function updateQuantityLabel(argument) {
-    const quantity = quantityInput.value;
-    quantityLabel.innerText = quantity;
+    quantityLabel.innerText = quantityInput.value;
 }
 
 
@@ -27,3 +25,4 @@ calculatePieCost();
 priceInput.addEventListener("input", calculatePieCost);
 quantityInput.addEventListener("input", calculatePieCost);
 quantityInput.addEventListener("input", updateQuantityLabel);
+

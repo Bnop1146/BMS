@@ -45,9 +45,16 @@
     <p class="pristekst text-center">Få en cirka pris her, for hvad det kan koste</p>
 
     <form class="prisberegner">
-        <div class="form-group">
+        <div class="form-group ">
             <label for="price">Pris pr. m²</label>
-            <input type="text" name="price" value="53" class="form-control" readonly>
+            <select class="form-select" id="price">
+                <option disabled selected value="0">Vælg en Tjeneste</option>
+                <option value="100">Fliserens</option>
+                <option value="54">Algebehandling</option>
+                <option value="73">Facaderens</option>
+                <option value="143">Tagrens og Maling</option>
+            </select>
+
         </div>
 
         <div class="form-group mt-3">

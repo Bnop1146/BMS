@@ -16,11 +16,13 @@
 .prisover{
   font-family: var(--overskrift-font);
   font-size: 22px;
+  color: var(--tekstfarve);
 }
 
 .pristekst{
   font-family: var(--tekst-font);
   font-size: 13px;
+  color: var(--tekstfarve);
 }
 .pristotal{
   font-family: var(--tekst-font);
@@ -59,6 +61,19 @@
       box-shadow: none!important;
     }
 }
+
+.form-select{
+  color: var(--tekstfarve);
+  font-size: 15px;
+  font-family: var(--tekst-font);
+  background-color:#D9EEFF!important;
+  border: none!important;
+
+  &:focus{
+    box-shadow: none!important;
+  }
+}
+
 .slider:hover {
   opacity: 1;
 }
