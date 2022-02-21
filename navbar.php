@@ -98,12 +98,13 @@
                 <li class="nav-item">
                     <a class="nav-link4 nav-link " href="kontakt.php">Kontakt</a>
                 </li>
+
             </ul>
         </div>
     </div>
 </nav>
 
-<script src="js/Navbar_Scroll.js"></script>
+<script src="Js/Navbar_Scroll.js"></script>
 
 
 
