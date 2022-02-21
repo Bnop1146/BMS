@@ -337,28 +337,7 @@
 
 
 
-<div class="container my-5" data-aos="fade-down">
-    <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg">
 
-        <div class="col-sm-12 col-md-6 col-lg-5 offset-lg-1 p-3 p-lg-5 pt-lg-3 mt-md-3 mb-md-3 mt-lg-4 mb-lg-4">
-            <h1 class="vidstover display-4 fw-bold lh-1">Overskrift</h1>
-            <p class="vidsttekst">orem ipsum dolor sit amet consectetur
-                adipisicing elit. Praesentium ea explicabo nisi quia blanditiis assumenda
-                quos veritatis.</p>
-            <div class="d-grid gap-2 d-md-flex justify-content-md-start mb-4 mb-lg-3">
-                <a class="vidstknap btn" href="#" role="button">
-                    <span class="spinner-grow spinner-grow-sm me-2"></span>
-                    læs mere
-                </a>
-            </div>
-        </div>
-        <div class="col-sm-12 col-md-6 col-lg-4  mb-4 overflow-hidden">
-            <div class="ratio ratio-16x9">
-                <iframe src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0" title="YouTube video" allowfullscreen></iframe>
-            </div>
-        </div>
-    </div>
-</div>
 
 
 
