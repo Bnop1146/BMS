@@ -9,7 +9,7 @@ const navLink4 = document.querySelector('.nav-link4');
 
 window.addEventListener('scroll', function () {
     if (window.pageYOffset > 400) {
-        logo.setAttribute("fill", "#78C1FF");
+        logo.setAttribute("fill", "#2871cc");
         burger.setAttribute("fill", "black")
         nav.classList.add('bg-light', 'shadow');
         navLink.classList.add('text-black');
@@ -31,3 +31,4 @@ window.addEventListener('scroll', function () {
 
     }
 });
+
