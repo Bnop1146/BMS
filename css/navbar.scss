@@ -61,7 +61,39 @@
   background-color: transparent!important;
 }
 
+.header-cta-info {
+  display: none;
+  min-width: 240px;
+  padding-top: 6px;
+}
+
+.header-cta-info .contents {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 12px;
+
+}
+
+.header-cta-info .text {
+  font-size: 12px;
+
+
+}
+
+.header-cta-info .phone {
+  font-size: 22px;
+  font-weight: 700;
+  color: white;
+}
+
 @media screen and (min-width: 768px){
+  .header-cta-info{
+    display: flex;
+  }
+
   .logosvg{
     width: 190px;
   }
@@ -97,13 +129,14 @@
   .nav-link{
     font-size: 15px;
     margin-top: 0;
+
   }
   .dropdown-item{
     font-size: 15px;
     text-align: left!important;
   }
   .navbar-collapse{
-    margin-right: 40px;
+    margin-right: 100px!important;
   }
   .logosvg{
     width: 210px;

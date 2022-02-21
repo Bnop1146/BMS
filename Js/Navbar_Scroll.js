@@ -1,6 +1,7 @@
 const burger = document.getElementById('burger');
 const logo = document.getElementById("logo");
 const nav = document.querySelector('.navbar');
+const text = document.querySelector('.text');
 const navLink = document.querySelector('.nav-link');
 const navLink1 = document.querySelector('.nav-link1');
 const navLink2 = document.querySelector('.nav-link2');
@@ -9,9 +10,10 @@ const navLink4 = document.querySelector('.nav-link4');
 
 window.addEventListener('scroll', function () {
     if (window.pageYOffset > 400) {
-        logo.setAttribute("fill", "#2871cc");
-        burger.setAttribute("fill", "black")
+        logo.setAttribute("fill", "black");
+        burger.setAttribute("fill", "black");
         nav.classList.add('bg-light', 'shadow');
+        text.classList.add('text-black');
         navLink.classList.add('text-black');
         navLink1.classList.add('text-black');
         navLink2.classList.add('text-black');
