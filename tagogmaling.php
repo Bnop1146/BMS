@@ -110,28 +110,27 @@
     </div>
 
 
+    <br>
 
-<br>
+    <div class="omcon container p-4 mb-3 mb-lg-5">
+        <div class="row mt-5 ">
+            <div class="om1sek  col-sm-12 col-md-6 col-lg-6" data-aos="fade-down">
+                <p class="om1over ">Overskrift</p>
+                <div class="om1line"></div>
+                <p class="om1tekst mb-4 ">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    Ut enim ad minim veniam, quis nostrud
+                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                </p>
 
-<div class="omcon container p-4 mb-3 mb-lg-5">
-    <div class="row mt-5 ">
-        <div class="om1sek  col-sm-12 col-md-6 col-lg-6" data-aos="fade-down">
-            <p class="om1over ">Overskrift</p>
-            <div class="om1line"></div>
-            <p class="om1tekst mb-4 ">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                Ut enim ad minim veniam, quis nostrud
-                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-            </p>
+            </div>
 
-        </div>
-
-        <div class="om2sek col-sm-12 col-md-6 col-lg-6" data-aos="fade-down">
-            <img src="image/before-after-placeholder.png" class="om2billede img-fluid" alt="">
+            <div class="om2sek col-sm-12 col-md-6 col-lg-6" data-aos="fade-down">
+                <img src="image/before-after-placeholder.png" class="om2billede img-fluid" alt="">
+            </div>
         </div>
     </div>
-</div>
 
 </div>
 
