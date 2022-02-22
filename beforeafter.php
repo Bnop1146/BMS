@@ -35,91 +35,47 @@
 <body>
 
 
-<div class="container my-5" >
-    <div class="row p-4 pb-0 pt-lg-5 align-items-center rounded-3 border shadow-lg">
 
-        <div class="col-sm-12 col-md-6 col-lg-5 offset-lg-1 p-3 p-lg-5 pt-lg-3 mt-md-3 mb-md-3 mt-lg-4 mb-lg-4">
-            <h1 class="vidstover display-4 fw-bold lh-1">Overskrift</h1>
-            <p class="vidsttekst">orem ipsum dolor sit amet consectetur
-                adipisicing elit. Praesentium ea explicabo nisi quia blanditiis assumenda
-                quos veritatis.</p>
+<div class="container my-5">
+    <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 pb-lg-5 align-items-center rounded-3 border shadow-lg">
+        <div class="col-lg-6  p-3 p-lg-5 pt-lg-3">
+            <h1 class="vidstover">Overskrift</h1>
+            <p class="vidsttekst mb-3 mt-3">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables.</p>
             <div class="d-grid gap-2 d-md-flex justify-content-md-start mb-4 mb-lg-3">
-                <a class="vidstknap btn" href="#" role="button">
-                    <span class="spinner-grow spinner-grow-sm me-2"></span>
-                    læs mere
-                </a>
+                <button type="button" class="vidstknap btn-lg px-4 me-md-2">Knap</button>
             </div>
         </div>
-        <div class="col-sm-12 col-md-6 col-lg-4 wrapper mb-4 overflow-hidden">
-            <div class="images">
-                <div class="img-1"></div>
-                <div class="img-2"></div>
-            </div>
-            <div class="slider">
-                <div class="drag-line">
-                    <span></span>
+        <div class="col-lg-4 offset-lg-1  p-0 overflow-hidden">
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="image/kontakt-placeholder.png" class="d-block w-100 mb-3" alt="...">
+                        <img src="image/kontakt-placeholder.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="image/kontakt-placeholder.png" class="d-block w-100 mb-3" alt="...">
+                        <img src="image/kontakt-placeholder.png" class="d-block w-100" alt="...">
+
+                    </div>
+                    <div class="carousel-item">
+                        <img src="image/kontakt-placeholder.png" class="d-block w-100 mb-3" alt="...">
+                        <img src="image/kontakt-placeholder.png" class="d-block w-100" alt="...">
+
+                    </div>
                 </div>
-                <input type="range" min="0" max="100" value="50">
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
             </div>
         </div>
     </div>
 </div>
 
-<!-- Slideshow container -->
-<div class="slideshow-container">
-
-    <!-- Full-width images with number and caption text -->
-    <div class="mySlides ">
-        <div class="numbertext">1 / 3</div>
-        <img src="image/forside-placeholder.png" style="width:100%">
-        <div class="text">Caption Text</div>
-    </div>
-
-    <div class="mySlides ">
-        <div class="numbertext">2 / 3</div>
-        <img src="image/kontakt-placeholder.png" style="width:100%">
-        <div class="text">Caption Two</div>
-    </div>
-
-    <div class="mySlides ">
-        <div class="numbertext">3 / 3</div>
-        <img src="image/tjenester-placeholder.png" style="width:100%">
-        <div class="text">Caption Three</div>
-    </div>
-
-    <!-- Next and previous buttons -->
-    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-    <a class="next" onclick="plusSlides(1)">&#10095;</a>
-</div>
-<br>
-
-<!-- The dots/circles -->
-<div style="text-align:center">
-    <span class="dot" onclick="currentSlide(1)"></span>
-    <span class="dot" onclick="currentSlide(2)"></span>
-    <span class="dot" onclick="currentSlide(3)"></span>
-</div>
-
-
-<script>
-    const slider = document.querySelector(".slider input");
-    const img = document.querySelector(".images .img-2");
-    const dragLine = document.querySelector(".slider .drag-line");
-    slider.oninput = () => {
-        let sliderVal = slider.value;
-        dragLine.style.left = sliderVal + "%";
-        img.style.width = sliderVal + "%";
-    }
-</script>
-
-<script src="js/beforeafter.js"></script>
-<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-<script>
-    AOS.init({
-        duration: 3000,
-        once: true,
-    });
-</script>
-
+<script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 </body>
-
+</html>

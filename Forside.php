@@ -172,6 +172,8 @@
     </div>
 </div>
 
+
+
 <div class="flipcon container">
     <div class="fliprow row">
 
@@ -333,12 +335,6 @@
 
     </div>
 </div>
-
-
-
-
-
-
 
 
 
