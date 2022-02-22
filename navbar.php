@@ -102,12 +102,12 @@
             </ul>
         </div>
         <div class="header-cta-info">
-            <figure>
-                <img class="" width="123" height="114" src="image/profil-navbar.png" alt="">
+            <figure class="img-cta-info">
+                <img  width="123" height="114" src="image/profil-navbar.png" alt="">
             </figure>
             <div class="content d-flex flex-column justify-content-center text-center">
-                <span class="text ">Ring gerne på telefon</span>
-                <span class="phone ">45 73 43 92</span>
+                <span id="tekst" class="tekst ">Ring gerne på telefon</span>
+                <span id="phone" class="phone ">45 73 43 92</span>
             </div>
         </div>
 </nav>
