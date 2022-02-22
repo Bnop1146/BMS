@@ -45,7 +45,6 @@
                 <button type="button" class="vidstknap btn-lg px-4 me-md-2">Knap</button>
             </div>
         </div>
-
         <div class="col-lg-4 offset-lg-1  p-0 overflow-hidden">
             <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
