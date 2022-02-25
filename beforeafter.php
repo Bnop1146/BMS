@@ -11,7 +11,7 @@
 
     <!-- Titel som ses oppe i browserens tab mv. -->
     <title>BMS - Facaderens</title>
-    <link rel="shortcut icon" type="image/x-icon" href="image/favicon.ico"/>
+    <link rel="shortcut icon" type="image/x-icon" href=""/>
 
     <!-- Metatags der fortæller at søgemaskiner er velkomne, hvem der udgiver siden og copyright information -->
     <meta name="robots" content="All">
@@ -39,6 +39,7 @@
 <div class="container my-5">
     <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 pb-lg-5 align-items-center rounded-3 border shadow-lg">
         <div class="col-lg-6  p-3 p-lg-5 pt-lg-3">
+            
             <h1 class="vidstover">Overskrift</h1>
             <p class="vidsttekst mb-3 mt-3">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables.</p>
             <div class="d-grid gap-2 d-md-flex justify-content-md-start mb-4 mb-lg-3">
@@ -63,6 +64,7 @@
 
                     </div>
                 </div>
+
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                     <span class="visually-hidden">Previous</span>
