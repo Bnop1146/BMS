@@ -107,7 +107,7 @@
             </figure>
             <div class="content d-flex flex-column justify-content-center text-center">
                 <span id="tekst" class="tekst ">Ring gerne på telefon</span>
-                <span id="phone" class="phone ">45 73 43 92</span>
+                <span id="phone" class="phone ">20 99 04 91</span>
             </div>
         </div>
 </nav>
