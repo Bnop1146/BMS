@@ -1,3 +1,21 @@
+.beforecon{
+  text-align: center;
+  width: 90% !important;
+}
+
+.beforeover {
+  font-size: 20px;
+  font-weight: bold;
+  color: var(--tekstfarve);
+  font-family: var(--overskrift-font);
+}
+
+.beforetekst {
+  color: var(--tekstfarve);
+  font-size: 13px;
+  line-height: 2;
+  font-family: var(--tekst-font);
+}
 
 .hero-full-screen {
   height: 100vh;
@@ -203,5 +221,26 @@
   100% {
     max-width: 100%;
     transform: rotate(0deg);
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .beforecon{
+    width: 60% !important;
+  }
+  .beforetekst{
+    font-size: 14px;
+  }
+
+  .beforeover{
+    font-size: 22px;
+  }
+
+  .beforecon{
+    width: 40% !important;
+  }
+
+  .beforeover{
+    font-size: 24px;
   }
 }

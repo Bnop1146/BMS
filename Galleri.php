@@ -57,21 +57,14 @@
 
 <div id="main-content-section" data-magellan-target="main-content-section"></div>
 
-<div class="container p-4">
-    <div class="omkontakt mt-4 p-5 text-center" id="omkontakt">
-        <div class="kontaktcon container">
-            <h2 class="kontaktover" >Vores arbejde Taler for sig selv</h2>
-            <div class="kontaktline" ></div>
-            <p class="kontakttekst mt-3" >
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                Ut enim ad minim veniam, quis nostrud
-                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-            </p>
-        </div>
-    </div>
+<div class="beforecon container mt-5">
+    <p class="beforeover">Overskrift</p>
+    <p class="beforetekst mt-3 mb-4 ">
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    Ut enim ad minim veniam, quis nostrud
+    </p>
 </div>
-
 
 
 <div class="gallery p-5" id="gallery">
@@ -156,7 +149,7 @@
 <?php include 'footer.php'; ?>
 
 
-<script src="js/Galleri.js"></script>
+<script src="Js/Galleri.js"></script>
 
 
 <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>

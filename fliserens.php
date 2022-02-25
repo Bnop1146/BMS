@@ -83,27 +83,17 @@
 
     <br>
 
-    <div class="bg-light p-2">
-        <div class="prisTjenester container p-5 mt-5 mb-5 bg-light">
-            <div class="row col-md-6 offset-md-3" data-aos="fade-down">
-                <div class="">
-                    <h2>Overskrift</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur
-                        adipiscing elit. Maecenas id erat accumsan
-                        blandit tortor quis, convallis mauris.</p>
-                    <br>
+    <div class="booksektion px-5 py-5 text-left">
+        <div class="bookosek" data-aos="fade-down">
+            <h2 class="bookover">Overskrift</h2>
+            <p class="booktekst">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <a class="bookknap btn" href="#" role="button">
+                <span class="spinner-grow spinner-grow-sm me-2"></span>
+                læs mere
 
-                    <button class="btn-tjenester" data-aos="fade-down">
-                        <a class="btn text-white" href="kontakt.php" role="button">
+            </a>
 
-                            <span class="spinner-grow spinner-grow-sm text-white"></span>
-                            Klik her
-
-                        </a>
-                    </button>
-
-                </div>
-            </div>
         </div>
     </div>
 
