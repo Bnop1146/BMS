@@ -37,7 +37,7 @@
 
 
 
-<div class="priscon container shadow-lg">
+<div class="priscon container shadow-lg" data-aos="fade-down">
     <div class="prisinner">
 
     <h2 class="prisover text-center">Udregn din pris her</h2>

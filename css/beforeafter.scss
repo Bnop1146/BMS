@@ -1,66 +1,178 @@
-.vidstover{
-  font-size: 24px!important;
-  color: var(--tekstfarve)!important;
-  font-family: var(--overskrift-font)!important;
-  font-weight: bold!important;
-}
-.vidsttekst{
-  line-height: 2.5!important;
-  font-size: 13px!important;
-  color: var(--tekstfarve)!important;
-  font-family: var(--tekst-font)!important;
-}
-.vidstknap{
-  border: 0!important;
-  background: var(--ikonercta) !important;
-  color:white!important;
-  padding: 12px 50px!important;
-  border-radius: 100px!important;
-  cursor: pointer!important;
-  transition: 0.5s!important;
-  margin-top: 5px!important;
-  font-family: var(--tekst-font) !important;
-  font-size: 13px!important;
+@import url('https://fonts.googleapis.com/css?family=Montserrat:600');
+
+$msuxf-background: #fff !default;
+$msuxf-background-dark: #333 !default;
+$msuxf-font-family-alt: 'Poppins', sans-serif;
+$msuxf-transition-duration: 0.25s !default;
+$msuxf-transition-timing: ease !default;
+
+.header__main {
+  position: relative;
+  min-height: 100vh;
+  overflow: hidden;
+  text-align: left;
+  margin-bottom: -100px;
 }
 
-.d-block{
-  border-radius: 20px;
+.sliders {
+  width: 100vw;
+  height: 100vh;
 }
 
-.carousel-control-prev-icon{
-  background-image: url(../image/arrow-left-circle-fill.svg)!important;
+.slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  width: 100%;
+
+  &:target {
+    .slide__bg {
+      opacity: 1;
+    }
+
+    .slide__image {
+      transform: translate(0);
+      opacity: 1;
+      transition-delay: 0.5s;
+      filter: blur(0) drop-shadow(0px 10px 30px rgba(0,0,0,0.35));
+    }
+  }
 }
 
-.carousel-control-next{
-  opacity: 100% !important;
+.slide__bg {
+  position: absolute;
+  z-index: 0;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(2);
+  filter: blur(50px);
+  opacity: 0;
+  transition: opacity 1s ease;
+  will-change: opacity;
 }
-.carousel-control-prev{
-  opacity: 100%!important;
+
+.slide__images {
+  position: relative;
+  width: 100%;
+  max-width: 900px;
+  height: 365px;
+  margin: 0 20px;
 }
 
-.carousel-control-next-icon{
-  background-image: url(../image/arrow-right-circle-fill.svg)!important;
+.slide__image {
+  position: absolute;
+  width: 100%;
+  opacity: 0;
+  transition: all 0.5s ease-in-out 0s;
+  filter: blur(10px) drop-shadow(0px 10px 30px rgba(0,0,0,0.35));
+  will-change: transform, opacity, filter;
+
+  svg {
+    display: block;
+  }
+
+  &--left {
+    transform: translate(0.75%, -10px);
+  }
+
+  &--right {
+    top: 5vmin;
+    transform: translate(-0.75%, 10px);
+  }
+}
+
+.slider__pagination {
+  position: absolute;
+  bottom: 25vh;
+  width: 100%;
+  text-align: center;
+}
+
+.button {
+  position: relative;
+  display: inline-block;
+  padding: 20px 40px;
+  line-height: 1; // Normalize height
+  font-family: var(--tekst-font);
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  color: white;
+  transition: all $msuxf-transition-duration $msuxf-transition-timing;
+  appearance: none;
+  background: var(--ikonercta);
+  font-size: 14px;
+
+
+  &:hover {
+    color: white;
+  }
+}
+
+.beforecon{
+  text-align: center;
+  width: 90% !important;
+}
+
+.beforeover {
+  font-size: 20px;
+  font-weight: bold;
+  color: var(--tekstfarve);
+  font-family: var(--overskrift-font);
+}
+
+.beforetekst {
+  color: var(--tekstfarve);
+  font-size: 13px;
+  line-height: 2;
+  font-family: var(--tekst-font);
 }
 
 
+@media screen and (min-width: 768px) {
+  .slider__pagination {
+    height: 35vh;
+  }
+  .kontaktcon {
+    max-width: 520px !important;
+  }
+  .beforecon{
+    width: 60% !important;
+  }
+  .beforetekst{
+    font-size: 14px;
+  }
 
-@media screen and (min-width: 768px){
-  .carousel{
-    padding: 50px!important;
+  .beforeover{
+    font-size: 22px;
+  }
+
+  .header__main{
+    margin-bottom: -350px;
   }
 
 }
 
+  @media screen and (min-width: 1024px) {
+    .slider__pagination {
+      height: 15vh;
+    }
+    .kontaktcon{
+      max-width: 1150px!important;
+    }
 
-@media screen and (min-width: 1024px){
-  .carousel{
-    padding: 0!important;
-  }
-  .vidsttekst{
-    font-size: 16px!important;
-  }
-  .vidstover{
-    font-size: 36px!important;
-  }
+    .beforecon{
+      width: 40% !important;
+    }
+
+    .beforeover{
+      font-size: 24px;
+    }
+
+    .header__main{
+      margin-bottom: -150px;
+    }
 
 }
