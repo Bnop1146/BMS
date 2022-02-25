@@ -155,8 +155,7 @@
 
 
 
-<script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 
-<script src="Js/beforeafter.js"></script>
+<script src="js/beforeafter.js"></script>
 </body>
 </html>
