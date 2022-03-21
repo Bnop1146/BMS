@@ -10,7 +10,7 @@
     <meta charset="utf-8">
 
     <!-- Titel som ses oppe i browserens tab mv. -->
-    <title>BMS - Tagrens og Maling</title>
+    <title>BMS - Algebehandling</title>
     <link rel="shortcut icon" type="image/x-icon" href="image/favicon.ico"/>
 
     <!-- Metatags der fortæller at søgemaskiner er velkomne, hvem der udgiver siden og copyright information -->
@@ -23,7 +23,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css">
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
-    <link href="css/tagogmaling.css" rel="stylesheet" type="text/css">
+    <link href="css/algebehandling.css" rel="stylesheet" type="text/css">
 
 
     <!-- Sikrer den vises korrekt på mobil, tablet mv. ved at tage ift. skærmstørrelse - bliver brugt til responsive websider -->
@@ -41,7 +41,7 @@
     <div class="top-content-section"></div>
 
     <div class="middle-content-section">
-        <h1>Tagrens og Maling Placeholder</h1>
+        <h1>Algebehandling Placeholder</h1>
     </div>
 
     <div class="bottom-content-section" data-magellan data-threshold="0">
@@ -57,7 +57,7 @@
 
 <div id="main-content-section" data-magellan-target="main-content-section"></div>
 
-<br><br>
+<br><br><br>
 
 <div class="background pb-2">
 
@@ -69,13 +69,12 @@
             </div>
 
             <div class="om1sek col-sm-12 col-md-6 col-lg-6 " data-aos="fade-down">
-                <p class="om1over">Overskrift</p>
+                <p class="om1over">Skal dit tag også være flot og beskyttet?</p>
                 <div class="om1line"></div>
                 <p class="om1tekst">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                    Ut enim ad minim veniam, quis nostrud
-                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    Et flot hus fortjener et flot tag. Et gammelt og slidt tag kan forringe værdien af dit hus.
+                    Alderen sætter sine spor, rigtig mange tage er i dag grå og beskidte, og den oprindelige maling er væk pga slid fra regn, sne og sol.
+                    Denne nedbrydning ødelægger taget, da det medfører at fugt kan trænge ned i taget og skabe grobund for blandt andet mos, alger og frostsprængninger.
                 </p>
 
             </div>
@@ -87,31 +86,51 @@
 
     <div class="booksektion px-5 py-5 text-left">
         <div class="bookosek" data-aos="fade-down">
-            <h2 class="bookover">Overskrift</h2>
-            <p class="booktekst">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <h2 class="bookover">Vi anbefaler</h2>
+            <p class="booktekst">Vi anbefaler at vedligeholde taget med en algebehandling minimum hvert 2. år for et holdbart og rent tag.</p>
             <a class="bookknap btn" href="#" role="button">
                 <span class="spinner-grow spinner-grow-sm me-2"></span>
-                læs mere
+                Kontakt
 
             </a>
 
         </div>
     </div>
 
-
-    <br>
+    <br><br>
 
     <div class="omcon container p-4 mb-3 mb-lg-5">
         <div class="row mt-5 ">
             <div class="om1sek  col-sm-12 col-md-6 col-lg-6" data-aos="fade-down">
-                <p class="om1over ">Overskrift</p>
+                <p class="om1over ">Det ser kedeligt ud!</p>
                 <div class="om1line"></div>
                 <p class="om1tekst mb-4 ">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                    Ut enim ad minim veniam, quis nostrud
-                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    Heldigvis er det ikke nødvendigt med et nyt dyrt tag. Dit gode gamle tag kan i mange tilfælde males. Det får nyt liv og glade dage, bliver beskyttet effektivt mod vejret og du kan lægge op til 10-15 års levetid til taget, når det bliver malet med vores tagmaling.
+                    Taget får et nyt skjold og bliver flot når det er malet. Det er også billigere end du tror.
+                </p>
+
+                <p class="om1over ">Fordele</p>
+                <p class="om1tekst ">
+                    - Ny robust overflade
+                </p>
+                <p class="om1tekst">
+                    - Spar op til 75% i forhold til et nyt tag
+
+                </p>
+                <p class="om1tekst">
+                    - Mange farvemuligheder
+                </p>
+                <p class="om1tekst">
+                    - Forlængelse af levetid med 10-15 år
+                </p>
+                <p class="om1tekst">
+                    - Udført på få arbejdsdage
+                </p>
+                <p class="om1tekst">
+                    - Danske kvalitetsprodukter
+                </p>
+                <p class="om1tekst">
+                    Miljørigtigt frem for at smide det gamle tag ud og købe et nyt.
                 </p>
 
             </div>
