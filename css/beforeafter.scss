@@ -92,7 +92,8 @@ $msuxf-transition-timing: ease !default;
 .button {
   position: relative;
   display: inline-block;
-  padding: 20px 40px;
+  width: 70%;
+  padding: 15px 35px;
   line-height: 1; // Normalize height
   font-family: var(--tekst-font);
   text-align: center;
@@ -132,6 +133,12 @@ $msuxf-transition-timing: ease !default;
 
 
 @media screen and (min-width: 768px) {
+
+  .button{
+    width: 35%;
+    padding: 20px 40px;
+  }
+
   .slider__pagination {
     height: 35vh;
   }
@@ -156,6 +163,11 @@ $msuxf-transition-timing: ease !default;
 }
 
   @media screen and (min-width: 1024px) {
+
+    .button{
+      width: 15%;
+    }
+
     .slider__pagination {
       height: 15vh;
     }

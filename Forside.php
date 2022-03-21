@@ -349,28 +349,28 @@
         <div class="row">
             <div class="kundesek col-12">
                 <div>
-                    <h2 class="andover mb-3" data-aos="fade-down">Overskrift</h2>
-                    <p class="andtekst mb-4" data-aos="fade-down">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Praesentium ea explicabo nisi.
+                    <h2 class="andover mb-2" data-aos="fade-down">Kunde anmeldelser</h2>
+                    <p class="andtekst mb-5" data-aos="fade-down"> Hvis du ikke tror på os, så spørg
+                        nogle af vores tilfredse kunder.
                     </p>
                 </div>
 
 
 
-                <ul class="nav nav-pills justify-content-center mb-3" id="pills-tab" role="tablist" data-aos="fade-down">
+                <ul class="nav nav-pills justify-content-center mt-5 mb-3" id="pills-tab" role="tablist" data-aos="fade-down">
                     <li class="nav-item" role="presentation">
                         <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">
-                            <img src="image/before-after-placeholder.png" alt="">
+                            <img src="image/anmeldelse-1.jpg" alt="">
                         </button>
                     </li>
                     <li class="nav-item" role="presentation">
                         <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">
-                            <img src="image/before-after-placeholder.png" alt="">
+                            <img src="image/anmeldelse-2.jpg" alt="">
                         </button>
                     </li>
                     <li class="nav-item" role="presentation">
                         <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">
-                            <img src="image/before-after-placeholder.png" alt="">
+                            <img src="image/anmeldelse-3.jpg" alt="">
                         </button>
                     </li>
                 </ul>
@@ -386,8 +386,10 @@
                                 <i class="bx bxs-star"></i>
                                 <i class="bx bx-star"></i>
                             </div>
-                            <p class="lead mt-4 mb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium ea explicabo nisi quia blanditiis assumenda quos veritatis sit deleniti porro nulla temporibus deserunt, iure in labore incidunt quis eos.</p>
-                            <h5 class="kundeover title-sm mb-0">Navn</h5>
+                            <p class="lead mt-4 mb-3">En helt igennem fantastisk service Nikolaj laver!
+                                Han er en person som tager sig tid til sine kunder og opfylder de ønsker man har!
+                                Hvis man kunne give 10 stjerner ville han få det &#128516;️</p>
+                            <h5 class="kundeover title-sm mb-0">Daniel Poulsenn</h5>
                         </div>
 
 
@@ -401,8 +403,11 @@
                                 <i class="bx bxs-star"></i>
                                 <i class="bx bx-star"></i>
                             </div>
-                            <p class="lead mt-4 mb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium ea explicabo nisi quia blanditiis assumenda quos veritatis sit deleniti porro nulla temporibus deserunt, iure in labore incidunt quis eos.</p>
-                            <h5 class="kundeover title-sm mb-0">Navn</h5>                        </div>
+                            <p class="lead mt-4 mb-3">Jeg har fået renset mine terrasse fliser af Bengtson Multiservice.
+                                Og hvilket resultat &#129321; Jeg er simpelthen så glad og tilfreds! Og udover det var
+                                min store parasol fod - som også var ramt af flisepest - også ordnet. Sikke en service!
+                                Jeg giver Bengtson Multiservice mine bedste  anbefalinger.</p>
+                            <h5 class="kundeover title-sm mb-0">Anna Sofie Zølner</h5>                        </div>
                     </div>
 
                     <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
@@ -414,8 +419,9 @@
                                 <i class="bx bxs-star"></i>
                                 <i class="bx bx-star"></i>
                             </div>
-                            <p class="lead mt-4 mb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium ea explicabo nisi quia blanditiis assumenda quos veritatis sit deleniti porro nulla temporibus deserunt, iure in labore incidunt quis eos.</p>
-                            <h5 class="kundeover title-sm mb-0">Navn</h5>
+                            <p class="lead mt-4 mb-3">Så flot et arbejde, mine forældre har fået de flotteste fliser
+                                efter de renset. 2 meget søde og professionelle drenge. Vi er mere end tilfredse 😃👍</p>
+                            <h5 class="kundeover title-sm mb-0">Tanja Liljenberg</h5>
                         </div>
                     </div>
                 </div>
