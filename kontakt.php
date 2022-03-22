@@ -41,7 +41,7 @@
     <div class="top-content-section"></div>
 
     <div class="middle-content-section">
-        <h1>Fliserens Placeholder</h1>
+        <h1>Kontakt</h1>
     </div>
 
     <div class="bottom-content-section" data-magellan data-threshold="0">
@@ -163,7 +163,7 @@
 
 
 <div class ="map">
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2301.4283020820562!2d11.8627130158927!3d54.772437780302575!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47ad30feb5b165f5%3A0xac1a3baf932b3324!2sSlotsbryggen%2014%2C%204800%20Nyk%C3%B8bing%20Falster!5e0!3m2!1sda!2sdk!4v1639384262331!5m2!1sda!2sdk" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d147212.3729493155!2d11.527006303525113!3d54.79414568398577!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47ad483267ace70f%3A0x3a1bd558d2b06866!2s4990%20Saksk%C3%B8bing!5e0!3m2!1sda!2sdk!4v1647952566661!5m2!1sda!2sdk" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
 </div>
 
 

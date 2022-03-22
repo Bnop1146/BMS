@@ -84,7 +84,7 @@
         <div class="bookosek" data-aos="fade-down">
             <h2 class="bookover">Vi anbefaler</h2>
             <p class="booktekst">Vi anbefaler at vedligeholde de forskellige overflader, som f.eks. tag, flise og facader med en algebehandling minimum hvert år for et holdbart og rent tag.</p>
-            <a class="bookknap btn" href="#" role="button">
+            <a class="bookknap btn" href="kontakt.php" role="button">
                 <span class="spinner-grow spinner-grow-sm me-2"></span>
                 Kontakt
             </a>

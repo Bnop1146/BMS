@@ -39,7 +39,7 @@
     <div class="bannerdel">
         <p class="over2">Overskrift</p>
         <p class="over3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium ea explicabo nisi quia blanditiis assumenda quos veritatis sit deleniti porro nulla temporibus deserunt, iure in labore incidunt quis eos.</p>
-        <a href="#"><button type="button" class="bannercta btn">Læs mere</button></a>
+        <a href="Om BMS.php"><button type="button" class="bannercta btn">Læs mere</button></a>
     </div>
     <video autoplay muted loop>
         <source src="image/ømer.mp4" type="video/mp4">
@@ -155,11 +155,11 @@
     <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg">
 
         <div class="col-sm-12 col-md-6 col-lg-5 offset-lg-1 p-3 p-lg-5 pt-lg-3 mt-md-3 mb-md-3 mt-lg-4 mb-lg-4">
-            <h1 class="vidstover display-4 fw-bold">Er dit tag grønt og bevokset så lad os hjælpe dig med at få dit flotte tag tilbage!
+            <h1 class="vidstover display-4 fw-bold">Vidste du at!
             </h1>
             <p class="vidsttekst">Ud over alger og mos ikke er kønt, så kan det også være skadeligt for dit tag. Det virker som svampe der holder på fugten og konstant gør det muligt for fugt, at sive ned i din tagkonstruktion og dermed gøre stor skade!</p>
             <div class="d-grid gap-2 d-md-flex justify-content-md-start mb-4 mb-lg-3">
-                <a class="vidstknap btn" href="#" role="button">
+                <a class="vidstknap btn" href="algebehandling.php" role="button">
                     <span class="spinner-grow spinner-grow-sm me-2"></span>
                     læs mere
                 </a>
@@ -204,7 +204,7 @@
                     <div class="flip-box-back">
                         <div class="backinner mt-4">
                             <p>En fliserens kan få dine fliser til at se ud som nye, på meget kort tid</p>
-                            <a class="flipcta btn" href="#" role="button">Læs mere</a>
+                            <a class="flipcta btn" href="fliserens.php" role="button">Læs mere</a>
                         </div>
                     </div>
                 </div>
@@ -236,7 +236,7 @@
                     <div class="flip-box-back">
                         <div class="backinner mt-4">
                         <p>En algebehandling er en behandling til hårde overflader fx. fliser, facader, tage som er blevet grønne af alger.</p>
-                        <a class="flipcta btn" href="#" role="button">Læs mere</a>
+                        <a class="flipcta btn" href="algebehandling.php" role="button">Læs mere</a>
                         </div>
                     </div>
                 </div>
@@ -294,7 +294,7 @@
                         <div class="backinner mt-4">
                             <p>En facaderens er for dig der har en meget beskidt eller begroet facade.
                                 Facaden renses og vaskes ned. </p>
-                            <a class="flipcta btn" href="#" role="button">Læs mere</a>
+                            <a class="flipcta btn" href="facaderens.php" role="button">Læs mere</a>
                         </div>
                     </div>
                 </div>
@@ -327,7 +327,7 @@
                             <p >Tagrens og maling, er for dig der ønsker at give huset et helt
                                 nyt udtryk eller blot ønsker at taget skal stå helt skarpt.
                             </p>
-                            <a class="flipcta btn" href="#" role="button">Læs mere</a>
+                            <a class="flipcta btn" href="tagogmaling.php" role="button">Læs mere</a>
                         </div>
                     </div>
                 </div>
@@ -439,7 +439,7 @@
         <h2 class="bookover">Skal du være den næste glad kunde!</h2>
         <p class="booktekst">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
             sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-        <a class="vidstknap btn" href="#" role="button">
+        <a class="vidstknap btn" href="kontakt.php" role="button">
             <span class="spinner-grow spinner-grow-sm me-2"></span>
             læs mere
 

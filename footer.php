@@ -77,7 +77,7 @@
                     <h6>Menu</h6>
                     <ul>
                         <li><a href="Forside.php">Forside</a></li>
-                        <li><a href="Om BMS.php">Om BM</a></li>
+                        <li><a href="Om BMS.php">Om BMS</a></li>
                         <li><a href="Galleri.php">Gallerir</a></li>
                         <li><a href="kontakt.php">Kontakt</a></li>
 
@@ -91,7 +91,7 @@
                         <li><a href="fliserens.php">Fliserens</a></li>
                         <li><a href="algebehandling.php">Algebehandling</a></li>
                         <li><a href="facaderens.php">Facaderens</a></li>
-                        <li><a href="tagogmaling.php    ">Tagrens</a></li>
+                        <li><a href="tagogmaling.php">Tagrens</a></li>
 
                     </ul>
                 </div>
