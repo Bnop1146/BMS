@@ -39,7 +39,7 @@
     <div class="top-content-section"></div>
 
     <div class="middle-content-section">
-        <h1>Fliserens Placeholder</h1>
+        <h1 class="hovedtitle">Om Bengtsons Multiservice</h1>
     </div>
 
     <div class="bottom-content-section" data-magellan data-threshold="0">
@@ -102,10 +102,11 @@
 
 <div class="booksektion px-5 py-5 text-left ">
     <div class="bookosek" data-aos="fade-down">
-        <h2 class="bookover">Overskrift</h2>
+        <h2 class="bookover">Skal du være den næste glad kunde!
+        </h2>
         <p class="booktekst">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
             sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-            <a class="vidstknap btn" href="#" role="button">
+            <a class="vidstknap btn" href="kontakt.php" role="button">
                 <span class="spinner-grow spinner-grow-sm me-2"></span>
                 læs mere
             </a>

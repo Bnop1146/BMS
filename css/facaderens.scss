@@ -1,3 +1,8 @@
+.hovedtitle{
+  font-family: var(--overskrift-font);
+  font-size: 30px;
+}
+
 .booksektion {
   width:100%;
   height: 55vh;
@@ -151,6 +156,9 @@
 }
 
 @media screen and (min-width: 768px){
+  .hovedtitle{
+    font-size: 32px;
+  }
   .om1over{
     margin-top: 0;
   }
@@ -189,6 +197,9 @@
 }
 
 @media screen and (min-width: 1024px){
+  .hovedtitle{
+    font-size: 34px;
+  }
   .omcon{
     text-align: left;
   }

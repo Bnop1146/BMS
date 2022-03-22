@@ -1,3 +1,8 @@
+.hovedtitle{
+  font-family: var(--overskrift-font);
+  font-size: 30px;
+}
+
 .hero-full-screen {
   height: 100vh;
   display: -webkit-flex;
@@ -160,6 +165,9 @@ textarea.contact-form-text{
 
 
 @media screen and (min-width: 768px){
+  .hovedtitle{
+    font-size: 32px;
+  }
   .kontaktcon{
     max-width: 520px!important;
   }
@@ -191,6 +199,9 @@ textarea.contact-form-text{
 }
 
 @media screen and (min-width: 1024px){
+  .hovedtitle{
+    font-size: 34px;
+  }
 
   .contact-form{
     padding: 0 60px;

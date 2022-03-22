@@ -1,3 +1,8 @@
+.hovedtitle{
+  font-family: var(--overskrift-font);
+  font-size: 30px;
+}
+
 .beforecon{
   text-align: center;
   width: 90% !important;
@@ -225,6 +230,9 @@
 }
 
 @media screen and (min-width: 768px) {
+  .hovedtitle{
+    font-size: 32px;
+  }
   .beforecon{
     width: 60% !important;
   }
@@ -242,5 +250,11 @@
 
   .beforeover{
     font-size: 24px;
+  }
+}
+
+@media screen and (min-width: 1024px){
+  .hovedtitle{
+    font-size: 34px;
   }
 }

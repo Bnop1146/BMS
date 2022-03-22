@@ -41,7 +41,7 @@
     <div class="top-content-section"></div>
 
     <div class="middle-content-section">
-        <h1 class="title">Algebehandling</h1>
+        <h1 class="hovedtitle">Algebehandling</h1>
     </div>
 
     <div class="bottom-content-section" data-magellan data-threshold="0">

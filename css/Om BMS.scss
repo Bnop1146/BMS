@@ -2,7 +2,11 @@
   background: url(../image/background-desktop-venstre.png);
   background-size: cover;
 }
+.hovedtitle{
+  font-family: var(--overskrift-font);
+  font-size: 30px;
 
+}
 .hero-full-screen {
   height: 100vh;
   display: -webkit-flex;
@@ -87,6 +91,9 @@
 }
 
 @media screen and (min-width: 768px){
+  .hovedtitle{
+    font-size: 32px;
+  }
   .omcon{
     margin-bottom: 60px;
   }
@@ -127,6 +134,9 @@
 
   }
 
+  .hovedtitle{
+    font-size: 34px;
+  }
 
 }
 
