@@ -41,7 +41,7 @@
     <div class="top-content-section"></div>
 
     <div class="middle-content-section">
-        <h1>Fliserens Placeholder</h1>
+        <h1>Fliserens</h1>
     </div>
 
     <div class="bottom-content-section" data-magellan data-threshold="0">
@@ -64,13 +64,10 @@
     <div class="omcon container p-4 mb-3 mb-lg-5">
         <div class="row mt-5 ">
             <div class="om1sek  col-sm-12 col-md-6 col-lg-6" data-aos="fade-down">
-                <p class="om1over ">Overskrift</p>
+                <p class="om1over ">Fliserens og imprægnering</p>
                 <div class="om1line"></div>
                 <p class="om1tekst mb-4 ">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                    Ut enim ad minim veniam, quis nostrud
-                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    Der er i gennemsnittet 171 regnvejrsdage i Danmark. Det kan sætte sine spor på dine fliser, da de kan være glatte grundet alger, mos og flisepest. Derudover kan der komme frostsprængninger samt algevækst, som kan forkorte flisernes levetid. Er dine fliser præget af disse faktorer, kan en fliserens hjælpe med at løse problemet. En fliserens af Bengtson Multiservice, sikrer du en professionel rens af dine fliser. Efter en fliserens, bliver dine fliser imprægneret som vil betyde, at dine fliser vil være vandafvisende og modstandsdygtige overfor alger, flisepest og andet skidt. En fliserens samt derefter imprægnering vil betyde, at dine fliser vil fremstå som nye igen, afhængigt af hvor medtaget belægningen er. Imprægneringen beskytter derefter dine fliser mod fornyet algevækst. Vil du sikre dig flotte fliser hvert år, kan du med fordel vælge vores garantiordning. Garantiordningen indebærer en årlig efterbehandling som bekæmper de alger som skulle have lagt sig i tidens løb.
                 </p>
 
             </div>
@@ -85,13 +82,11 @@
 
     <div class="booksektion px-5 py-5 text-left">
         <div class="bookosek" data-aos="fade-down">
-            <h2 class="bookover">Overskrift</h2>
-            <p class="booktekst">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <h2 class="bookover">Vi anbefaler</h2>
+            <p class="booktekst">Vi anbefaler at vedligeholde de forskellige overflader, som f.eks. tag, flise og facader med en algebehandling minimum hvert år for et holdbart og rent tag.</p>
             <a class="bookknap btn" href="#" role="button">
                 <span class="spinner-grow spinner-grow-sm me-2"></span>
-                læs mere
-
+                Kontakt
             </a>
 
         </div>
@@ -107,14 +102,34 @@
             </div>
 
             <div class="om1sek col-sm-12 col-md-6 col-lg-6 " data-aos="fade-down">
-                <p class="om1over">Overskrift</p>
+                <p class="om1over">Fordele ved fliserens og imprægnering:</p>
                 <div class="om1line"></div>
+
+
                 <p class="om1tekst">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                    Ut enim ad minim veniam, quis nostrud
-                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    En fliserens samt imprægnering, kan være en miljømæssig og økonomisk fordel. Da det oftest kan være en dyr fornøjelse at udskifte hele belægningen. En fliserens samt imprægnering er derfor det rigtige valg hvis du år, efter år vil have, at dine fliser skal fremstå som værende nye.
                 </p>
+
+                <p class="om1tekst ">
+                    - Undgå at fugt siver ned i tagkonstruktionen
+                </p>
+                <p class="om1tekst">
+                    - Undgå frostsprængninger i taget
+
+                </p>
+                <p class="om1tekst">
+                    - Undgå unødvendige udgifter til reparation
+                </p>
+                <p class="om1tekst">
+                    - Få et rent tag uden alger og mos
+                </p>
+                <p class="om1tekst">
+                    - Få et pænt og præsentabelt tag
+                </p>
+                <p class="om1tekst">
+                    - Forlæng tagets levetid
+                </p>
+
 
             </div>
 

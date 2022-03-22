@@ -324,7 +324,7 @@
                     </div>
                     <div class="flip-box-back">
                         <div class="backinner mt-4">
-                            <p>Tagrens og maling, er for dig der ønsker at give huset et helt
+                            <p >Tagrens og maling, er for dig der ønsker at give huset et helt
                                 nyt udtryk eller blot ønsker at taget skal stå helt skarpt.
                             </p>
                             <a class="flipcta btn" href="#" role="button">Læs mere</a>
@@ -436,7 +436,7 @@
 
 <div class="booksektion px-5 py-5 text-left">
     <div class="bookosek" data-aos="fade-down">
-        <h2 class="bookover">Overskrift</h2>
+        <h2 class="bookover">Skal du være den næste glad kunde!</h2>
         <p class="booktekst">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
             sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
         <a class="vidstknap btn" href="#" role="button">
