@@ -21,6 +21,8 @@
   transition: 0.5s!important;
   margin-top: 5px!important;
   font-family: var(--tekst-font) !important;
+  font-size: 13px!important;
+
 }
 
 .bookover{
@@ -33,7 +35,6 @@
   font-size: 13px;
   font-family: var(--tekst-font);
 }
-
 
 .hero-full-screen {
   height: 100vh;
@@ -58,6 +59,15 @@
   background-size: cover;
 }
 
+span > i {
+  color: white;
+}
+span > input {
+  background: none;
+  color: white;
+  border: 0;
+  padding: 0;
+}
 
 .hero-full-screen .middle-content-section {
   text-align: center;
@@ -184,7 +194,10 @@
     height: 35vh!important;
   }
   .booktekst{
-    width: 350px;
+    width: 400px;
+  }
+  .bookknap{
+    font-size: 14px!important;
   }
 }
 
@@ -214,18 +227,16 @@
   .om1line{
     width: 15%;
   }
-
   .booksektion{
     height: 45vh!important;
   }
   .booktekst{
     font-size: 14px;
-    width: 380px;
+    width: 400px;
   }
   .bookover{
     font-size: 24px;
   }
-
 
 }
 

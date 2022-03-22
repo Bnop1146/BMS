@@ -155,8 +155,9 @@
     <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg">
 
         <div class="col-sm-12 col-md-6 col-lg-5 offset-lg-1 p-3 p-lg-5 pt-lg-3 mt-md-3 mb-md-3 mt-lg-4 mb-lg-4">
-            <h1 class="vidstover display-4 fw-bold lh-1">Vidste du at?</h1>
-            <p class="vidsttekst">At alger og mos kan virke som svampe, der gør det muligt for fugt at trænge ned i tagkonstruktionen og derved kan forsage alvorlige skader?</p>
+            <h1 class="vidstover display-4 fw-bold">Er dit tag grønt og bevokset så lad os hjælpe dig med at få dit flotte tag tilbage!
+            </h1>
+            <p class="vidsttekst">Ud over alger og mos ikke er kønt, så kan det også være skadeligt for dit tag. Det virker som svampe der holder på fugten og konstant gør det muligt for fugt, at sive ned i din tagkonstruktion og dermed gøre stor skade!</p>
             <div class="d-grid gap-2 d-md-flex justify-content-md-start mb-4 mb-lg-3">
                 <a class="vidstknap btn" href="#" role="button">
                     <span class="spinner-grow spinner-grow-sm me-2"></span>

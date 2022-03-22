@@ -21,6 +21,8 @@
   transition: 0.5s!important;
   margin-top: 5px!important;
   font-family: var(--tekst-font) !important;
+  font-size: 13px!important;
+
 }
 
 .bookover{
@@ -192,7 +194,10 @@ span > input {
     height: 35vh!important;
   }
   .booktekst{
-    width: 350px;
+    width: 400px;
+  }
+  .bookknap{
+    font-size: 14px!important;
   }
 }
 
@@ -227,7 +232,7 @@ span > input {
   }
   .booktekst{
     font-size: 14px;
-    width: 380px;
+    width: 400px;
   }
   .bookover{
     font-size: 24px;

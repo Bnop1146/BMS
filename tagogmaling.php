@@ -10,7 +10,7 @@
     <meta charset="utf-8">
 
     <!-- Titel som ses oppe i browserens tab mv. -->
-    <title>BMS - Algebehandling</title>
+    <title>BMS - Tagrens og Maling</title>
     <link rel="shortcut icon" type="image/x-icon" href="image/favicon.ico"/>
 
     <!-- Metatags der fortæller at søgemaskiner er velkomne, hvem der udgiver siden og copyright information -->
@@ -23,7 +23,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css">
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
-    <link href="css/algebehandling.css" rel="stylesheet" type="text/css">
+    <link href="css/tagogmaling.css" rel="stylesheet" type="text/css">
 
 
     <!-- Sikrer den vises korrekt på mobil, tablet mv. ved at tage ift. skærmstørrelse - bliver brugt til responsive websider -->
@@ -41,7 +41,7 @@
     <div class="top-content-section"></div>
 
     <div class="middle-content-section">
-        <h1>Algebehandling Placeholder</h1>
+        <h1 class="title">Tagrens og Maling</h1>
     </div>
 
     <div class="bottom-content-section" data-magellan data-threshold="0">
@@ -69,12 +69,14 @@
             </div>
 
             <div class="om1sek col-sm-12 col-md-6 col-lg-6 " data-aos="fade-down">
-                <p class="om1over">Skal dit tag også være flot og beskyttet?</p>
+                <p class="om1over">Er dit tag grønt og bevokset så lad os hjælpe dig med at få dit flotte tag tilbage!</p>
                 <div class="om1line"></div>
                 <p class="om1tekst">
-                    Et flot hus fortjener et flot tag. Et gammelt og slidt tag kan forringe værdien af dit hus.
-                    Alderen sætter sine spor, rigtig mange tage er i dag grå og beskidte, og den oprindelige maling er væk pga slid fra regn, sne og sol.
-                    Denne nedbrydning ødelægger taget, da det medfører at fugt kan trænge ned i taget og skabe grobund for blandt andet mos, alger og frostsprængninger.
+                    Ud over alger og mos ikke er kønt, så kan det også være skadeligt for dit tag.
+                    Det virker som svampe der holder på fugten og konstant gør det muligt for fugt,
+                    at sive ned i din tagkonstruktion og dermed gøre stor skade! Med en algebehandling kan du forebygge og ofte helt undgå store skader på taget. En algebehandling skal virke fra 1-8 måneder,
+                    før du kan se det fulde resultat, alt efter bevoksning samt vind og vejr.
+
                 </p>
 
             </div>
@@ -87,7 +89,7 @@
     <div class="booksektion px-5 py-5 text-left">
         <div class="bookosek" data-aos="fade-down">
             <h2 class="bookover">Vi anbefaler</h2>
-            <p class="booktekst">Vi anbefaler at vedligeholde taget med en algebehandling minimum hvert 2. år for et holdbart og rent tag.</p>
+            <p class="booktekst">Vi anbefaler at vedligeholde de forskellige overflader, som f.eks. tag, flise og facader med en algebehandling minimum hvert år for et holdbart og rent tag.</p>
             <a class="bookknap btn" href="#" role="button">
                 <span class="spinner-grow spinner-grow-sm me-2"></span>
                 Kontakt
@@ -102,36 +104,28 @@
     <div class="omcon container p-4 mb-3 mb-lg-5">
         <div class="row mt-5 ">
             <div class="om1sek  col-sm-12 col-md-6 col-lg-6" data-aos="fade-down">
-                <p class="om1over ">Det ser kedeligt ud!</p>
-                <div class="om1line"></div>
-                <p class="om1tekst mb-4 ">
-                    Heldigvis er det ikke nødvendigt med et nyt dyrt tag. Dit gode gamle tag kan i mange tilfælde males. Det får nyt liv og glade dage, bliver beskyttet effektivt mod vejret og du kan lægge op til 10-15 års levetid til taget, når det bliver malet med vores tagmaling.
-                    Taget får et nyt skjold og bliver flot når det er malet. Det er også billigere end du tror.
+                <p class="om1over ">Gode grunde til at vedligeholde taget med en algebehandling:
                 </p>
-
-                <p class="om1over ">Fordele</p>
                 <p class="om1tekst ">
-                    - Ny robust overflade
+                    - Undgå at fugt siver ned i tagkonstruktionen
                 </p>
                 <p class="om1tekst">
-                    - Spar op til 75% i forhold til et nyt tag
+                    - Undgå frostsprængninger i taget
 
                 </p>
                 <p class="om1tekst">
-                    - Mange farvemuligheder
+                    - Undgå unødvendige udgifter til reparation
                 </p>
                 <p class="om1tekst">
-                    - Forlængelse af levetid med 10-15 år
+                    - Få et rent tag uden alger og mos
                 </p>
                 <p class="om1tekst">
-                    - Udført på få arbejdsdage
+                    - Få et pænt og præsentabelt tag
                 </p>
                 <p class="om1tekst">
-                    - Danske kvalitetsprodukter
+                    - Forlæng tagets levetid
                 </p>
-                <p class="om1tekst">
-                    Miljørigtigt frem for at smide det gamle tag ud og købe et nyt.
-                </p>
+
 
             </div>
 
