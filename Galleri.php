@@ -58,11 +58,11 @@
 <div id="main-content-section" data-magellan-target="main-content-section"></div>
 
 <div class="beforecon container mt-5">
-    <p class="beforeover">Overskrift</p>
+    <p class="beforeover">Galleri</p>
     <p class="beforetekst mt-3 mb-4 ">
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-    Ut enim ad minim veniam, quis nostrud
+        Se billeder fra arbejdet her i Bengtsons-multiservice
+
+
     </p>
 </div>
 

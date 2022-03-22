@@ -63,10 +63,7 @@
         <p class="kontaktover" data-aos="fade-down">Kontakt os</p>
         <div class="kontaktline" data-aos="fade-down"></div>
         <p class="kontakttekst mt-3" data-aos="fade-down">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            Ut enim ad minim veniam, quis nostrud
-            exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            Brug venligst kontaktformularen herunder for at kontakte os med diverse spørgsmål. Vi vender tilbage med svar hurtigst muligt. Du er også velkommen til at ringe til os.
         </p>
     </div>
 </div>
