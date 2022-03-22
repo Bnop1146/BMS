@@ -41,7 +41,7 @@
     <div class="top-content-section"></div>
 
     <div class="middle-content-section">
-        <h1>Algebehandling Placeholder</h1>
+        <h1 class="title">Algebehandling</h1>
     </div>
 
     <div class="bottom-content-section" data-magellan data-threshold="0">
@@ -69,13 +69,14 @@
             </div>
 
             <div class="om1sek col-sm-12 col-md-6 col-lg-6 " data-aos="fade-down">
-                <p class="om1over">Overskrift</p>
+                <p class="om1over">Er dit tag grønt og bevokset så lad os hjælpe dig med at få dit flotte tag tilbage!</p>
                 <div class="om1line"></div>
                 <p class="om1tekst">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                    Ut enim ad minim veniam, quis nostrud
-                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    Ud over alger og mos ikke er kønt, så kan det også være skadeligt for dit tag.
+                    Det virker som svampe der holder på fugten og konstant gør det muligt for fugt,
+                    at sive ned i din tagkonstruktion og dermed gøre stor skade! Med en algebehandling kan du forebygge og ofte helt undgå store skader på taget. En algebehandling skal virke fra 1-8 måneder,
+                    før du kan se det fulde resultat, alt efter bevoksning samt vind og vejr.
+
                 </p>
 
             </div>
@@ -87,12 +88,11 @@
 
     <div class="booksektion px-5 py-5 text-left">
         <div class="bookosek" data-aos="fade-down">
-            <h2 class="bookover">Overskrift</h2>
-            <p class="booktekst">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <h2 class="bookover">Vi anbefaler</h2>
+            <p class="booktekst">Vi anbefaler at vedligeholde de forskellige overflader, som f.eks. tag, flise og facader med en algebehandling minimum hvert år for et holdbart og rent tag.</p>
             <a class="bookknap btn" href="#" role="button">
                 <span class="spinner-grow spinner-grow-sm me-2"></span>
-                læs mere
+                Kontakt
 
             </a>
 
@@ -104,14 +104,28 @@
     <div class="omcon container p-4 mb-3 mb-lg-5">
         <div class="row mt-5 ">
             <div class="om1sek  col-sm-12 col-md-6 col-lg-6" data-aos="fade-down">
-                <p class="om1over ">Overskrift</p>
-                <div class="om1line"></div>
-                <p class="om1tekst mb-4 ">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                    Ut enim ad minim veniam, quis nostrud
-                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                <p class="om1over ">Gode grunde til at vedligeholde taget med en algebehandling:
                 </p>
+                <p class="om1tekst ">
+                    - Undgå at fugt siver ned i tagkonstruktionen
+                </p>
+                <p class="om1tekst">
+                    - Undgå frostsprængninger i taget
+
+                </p>
+                <p class="om1tekst">
+                    - Undgå unødvendige udgifter til reparation
+                </p>
+                <p class="om1tekst">
+                    - Få et rent tag uden alger og mos
+                </p>
+                <p class="om1tekst">
+                    - Få et pænt og præsentabelt tag
+                </p>
+                <p class="om1tekst">
+                    - Forlæng tagets levetid
+                </p>
+
 
             </div>
 
