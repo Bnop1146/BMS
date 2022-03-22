@@ -41,7 +41,7 @@
     <div class="top-content-section"></div>
 
     <div class="middle-content-section">
-        <h1>Facaderens Placeholder</h1>
+        <h1>Facaderens</h1>
     </div>
 
     <div class="bottom-content-section" data-magellan data-threshold="0">
@@ -64,13 +64,12 @@
     <div class="omcon container p-4 mb-3 mb-lg-5">
         <div class="row mt-5 ">
             <div class="om1sek  col-sm-12 col-md-6 col-lg-6" data-aos="fade-down">
-                <p class="om1over ">Overskrift</p>
+                <p class="om1over ">Om Facaderens</p>
                 <div class="om1line"></div>
                 <p class="om1tekst mb-4 ">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                    Ut enim ad minim veniam, quis nostrud
-                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    De kolde og fugtige måneder, kan sætte sine spor i form af mos, og grimme algebegroninger på murværk samt facader osv. Det er de grønne alger og fugtige plantebegroninger, som typisk trives bedst på de nordvendte facader. Her er vækstbetingelserne nemlig meget optimale, da de ikke får meget sollys, og dermed mere fugt. Her vil en facaderens kunne gøre stor forskel og sørge for, at facaden eller området vil kunne fremstå pænt, og velholdt igen.
+                    En facaderens består af en algebehandling, som påføres for at bekæmpe algerne. Bagefter renser vi facaden med højtryk og evt. varmt vand, samt justerer bar på anlægget, alt efter opgaven. Derefter anbefaler vi en imprægnering af facaden for at beskytte overfladen mod fremtidige alger. Her tilbyder vi også en årlig vedligeholdelsesaftale, så facaden fortsat kan holde sig pæn.
+
                 </p>
 
             </div>
@@ -85,9 +84,8 @@
 
     <div class="booksektion px-5 py-5 text-left">
         <div class="bookosek" data-aos="fade-down">
-            <h2 class="bookover">Overskrift</h2>
-            <p class="booktekst">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <h2 class="bookover">Vi anbefaler</h2>
+            <p class="booktekst">Vi anbefaler at vedligeholde de forskellige overflader, som f.eks. tag, flise og facader med en algebehandling minimum hvert år for et holdbart og rent tag.</p>
             <a class="bookknap btn" href="#" role="button">
                 <span class="spinner-grow spinner-grow-sm me-2"></span>
                 læs mere
@@ -107,13 +105,21 @@
             </div>
 
             <div class="om1sek col-sm-12 col-md-6 col-lg-6 " data-aos="fade-down">
-                <p class="om1over">Overskrift</p>
+                <p class="om1over">Fordele ved facaderens:</p>
                 <div class="om1line"></div>
+                <p class="om1tekst ">
+                    - Kan øge værdien og udseendet
+
+                </p>
                 <p class="om1tekst">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                    Ut enim ad minim veniam, quis nostrud
-                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    - Bygningen fremstår pænt og velholdt
+
+                </p>
+                <p class="om1tekst">
+                    - Beskyttet overflade mod alger fremadrettet
+                </p>
+                <p class="om1tekst">
+                    - Bekæmpelse af alger
                 </p>
 
             </div>

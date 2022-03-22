@@ -69,13 +69,13 @@
             </div>
 
             <div class="om1sek col-sm-12 col-md-6 col-lg-6 " data-aos="fade-down">
-                <p class="om1over">Er dit tag grønt og bevokset så lad os hjælpe dig med at få dit flotte tag tilbage!</p>
+                <p class="om1over">Tagrens og maling
+                </p>
                 <div class="om1line"></div>
                 <p class="om1tekst">
-                    Ud over alger og mos ikke er kønt, så kan det også være skadeligt for dit tag.
-                    Det virker som svampe der holder på fugten og konstant gør det muligt for fugt,
-                    at sive ned i din tagkonstruktion og dermed gøre stor skade! Med en algebehandling kan du forebygge og ofte helt undgå store skader på taget. En algebehandling skal virke fra 1-8 måneder,
-                    før du kan se det fulde resultat, alt efter bevoksning samt vind og vejr.
+                    Danmarks klima kan sætte sine aftryk på dit hus, der kan forårsage skader på dit tag. Vejret giver god grobund for mos, alger og frostsprængninger på dit tag. Dernæst kan faktorer som regn, sne og sol være medvirkende til, at den oprindelige maling på dit tag forsvinder. Kan du genkende dette, kan Bengtson Multiservice tilbyde professionel hjælp til tagrens, og maling af dit tag.
+                    Tagrens og maling af dit tag vil medføre, at det fremover vil blive beskyttet effektivt mod det danske vejr. Følgende kan du forvente at markedsværdien af dit hus vil stige, i takt med at levetiden på taget vil stige med 15 års levetid.
+
 
                 </p>
 
@@ -104,8 +104,13 @@
     <div class="omcon container p-4 mb-3 mb-lg-5">
         <div class="row mt-5 ">
             <div class="om1sek  col-sm-12 col-md-6 col-lg-6" data-aos="fade-down">
-                <p class="om1over ">Gode grunde til at vedligeholde taget med en algebehandling:
-                </p>
+
+                <p class="om1over">Skal dit tag også være flot og beskyttet?</p>
+
+                <p class="om1tekst ">
+                    Et flot hus fortjener et flot tag. Et gammelt og slidt tag kan forringe værdien af dit hus. Alderen sætter sine spor, rigtig mange tage er i dag grå og beskidte, og den oprindelige maling er væk pga slid fra regn, sne og sol. Denne nedbrydning ødelægger taget, da det medfører at fugt kan trænge ned i taget og skabe grobund for blandt andet mos, alger og frostsprængninger.                </p>
+
+                <p class="om1over ">Gode grunde til at vedligeholde taget med en algebehandling:</p>
                 <p class="om1tekst ">
                     - Undgå at fugt siver ned i tagkonstruktionen
                 </p>
