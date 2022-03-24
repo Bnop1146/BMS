@@ -198,7 +198,6 @@
             <a href="#slide-2" class="button mb-3">Algebehandling</a>
             <a href="#slide-3" class="button mb-3">Facaderens</a>
             <a href="#slide-4" class="button mb-3">Tagrens og maling</a>
-
         </div>
 </header>
 
