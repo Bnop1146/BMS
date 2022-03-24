@@ -46,7 +46,7 @@
 </div>
 
 
-<header class="header__main" data-aos="fade-down">
+<header class="header__main__before">
 
 
     <div class="sliders">

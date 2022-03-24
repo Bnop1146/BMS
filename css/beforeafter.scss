@@ -6,7 +6,7 @@ $msuxf-font-family-alt: 'Poppins', sans-serif;
 $msuxf-transition-duration: 0.25s !default;
 $msuxf-transition-timing: ease !default;
 
-.header__main {
+.header__main__before {
   position: relative;
   min-height: 100vh;
   overflow: hidden;
@@ -156,7 +156,7 @@ $msuxf-transition-timing: ease !default;
     font-size: 22px;
   }
 
-  .header__main{
+  .header__main_before{
     margin-bottom: -350px;
   }
 
@@ -183,7 +183,7 @@ $msuxf-transition-timing: ease !default;
       font-size: 24px;
     }
 
-    .header__main{
+    .header__main__before{
       margin-bottom: -150px;
     }
 
