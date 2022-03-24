@@ -50,6 +50,11 @@
 
 
     <div class="sliders">
+        
+        <div id="myDIV" class="text-center">
+            <img src="image/before-after-placeholder.png" class="img-fluid">
+        </div>
+
         <svg class="slider__mask" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
              viewBox="0 0 1920 1080" width="0" height="0">
             <defs>
@@ -106,7 +111,7 @@
         </svg>
 
         <div class="slide" id="slide-1">
-            <svg class="slide__bg" viewBox="0 0 1920 1080" xmlns="http://www.w3.org/2000/svg"
+            <svg class="slide__bg active" viewBox="0 0 1920 1080" xmlns="http://www.w3.org/2000/svg"
                  xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1920" height="1080">
                 <rect x="0" y="0" width="1920" height="1080" fill="url(#bg1)"/>
             </svg>
@@ -194,13 +199,15 @@
         </div>
 
         <div class="slider__pagination mt-5">
-            <a href="#slide-1" class="button mb-3">Fliserens</a>
-            <a href="#slide-2" class="button mb-3">Algebehandling</a>
-            <a href="#slide-3" class="button mb-3">Facaderens</a>
-            <a href="#slide-4" class="button mb-3">Tagrens og maling</a>
+            <a onclick="myFunction()" href="#slide-1" class="button mb-3">Fliserens</a>
+            <a onclick="myFunction()" href="#slide-2" class="button mb-3">Algebehandling</a>
+            <a onclick="myFunction()" href="#slide-3" class="button mb-3">Facaderens</a>
+            <a onclick="myFunction()" href="#slide-4" class="button mb-3">Tagrens og maling</a>
         </div>
 </header>
 
+
+<script src="js/beforeafter.js"></script>
 
 </body>
 </html>
