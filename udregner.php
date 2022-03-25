@@ -49,11 +49,13 @@
             <label for="price">Pris pr. m²</label>
             <select class="form-select" id="price">
                 <option disabled selected value="0">Vælg en Tjeneste</option>
-                <option value="100">Fliserens</option>
-                <option value="54">Algebehandling</option>
-                <option value="73">Facaderens</option>
-                <option value="143">Tagrens og Maling</option>
+                <option value="49">Fliserens med levering af sand</option>
+                <option value="59">Fliserens med fejning af sand</option>
+                <option value="69">Facaderens under 100 m²</option>
+                <option value="59">Facaderens over 100 m²</option>
             </select>
+
+
 
         </div>
 
@@ -63,7 +65,21 @@
 
             </label>
             <input type="range" name="quantity" value="1" min="1"  max="350" step="1" class="form-control slider">
+
         </div>
+
+        <ul class="mt-4">
+            <li class="om1tekst">Algebehandling af tag op til 200m2 =995kr
+                Over ring for tilbud.
+            </li>
+
+            <li class="om1tekst">Rens og maling aftag
+                ring for tilbud.
+            </li>
+
+            <li class="om1tekst">Tilæg for lift kan forekomme.
+            </li>
+        </ul>
 
     </form>
 
