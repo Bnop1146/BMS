@@ -81,7 +81,7 @@
     <div class="row">
 
         <div class="om2sek col-sm-12 col-md-6 col-lg-6" data-aos="fade-down">
-            <img src="image/before-after-placeholder.png" class="om2billede img-fluid" alt="">
+            <img src="image/om-1.jpg" class="om2billede img-fluid" alt="">
         </div>
 
         <div class="om1sek col-sm-12 col-md-6 col-lg-6" data-aos="fade-down">
