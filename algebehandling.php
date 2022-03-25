@@ -69,7 +69,7 @@
             </div>
 
             <div class="om1sek col-sm-12 col-md-6 col-lg-6 " data-aos="fade-down">
-                <p class="om1over">Er dit tag grønt og bevokset så lad os hjælpe dig med at få dit flotte tag tilbage!</p>
+                <p class="om1over">Er husets overflader grønt og bevokset så lad os hjælpe dig med at få dit flotte huse tilbage!</p>
                 <div class="om1line"></div>
                 <p class="om1tekst">
                     Ud over alger og mos ikke er kønt, så kan det også være skadeligt for dit tag.
@@ -104,7 +104,7 @@
     <div class="omcon container p-4 mb-3 mb-lg-5">
         <div class="row mt-5 ">
             <div class="om1sek  col-sm-12 col-md-6 col-lg-6" data-aos="fade-down">
-                <p class="om1over ">Algebehandling af tag og fliser
+                <p class="om1over ">Algebehandling af husets overflader
                 </p>
                 <p class="om1tekst ">
                     Det danske klima kan oftest være fugtigt. Regn og skygge kan være medvirkende til, at skabe gode betingelser for mos og alger. Dette kan i visse tilfælde forårsage skade på dit tag, hvis det udvikler sig, får lov at gro. Bengtson Multiservice står klar med professionel hjælp for at kunne bekæmpe denne byrde. En algebehandling vil forebygge mod eventuelle skader på dit tag, som mos og fugt kan have forårsaget. Algebehandlingen skal have lov til at virke 1 – 8 måneder, før det fulde resultat kan ses. Det afhænger af bevoksningen samt vind og vejr. Vi anvender udelukkende miljøgodkendte midler, herunder Neutralon som er godkendt af Miljøstyrelsen, til algebekæmpelse i Danmark. Ved algebehandling af dit tag sikrer du, at der i fremtiden ikke vil komme mos, og alger på dit tag.
