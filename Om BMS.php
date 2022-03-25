@@ -59,13 +59,14 @@
 <div class="omcon container p-4 mb-3">
     <div class="row">
         <div class="om1sek col-sm-12 col-md-6 col-lg-6" data-aos="fade-down">
-            <p class="om1over">Overskrift</p>
+            <p class="om1over">Om Bengtsons Multiservice</p>
             <div class="om1line"></div>
             <p class="om1tekst mb-4">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                Ut enim ad minim veniam, quis nostrud
-                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                I 2019 startede Nikolaj Bengtson firmaet Bengtson Multiservice, med fokus på serviceydelser til udendørsarealer.
+                Vi udfører vores arbejde på Sydsjælland og Lolland-Falster.
+                Med fire kernekompetencer er det muligt at levere den bedste serviceydelse til overkommelige priser.
+                Bengtson Multiservice ønsker at gøre en forskel for dig som kunde, vi tager alle vores opgaver seriøst store som små.
+                Vi vægter kundetilfredshed og kvalitet frem for alt, derfor er vi meget opmærksomme på alt vores arbejde bliver udført nøje.
             </p>
 
         </div>
@@ -84,15 +85,21 @@
         </div>
 
         <div class="om1sek col-sm-12 col-md-6 col-lg-6" data-aos="fade-down">
-            <p class="om1over mt-4">Overskrift</p>
-            <div class="om1line"></div>
+            <p class="om1over mt-4 mt-lg-0">Overskrift</p>
             <p class="om1tekst">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                Ut enim ad minim veniam, quis nostrud
-                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                Derfor er alle vores produkter godkendt af Miljøstyrelsen, vi går ikke på kompromis med miljøet.
+                Vi afslutter ikke en opgave før vores kunder er tilfredse og arbejdet lever op til vores standarder.
+                Det eneste du skal gøre er at kontakte os for et uforpligtende tilbud, så klarer vi resten.
+                Vi kan tilbyde professionel hjælp til fliserens, facaderens, algebehandling, tagrens & maling.
             </p>
 
+
+            <h5 class="uforpligtover">Kontakt os for et uforpligtende tilbud:</h5>
+            <ul class="uforpligt">
+                <li class="om1tekst"> Mobil: 20 99 04 91 </li>
+                <li class="om1tekst"> E-mail: Bengtson-multiservice@outlook.dk</li>
+
+            </ul>
         </div>
 
     </div>

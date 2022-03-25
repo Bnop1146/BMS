@@ -51,9 +51,7 @@
 
     <div class="sliders">
         
-        <div id="myDIV" class="text-center">
-            <img src="image/before-after-placeholder.png" class="img-fluid">
-        </div>
+
 
         <svg class="slider__mask" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
              viewBox="0 0 1920 1080" width="0" height="0">
@@ -199,15 +197,15 @@
         </div>
 
         <div class="slider__pagination mt-5">
-            <a onclick="myFunction()" href="#slide-1" class="button mb-3">Fliserens</a>
-            <a onclick="myFunction()" href="#slide-2" class="button mb-3">Algebehandling</a>
-            <a onclick="myFunction()" href="#slide-3" class="button mb-3">Facaderens</a>
-            <a onclick="myFunction()" href="#slide-4" class="button mb-3">Tagrens og maling</a>
+            <a href="#slide-1" class="button mb-3">Fliserens</a>
+            <a href="#slide-2" class="button mb-3">Algebehandling</a>
+            <a href="#slide-3" class="button mb-3">Facaderens</a>
+            <a href="#slide-4" class="button mb-3">Tagrens og maling</a>
         </div>
 </header>
 
 
-<script src="js/beforeafter.js"></script>
+<script src="Js/beforeafter.js"></script>
 
 </body>
 </html>

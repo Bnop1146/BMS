@@ -432,8 +432,6 @@
 </section>
 
 
-
-
 <div class="booksektion px-5 py-5 text-left">
     <div class="bookosek" data-aos="fade-down">
         <h2 class="bookover">Skal du være den næste glad kunde!</h2>
