@@ -57,8 +57,6 @@
 
 <div id="main-content-section" data-magellan-target="main-content-section"></div>
 
-<br><br><br>
-
 <div class="background pb-2">
 
     <div class="omcon container p-4 mb-3 mb-lg-5">
