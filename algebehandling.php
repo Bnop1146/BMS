@@ -65,7 +65,9 @@
         <div class="row">
 
             <div class="om2sek col-sm-12 col-md-6 col-lg-6" data-aos="fade-down">
-                <img src="image/video-placeholder.png" class="om2billede img-fluid" alt="">
+                <div class="ratio ratio-16x9">
+                    <iframe src="image/algevideo.mp4" title="YouTube video" allowfullscreen></iframe>
+                </div>
             </div>
 
             <div class="om1sek col-sm-12 col-md-6 col-lg-6 " data-aos="fade-down">
@@ -123,7 +125,7 @@
             </div>
 
             <div class="om2sek col-sm-12 col-md-6 col-lg-6" data-aos="fade-down">
-                <img src="image/before-after-placeholder.png" class="om2billede img-fluid" alt="">
+                <img src="image/algebehandling-1.jpg" class="om2billede img-fluid" alt="">
             </div>
         </div>
     </div>
