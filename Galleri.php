@@ -69,79 +69,79 @@
 
 <div class="gallery p-5" id="gallery">
     <div class="gallery-item">
-        <div class="content"><img src="https://source.unsplash.com/random/?tech,care" alt=""></div>
+        <div class="content"><img src="image/galleri-1.jpg" alt=""></div>
     </div>
     <div class="gallery-item">
-        <div class="content"><img src="https://source.unsplash.com/random/?tech,studied" alt=""></div>
+        <div class="content"><img src="image/galleri-2.jpg" alt=""></div>
     </div>
     <div class="gallery-item">
-        <div class="content"><img src="https://source.unsplash.com/random/?tech,substance" alt=""></div>
+        <div class="content"><img src="image/galleri-3.jpg" alt=""></div>
     </div>
     <div class="gallery-item">
-        <div class="content"><img src="https://source.unsplash.com/random/?tech,choose" alt=""></div>
+        <div class="content"><img src="image/galleri-4.jpg" alt=""></div>
     </div>
     <div class="gallery-item">
-        <div class="content"><img src="https://source.unsplash.com/random/?tech,past" alt=""></div>
+        <div class="content"><img src="image/galleri-5.jpg" alt=""></div>
     </div>
     <div class="gallery-item">
-        <div class="content"><img src="https://source.unsplash.com/random/?tech,lamp" alt=""></div>
+        <div class="content"><img src="image/galleri-6.jpg" alt=""></div>
     </div>
     <div class="gallery-item">
-        <div class="content"><img src="https://source.unsplash.com/random/?tech,yet" alt=""></div>
+        <div class="content"><img src="image/galleri-7.jpg" alt=""></div>
     </div>
     <div class="gallery-item">
-        <div class="content"><img src="https://source.unsplash.com/random/?tech,eight" alt=""></div>
+        <div class="content"><img src="image/galleri-8.jpg" alt=""></div>
     </div>
     <div class="gallery-item">
-        <div class="content"><img src="https://source.unsplash.com/random/?tech,crew" alt=""></div>
+        <div class="content"><img src="image/galleri-9.jpg" alt=""></div>
     </div>
     <div class="gallery-item">
-        <div class="content"><img src="https://source.unsplash.com/random/?tech,event" alt=""></div>
+        <div class="content"><img src="image/galleri-10.jpg" alt=""></div>
     </div>
     <div class="gallery-item">
-        <div class="content"><img src="https://source.unsplash.com/random/?tech,instrument" alt=""></div>
+        <div class="content"><img src="image/galleri-11.jpg" alt=""></div>
     </div>
     <div class="gallery-item">
-        <div class="content"><img src="https://source.unsplash.com/random/?tech,practical" alt=""></div>
+        <div class="content"><img src="image/galleri-12.jpg" alt=""></div>
     </div>
     <div class="gallery-item">
-        <div class="content"><img src="https://source.unsplash.com/random/?tech,pass" alt=""></div>
+        <div class="content"><img src="image/galleri-13.jpg" alt=""></div>
     </div>
     <div class="gallery-item">
-        <div class="content"><img src="https://source.unsplash.com/random/?tech,bigger" alt=""></div>
+        <div class="content"><img src="image/galleri-14.jpg" alt=""></div>
     </div>
     <div class="gallery-item">
-        <div class="content"><img src="https://source.unsplash.com/random/?tech,number" alt=""></div>
+        <div class="content"><img src="image/galleri-15.jpg" alt=""></div>
     </div>
     <div class="gallery-item">
-        <div class="content"><img src="https://source.unsplash.com/random/?tech,feature" alt=""></div>
+        <div class="content"><img src="image/galleri-16.jpg" alt=""></div>
     </div>
     <div class="gallery-item">
-        <div class="content"><img src="https://source.unsplash.com/random/?tech,line" alt=""></div>
+        <div class="content"><img src="image/galleri-17.jpg" alt=""></div>
     </div>
     <div class="gallery-item">
-        <div class="content"><img src="https://source.unsplash.com/random/?tech,railroad" alt=""></div>
+        <div class="content"><img src="image/galleri-18.jpg" alt=""></div>
     </div>
     <div class="gallery-item">
-        <div class="content"><img src="https://source.unsplash.com/random/?tech,pride" alt=""></div>
+        <div class="content"><img src="image/galleri-19.jpg" alt=""></div>
     </div>
     <div class="gallery-item">
-        <div class="content"><img src="https://source.unsplash.com/random/?tech,too" alt=""></div>
+        <div class="content"><img src="image/galleri-20.jpg" alt=""></div>
     </div>
     <div class="gallery-item">
-        <div class="content"><img src="https://source.unsplash.com/random/?tech,bottle" alt=""></div>
+        <div class="content"><img src="image/galleri-21.jpg" alt=""></div>
     </div>
     <div class="gallery-item">
-        <div class="content"><img src="https://source.unsplash.com/random/?tech,base" alt=""></div>
+        <div class="content"><img src="image/galleri-22.jpg" alt=""></div>
     </div>
     <div class="gallery-item">
-        <div class="content"><img src="https://source.unsplash.com/random/?tech,cell" alt=""></div>
+        <div class="content"><img src="image/galleri-23.jpg" alt=""></div>
     </div>
     <div class="gallery-item">
-        <div class="content"><img src="https://source.unsplash.com/random/?tech,bag" alt=""></div>
+        <div class="content"><img src="image/galleri-24.jpg" alt=""></div>
     </div>
     <div class="gallery-item">
-        <div class="content"><img src="https://source.unsplash.com/random/?tech,card" alt=""></div>
+        <div class="content"><img src="image/galleri-25.jpg" alt=""></div>
     </div>
 </div>
 
