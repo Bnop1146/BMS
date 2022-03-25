@@ -42,7 +42,6 @@
 
     <div class="middle-content-section">
         <h1 class="hovedtitle">Fliserens</h1>
-        <p class="om1tekst text-white">Få nogle super flotte fliser, inden den næste havefest</p>
     </div>
 
     <div class="bottom-content-section" data-magellan data-threshold="0">
