@@ -91,8 +91,9 @@
     <div class="booksektion px-5 py-5 text-left">
         <div class="bookosek" data-aos="fade-down">
             <h2 class="bookover">Vi anbefaler</h2>
-            <p class="booktekst">Vi anbefaler at vedligeholde de forskellige overflader, som f.eks. tag, flise og facader med en rens og algebehandling minimum hvert år for holdebare og rene overflader.
-            Så giv os et kald for et godt tilbud</p>
+            <p class="booktekst">Vi anbefaler at vedligeholde de forskellige overflader, som f.eks. tag, flise og facader
+                med en rens og algebehandling minimum hvert år for holdebare og rene overflader.
+                Så giv os et kald for et godt tilbud.</p>
             <a class="bookknap btn" href="kontakt.php" role="button">
                 <span class="spinner-grow spinner-grow-sm me-2"></span>
                 Kontakt

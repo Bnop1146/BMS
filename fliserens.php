@@ -85,7 +85,7 @@
             <h2 class="bookover">Vi anbefaler</h2>
             <p class="booktekst">Vi anbefaler at vedligeholde de forskellige overflader, som f.eks. tag,
                 fliser og facader med en rens og algebehandling minimum hvert år for holdebare og rene overflader.
-                Så giv os et kald, for et godt tilbud</p>
+                Så giv os et kald, for et godt tilbud.</p>
             <a class="bookknap btn" href="kontakt.php" role="button">
                 <span class="spinner-grow spinner-grow-sm me-2"></span>
                 Kontakt
