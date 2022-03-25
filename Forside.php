@@ -37,10 +37,10 @@
 <div class="banner" id="bannersek">
 
     <div class="bannerdel">
-        <p class="over2">Overskrift</p>
-        <p class="over3">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Praesentium ea explicabo nisi quia blanditiis assumenda quos veritatis
-            sit deleniti porro nulla temporibus deserunt, iure in labore incidunt quis .</p>
+        <p class="over2">Slut med grimme fliser og slidt tag</p>
+        <p class="over3">Hos Bengtson Multiservice tilbyder vi flise, facade og tagrens,
+        så du igen kan få som nye overflader på dit hus</p>
+        <p class="over3">Kontakt i dag, for at få uforpligtede tilbud</p>
         <a href="Om BMS.php"><button type="button" class="bannercta btn">Læs mere</button></a>
     </div>
     <video autoplay muted loop>
