@@ -65,7 +65,9 @@
         <div class="row">
 
             <div class="om2sek col-sm-12 col-md-6 col-lg-6" data-aos="fade-down">
-                <img src="image/video-placeholder.png" class="om2billede img-fluid" alt="">
+                <div class="ratio ratio-16x9">
+                    <iframe src="image/algevideo.mp4"  title="YouTube video" allowfullscreen></iframe>
+                </div>
             </div>
 
             <div class="om1sek col-sm-12 col-md-6 col-lg-6 " data-aos="fade-down">
@@ -89,7 +91,7 @@
     <div class="booksektion px-5 py-5 text-left">
         <div class="bookosek" data-aos="fade-down">
             <h2 class="bookover">Vi anbefaler</h2>
-            <p class="booktekst">Vi anbefaler at vedligeholde de forskellige overflader, som f.eks. tag, flise og facader med en algebehandling minimum hvert år for et holdbart og rent tag.</p>
+            <p class="booktekst">Vi anbefaler at vedligeholde de forskellige overflader, som f.eks. tag, flise og facader med en algebehandling minimum hvert år.</p>
             <a class="bookknap btn" href="kontakt.php" role="button">
                 <span class="spinner-grow spinner-grow-sm me-2"></span>
                 Kontakt
@@ -116,7 +118,7 @@
             </div>
 
             <div class="om2sek col-sm-12 col-md-6 col-lg-6" data-aos="fade-down">
-                <img src="image/before-after-placeholder.png" class="om2billede img-fluid" alt="">
+                <img src="image/algebehandling-1.jpg" class="om2billede img-fluid" alt="">
             </div>
         </div>
     </div>
