@@ -66,7 +66,7 @@
 
             <div class="om2sek col-sm-12 col-md-6 col-lg-6" data-aos="fade-down">
                 <div class="ratio ratio-16x9">
-                    <iframe src="image/algevideo.mp4" title="YouTube video" allowfullscreen></iframe>
+                    <iframe src="image/algevideo.mp4" title="YouTube video" sandbox allowfullscreen></iframe>
                 </div>
             </div>
 
