@@ -85,9 +85,9 @@
         </div>
 
         <div class="om1sek col-sm-12 col-md-6 col-lg-6" data-aos="fade-down">
-            <p class="om1over mt-4 mt-lg-0">Overskrift</p>
+            <p class="om1over mt-4 mt-lg-0">Tilfredsheds garanti</p>
             <p class="om1tekst">
-                Derfor er alle vores produkter godkendt af Miljøstyrelsen, vi går ikke på kompromis med miljøet.
+                Alle vores produkter er godkendt af Miljøstyrelsen, vi går ikke på kompromis med miljøet.
                 Vi afslutter ikke en opgave før vores kunder er tilfredse og arbejdet lever op til vores standarder.
                 Det eneste du skal gøre er at kontakte os for et uforpligtende tilbud, så klarer vi resten.
                 Vi kan tilbyde professionel hjælp til fliserens, facaderens, algebehandling, tagrens & maling.
@@ -111,11 +111,12 @@
     <div class="bookosek" data-aos="fade-down">
         <h2 class="bookover">Skal du være den næste glad kunde!
         </h2>
-        <p class="booktekst">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <p class="booktekst">Vi anbefaler at vedligeholde de forskellige overflader, som f.eks. tag, flise og facader
+            med en rens og algebehandling minimum hvert år for holdebare og rene overflader.
+            Så giv os et kald for et godt tilbud.</p>
             <a class="vidstknap btn" href="kontakt.php" role="button">
                 <span class="spinner-grow spinner-grow-sm me-2"></span>
-                læs mere
+                Kontakt
             </a>
 
     </div>
