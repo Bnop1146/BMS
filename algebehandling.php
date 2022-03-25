@@ -46,7 +46,7 @@
 
     <div class="bottom-content-section" data-magellan data-threshold="0">
         <a href="#main-content-section">
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 30 30">
                 <path d="M24 12c0-6.627-5.373-12-12-12s-12 5.373-12 12 5.373 12 12 12 12-5.373 12-12zm-18.005-1.568l1.415-1.414 4.59 4.574 4.579-4.574 1.416 1.414-5.995 5.988-6.005-5.988z"/>
             </svg>
         </a>
@@ -72,9 +72,9 @@
                 <p class="om1over">Er husets overflader grønt og bevokset så lad os hjælpe dig med at få dit flotte huse tilbage!</p>
                 <div class="om1line"></div>
                 <p class="om1tekst">
-                    Ud over alger og mos ikke er kønt, så kan det også være skadeligt for dit tag.
+                    Ud over at alger og mos ikke er kønt, så kan det også være skadeligt for dit hus.
                     Det virker som svampe der holder på fugten og konstant gør det muligt for fugt,
-                    at sive ned i din tagkonstruktion og dermed gøre stor skade! Med en algebehandling kan du forebygge og ofte helt undgå store skader på taget. En algebehandling skal virke fra 1-8 måneder,
+                    at sive ned i diverse overflader og dermed gøre stor skade! Med en algebehandling kan du forebygge og ofte helt undgå store skader. En algebehandling skal virke fra 1-8 måneder,
                     før du kan se det fulde resultat, alt efter bevoksning samt vind og vejr.
 
                 </p>
@@ -89,7 +89,8 @@
     <div class="booksektion px-5 py-5 text-left">
         <div class="bookosek" data-aos="fade-down">
             <h2 class="bookover">Vi anbefaler</h2>
-            <p class="booktekst">Vi anbefaler at vedligeholde de forskellige overflader, som f.eks. tag, flise og facader med en algebehandling minimum hvert år for et holdbart og rent tag.</p>
+            <p class="booktekst">Vi anbefaler at vedligeholde de forskellige overflader, som f.eks. tag, flise og facader med en rens og algebehandling minimum hvert år for holdebare og rene overflader.
+            Så giv os et kald for et godt tilbud</p>
             <a class="bookknap btn" href="kontakt.php" role="button">
                 <span class="spinner-grow spinner-grow-sm me-2"></span>
                 Kontakt
@@ -107,8 +108,14 @@
                 <p class="om1over ">Algebehandling af husets overflader
                 </p>
                 <p class="om1tekst ">
-                    Det danske klima kan oftest være fugtigt. Regn og skygge kan være medvirkende til, at skabe gode betingelser for mos og alger. Dette kan i visse tilfælde forårsage skade på dit tag, hvis det udvikler sig, får lov at gro. Bengtson Multiservice står klar med professionel hjælp for at kunne bekæmpe denne byrde. En algebehandling vil forebygge mod eventuelle skader på dit tag, som mos og fugt kan have forårsaget. Algebehandlingen skal have lov til at virke 1 – 8 måneder, før det fulde resultat kan ses. Det afhænger af bevoksningen samt vind og vejr. Vi anvender udelukkende miljøgodkendte midler, herunder Neutralon som er godkendt af Miljøstyrelsen, til algebekæmpelse i Danmark. Ved algebehandling af dit tag sikrer du, at der i fremtiden ikke vil komme mos, og alger på dit tag.
-                    Bengtson Multiservice tilbyder også algebehandling af dine fliser. Ved behandlingen, har det effekt fra det bliver sprøjtet på. Før endeligt resultat, kan der gå nogle uger, da vind samt vejr klarer resten.
+                    Det danske klima kan oftest være fugtigt. Regn og skygge kan være medvirkende til, at skabe gode betingelser for mos og alger.
+                    Dette kan i visse tilfælde forårsage skade på dine overflader, hvis det udvikler sig og får lov at gro. Bengtson Multiservice
+                    står klar med professionel hjælp for at kunne bekæmpe denne byrde. En algebehandling vil forebygge mod eventuelle skader på dit
+                    hus, som mos og fugt kan have forårsaget. Algebehandlingen skal have lov til at virke 1 – 8 måneder, før det fulde resultat kan ses.
+                    Det afhænger af bevoksningen samt vind og vejr. Vi anvender udelukkende miljøgodkendte midler, herunder Neutralon som er godkendt af Miljøstyrelsen,
+                    til algebekæmpelse i Danmark. Ved algebehandling af dit tag sikrer du, at der i fremtiden ikke vil komme mos, og alger på dit hus. Bengtson Multiservice
+                    tilbyder også algebehandling af dine fliser. Ved behandlingen, har det effekt fra det bliver sprøjtet på. Før endeligt resultat, kan der gå nogle uger,
+                    da vind samt vejr klarer resten.
                 </p>
 
 
