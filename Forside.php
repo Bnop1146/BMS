@@ -44,7 +44,7 @@
         <a href="Om BMS.php"><button type="button" class="bannercta btn">Læs mere</button></a>
     </div>
     <video autoplay muted loop>
-        <source src="image/ømer.mp4" type="video/mp4">
+        <source src="image/algevideo.mp4" type="video/mp4">
     </video>
 
 </div>
@@ -169,7 +169,7 @@
         </div>
         <div class="col-sm-12 col-md-6 col-lg-4  mb-4 overflow-hidden">
             <div class="ratio ratio-16x9">
-                <iframe src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0" title="YouTube video" allowfullscreen></iframe>
+                <iframe src="image/algevideo.mp4" title="YouTube video" sandbox allowfullscreen></iframe>
             </div>
         </div>
     </div>
@@ -339,8 +339,6 @@
     </div>
 </div>
 
-<?php include 'beforeafter.php';?>
-
 <?php include 'udregner.php';?>
 
 
@@ -437,8 +435,7 @@
 <div class="booksektion px-5 py-5 text-left">
     <div class="bookosek" data-aos="fade-down">
         <h2 class="bookover">Skal du være den næste glad kunde!</h2>
-        <p class="booktekst">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <p class="booktekst">Vi anbefaler at vedligeholde de forskellige overflader, som f.eks. tag, flise og facader med en rens og algebehandling minimum hvert år for holdebare og rene overflader. Så giv os et kald for et godt tilbud.</p>
         <a class="vidstknap btn" href="kontakt.php" role="button">
             <span class="spinner-grow spinner-grow-sm me-2"></span>
             læs mere

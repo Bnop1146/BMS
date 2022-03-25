@@ -297,12 +297,13 @@ a{
 .booksektion {
   width:100%;
   height: 55vh;
-  background: #707070;
+  background: url(../image/gladkunde.jpg);
   display: flex;
   justify-content: center;
   align-items: center;
   color: white;
   margin-bottom: 60px;
+  background-size: cover;
 }
 .bookosek{
   text-align: center;
