@@ -44,7 +44,7 @@
 
     <div class="bottom-content-section" data-magellan data-threshold="0">
         <a href="#main-content-section">
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 30 30">
                 <path d="M24 12c0-6.627-5.373-12-12-12s-12 5.373-12 12 5.373 12 12 12 12-5.373 12-12zm-18.005-1.568l1.415-1.414 4.59 4.574 4.579-4.574 1.416 1.414-5.995 5.988-6.005-5.988z"/>
             </svg>
         </a>
@@ -85,9 +85,9 @@
         </div>
 
         <div class="om1sek col-sm-12 col-md-6 col-lg-6" data-aos="fade-down">
-            <p class="om1over mt-4 mt-lg-0">Overskrift</p>
+            <p class="om1over mt-4 mt-lg-0">Tilfredsheds garanti</p>
             <p class="om1tekst">
-                Derfor er alle vores produkter godkendt af Miljøstyrelsen, vi går ikke på kompromis med miljøet.
+                Alle vores produkter er godkendt af Miljøstyrelsen, vi går ikke på kompromis med miljøet.
                 Vi afslutter ikke en opgave før vores kunder er tilfredse og arbejdet lever op til vores standarder.
                 Det eneste du skal gøre er at kontakte os for et uforpligtende tilbud, så klarer vi resten.
                 Vi kan tilbyde professionel hjælp til fliserens, facaderens, algebehandling, tagrens & maling.
@@ -111,11 +111,12 @@
     <div class="bookosek" data-aos="fade-down">
         <h2 class="bookover">Skal du være den næste glad kunde!
         </h2>
-        <p class="booktekst">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <p class="booktekst">Vi anbefaler at vedligeholde de forskellige overflader, som f.eks. tag, flise og facader
+            med en rens og algebehandling minimum hvert år for holdebare og rene overflader.
+            Så giv os et kald for et godt tilbud.</p>
             <a class="vidstknap btn" href="kontakt.php" role="button">
                 <span class="spinner-grow spinner-grow-sm me-2"></span>
-                læs mere
+                Kontakt
             </a>
 
     </div>
