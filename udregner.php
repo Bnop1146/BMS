@@ -74,7 +74,10 @@
             </li>
 
             <li class="om1tekst">Rens og maling aftag
-                ring for tilbud
+                ring for tilbud.
+            </li>
+
+            <li class="om1tekst">Tilæg for lift kan forekomme.
             </li>
         </ul>
 
